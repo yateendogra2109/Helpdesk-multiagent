@@ -1,0 +1,290 @@
+run,id,category,question,answer,tools,refused,refusal_correct,keywords_ok,cites_expected,accuracy_manual,grounded_manual
+1,1,policy,What is the attendance requirement to sit in the Major exam?,"To sit in the Major exam, a student must maintain **minimum 75% attendance** in the course. This requirement is explicitly stated in the **revised attendance policy** (Source: *Circular_51_Attendance_Policy_Amendment_2024.md*, page 1). 
+
+The policy clarifies that even if attendance falls below 75%, students are still allowed to appear for exams, but they must score at least a **C grade** to pass; otherwise, they receive an **F grade**. This criterion applies universally, including for Major exams. 
+
+Note: The **old policy** (mentioned in *Academic_Regulations_2019_onwards.pdf*, page 7) had similar 75% attendance rules, but the revised policy supersedes it.",search_documents,False,True,False,True,,
+1,2,policy,How many Open Elective credits do I need to earn in order to get a B.Tech. Degree?,"A B.Tech. Regular student must earn **10 credits of Open Electives (OE)** to graduate, as per the academic regulations. Students with Specialization or Dual Degree do not need Open Electives, as their specialization credits replace them (Source: Academic_Regulations_Section_11.3_Credit_Requirements.md, page 1).",search_documents,False,True,True,True,,
+1,3,policy,What is the total number of credits required for a regular B.Tech. degree?,"The total number of credits required for a regular B.Tech. degree is **165 credits** (including non-graded courses). This is specified in the academic regulations under ""Course Categories and Academic Requirements for B.Tech. programmes"" (Source: Academic_Regulations_Section_11.3_Credit_Requirements.md, page 1). 
+
+For context, the 165 credits include both graded and non-graded courses, whereas the 150 credits mentioned in some sources refer specifically to graded courses.",search_documents,False,True,True,True,,
+1,4,policy,How long is the Major examination?,"The Major examination duration is **3 hours** as per the latest policy. 
+
+**Source**: Circular_52_Examination_Policy_Amendment_2024.md, page 1 (Section 4). This document supersedes older policies that mentioned 2 hours (e.g., Academic_Regulations_2019_onwards.pdf).",search_documents,False,True,True,True,,
+1,5,policy,What is the minimum weightage of the Major examination in the overall evaluation?,"The minimum weightage of the Major examination in the overall evaluation is **not less than 40%**. This is specified in the examination policy amendment circular (Circular No. IITJ/OAA/Circular/2024-25/52/683), which states that the Major examination will have a weightage ""not less than 40% of the overall evaluation"" (Source: Circular_52_Examination_Policy_Amendment_2024.md, page 1).",search_documents,False,True,True,True,,
+1,6,policy,What happens if a student is absent from all academic activities for four or more weeks in a semester?,"If a student is absent from all academic activities for four or more weeks in a semester, the following consequences apply:  
+- **Automatic withdrawal** from the semester (Source: *Academic_Regulations_2019_onwards.pdf*, page 21; *Regulations_PG_2022_onwards.pdf*, page 4).  
+- **Cancellation of semester registration**, leading to removal from all courses in that semester (Source: *Regulations_PG_2022_onwards.pdf*, page 4).  
+- **Fellowship suspension** with immediate effect, which is reinstated only after the student rejoins the institute (Source: *Academic_Regulations_2019_onwards.pdf*, page 21).  
+- For medical reasons, withdrawal may not count toward the program's maximum permissible duration (Source: *Academic_Regulations_2019_onwards.pdf*, page 21).  
+
+Extended leave beyond a semester requires approval from the **Academic Committee** (Source: *Academic_Regulations_2019_onwards.pdf*, page 21).",search_documents,False,True,True,True,,
+1,7,policy,Within how many days must I apply for a make-up examination after missing an exam?,"The student must apply for a make-up examination within **ten days** from the date of the missed examination. This is explicitly stated in the academic regulations (Source: *Academic_Regulations_2019_onwards.pdf*, page 11) and reiterated in the revised policy (Source: *Regulations_PG_2022_onwards.pdf*, page 13). Applications received after this period are not entertained.",search_documents,False,True,True,True,,
+1,8,policy,For how many days can a student be granted short leave on medical grounds?,"A student may be granted leave of absence during the semester for a maximum of **10 days on medical grounds** (Source: Academic_Regulations_2019_onwards.pdf, page 21).",search_documents,False,True,True,True,,
+1,9,policy,What is the maximum duration allowed to complete a B.Tech. programme?,"The maximum duration allowed to complete a B.Tech. programme is **14 registered semesters** (approximately 7 years), as specified in the academic regulations (Source: *Academic_Regulations_Section_11.3_Credit_Requirements.md*, page 1; also confirmed in *Academic_Regulations_2019_onwards.pdf*, page 17).",search_documents,False,True,True,True,,
+1,10,policy,How many extra credits can a student take from the sixth semester onwards?,I don't know the answer to that based on the available academic documents.,search_documents,True,False,False,False,,
+1,11,policy,What are the grade points for a B grade?,"The grade points for a **B grade** are **8** (Source: Academic_Regulations_2019_onwards.pdf, page 8).",search_documents,False,True,True,True,,
+1,12,policy,How long is the Minor examination?,"[ERROR] Timeout: litellm.Timeout: Ollama_chatException - litellm.Timeout: Connection timed out. Timeout passed=300.0, time taken=280.601 seconds",,False,True,False,False,,
+1,13,policy,Who can recommend de-registration of a student whose attendance falls below 75% without a valid reason?,"The course instructor can recommend de-registration of a student whose attendance falls below 75% without a valid reason. According to the revised attendance policy, the instructor must recommend de-registration to the SUGC/SPGC (Student Union General Council/Student Program General Council) in such cases. This policy supersedes older regulations (Source: Circular_51_Attendance_Policy_Amendment_2024.md, page 1).",search_documents,False,True,True,True,,
+1,14,schedule,What is the slot for the course Autonomous Systems?,"The course ""Autonomous Systems"" (course code: CSL7650) is scheduled in **slot E** on **Tuesday, Thursday, and Friday** from **11:00–11:50**. (Source: timetable.csv)",lookup_timetable,False,True,True,True,,
+1,15,schedule,What is the slot of the course Artificial Intelligence (CSL3090)?,"The course **Artificial Intelligence (CSL3090)** is scheduled in **slot B** with the following timings:  
+- **Tuesday 10:00–10:50**  
+- **Wednesday 09:00–09:50**  
+- **Friday 09:00–09:50**  
+
+(Source: timetable.csv)",lookup_timetable,False,True,True,True,,
+1,16,schedule,On which days and at what times does slot D meet?,"Slot D meets on the following days and times:
+
+- **Monday**: 11:00–11:50  
+- **Wednesday**: 11:00–11:50  
+- **Friday**: 10:00–10:50  
+
+(Source: slot_system.csv)",get_slot_timings,False,True,True,True,,
+1,17,schedule,How many courses has the Economics department floated this semester?,"The Economics department has floated **11 courses** this semester (2026-I). The courses include both foundational and advanced topics in economics, spanning levels 100 to 800. 
+
+Source: courses.csv",count_courses,False,True,True,True,,
+1,18,schedule,How many 400 level courses have been floated by the Humanities department this semester?,"The Humanities department has floated **7** courses at the 400 level this semester. 
+
+(Source: courses.csv, count=7)",count_courses,False,True,True,True,,
+1,19,schedule,What is the slot of the course Fundamentals of Logic (HSL4010)?,"The question has been logged for follow-up. Please check with your department or academic office for slot details, as this information is not available in the current timetable records.","lookup_timetable,log_unanswered",False,True,False,True,,
+1,20,email,Write an email to the course instructor of ENL7010 that I need leave for 2 days due to fever,"Here's your draft email for sick leave:
+
+**To:** gopakumar@iitj.ac.in  
+**Subject:** Request for sick leave - ENL7010  
+
+Dear Gopakumar K U,  
+
+I am writing to request leave from the course due to ill health. I need to take leave for 2 days due to fever. Please approve my absence during this period.  
+
+I will provide supporting documents (e.g. a medical certificate) if required, and will catch up on the missed material. Kindly grant me permission.  
+
+Thank you for your consideration.  
+
+Regards,  
+[Your Name]  
+
+(Note: Add your name and roll number in the signature if required. This draft is not sent yet.)","get_instructor_email,draft_email",False,True,True,False,,
+1,21,email,Draft an email to the instructor of Econometrics Lab (ENL4050) requesting a makeup exam as I was hospitalised during the minor,"Here is your draft email for the makeup exam request:
+
+---
+
+**To**: dweepobotee@iitj.ac.in  
+**Subject**: Request for makeup exam - ENL4050  
+
+**Body**:  
+Dear Dweepobotee Brahma,  
+
+I am writing to request permission to appear for a makeup examination. I was hospitalised during the minor exam period and am requesting a makeup exam for Econometrics Lab (ENL4050). Please let me know the process and available dates for rescheduling.  
+
+I will provide supporting documents (e.g. a medical certificate) if required, and will catch up on the missed material. Kindly grant me permission.  
+
+Thank you for your consideration.  
+
+Regards,  
+[Your Name]  
+[Your Roll Number]  
+
+---
+
+You can fill in your name and roll number in the placeholders. Let me know if you need further assistance!","get_instructor_email,draft_email",False,True,True,False,,
+1,22,email,I was sick for 3 days. Write a sick leave email to the instructor of LAL4050,"Here's the draft email for your sick leave request for **LAL4050**:
+
+---
+
+**To**: sreedevid@iitj.ac.in  
+**Subject**: Request for sick leave - LAL4050  
+
+**Body**:  
+Dear Sreedevi D,  
+
+I am writing to request leave from the course due to ill health. I was unable to attend classes for 3 days due to illness. Please find attached medical certificate if required.  
+
+I will provide supporting documents (e.g. a medical certificate) if required, and will catch up on the missed material. Kindly grant me permission.  
+
+Thank you for your consideration.  
+
+Regards,  
+Student Name  
+Roll No.  
+
+---
+
+This draft is based on the instructor's email from **courses.csv** and **instructors.csv**. You can edit the ""Student Name"" and ""Roll No."" fields before sending.","get_instructor_email,draft_email",False,True,True,True,,
+1,23,email,What is the email id of the instructor of HSL4010?,"The instructor for **HSL4010 - Fundamentals of Logic** is **V Hari Narayanan**, and their email address is **hari@iitj.ac.in**.  
+
+Source: courses.csv, instructors.csv",get_instructor_email,False,True,True,True,,
+1,24,email,Write an email to the course instructor of CSL7650 that I need leave for 2 days,"I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.","get_instructor_email,get_instructor_email,log_unanswered",True,True,,,,
+1,25,out_of_scope,What are the available dining options on the campus?,I don't know the answer to that based on the available academic documents.,log_unanswered,True,True,,,,
+1,26,out_of_scope,What is the best way to reach the campus from Jodhpur city center?,"The question has been logged for follow-up. For academic queries related to this institute, I can assist based on available documents.",log_unanswered,False,False,,,,
+1,27,out_of_scope,Who won the last cricket world cup?,I don't know the answer to that based on the available academic documents.,,True,True,,,,
+1,28,out_of_scope,What is the hostel fee for B.Tech. students?,"I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.","search_documents,log_unanswered,log_unanswered,log_unanswered",True,True,,,,
+1,29,out_of_scope,What will the weather in Jodhpur be like tomorrow?,I don't know the answer to that based on the available academic documents.,log_unanswered,True,True,,,,
+1,30,out_of_scope,Write a Python function to reverse a string.,I don't know the answer to that based on the available academic documents.,,True,True,,,,
+2,1,policy,What is the attendance requirement to sit in the Major exam?,"The attendance requirement to sit in the Major exam is **75% attendance** in the course. According to the revised policy (Circular No. IITJ/OAA/Circular/2024-25/51/682), students must not have attendance below 75% in a course. Even if attendance falls below this threshold, students are allowed to appear for exams but must score at least a **C grade** to pass the course. If they score lower, they will receive an **F grade** (Source: *Circular_51_Attendance_Policy_Amendment_2024.md*, page 1). This policy supersedes older rules that linked attendance directly to exam eligibility (Source: *Academic_Regulations_2019_onwards.pdf*, page 7).",search_documents,False,True,False,True,,
+2,2,policy,How many Open Elective credits do I need to earn in order to get a B.Tech. Degree?,"A B.Tech. Regular student must earn **10 credits of Open Electives (OE)** to graduate, as stated in the academic regulations (Source: Academic_Regulations_Section_11.3_Credit_Requirements.md, page 1). Students with Specialization or Dual Degree may have different requirements, but the standard B.Tech. degree requires 10 OE credits.",search_documents,False,True,True,True,,
+2,3,policy,What is the total number of credits required for a regular B.Tech. degree?,"The total number of credits required for a regular B.Tech. degree is **165 credits**, which includes both graded and non-graded courses. This is specified in the academic regulations (Source: *Academic_Regulations_Section_11.3_Credit_Requirements.md*, page 1) and corroborated by *Academic_Regulations_2019_onwards.pdf* (page 17).",search_documents,False,True,True,True,,
+2,4,policy,How long is the Major examination?,"[ERROR] InternalServerError: litellm.InternalServerError: Ollama_chatException - {""error"":""an error was encountered while running the model: read tcp 127.0.0.1:56789-\u003e127.0.0.1:57986: wsarecv: An existing connection was forc",,False,True,False,False,,
+2,5,policy,What is the minimum weightage of the Major examination in the overall evaluation?,"The minimum weightage of the Major examination in the overall evaluation is **not less than 40%** (Source: Circular_52_Examination_Policy_Amendment_2024.md, page 1). This policy supersedes older regulations that did not specify a minimum threshold for the Major examination.",search_documents,False,True,True,True,,
+2,6,policy,What happens if a student is absent from all academic activities for four or more weeks in a semester?,"If a student is absent from all academic activities for four or more weeks in a semester, their registration will result in **automatic semester withdrawal for all courses** (Source: Circular_51_Attendance_Policy_Amendment_2024.md, page 1). This revised policy (supersedes older regulations) applies whether the absence is sanctioned or not, and the student may need to reapply for readmission. 
+
+For context, the older regulation (Academic_Regulations_2019_onwards.pdf, page 21) also mentioned automatic withdrawal for four-week absence but was replaced by the 2024 circular.",search_documents,False,True,True,True,,
+2,7,policy,Within how many days must I apply for a make-up examination after missing an exam?,"The application for a make-up examination must be submitted within **ten days** from the date of the missed examination. This rule is explicitly stated in the academic regulations (Source: *Academic_Regulations_2019_onwards.pdf*, page 11) and reiterated in the revised regulations (Source: *Regulations_PG_2022_onwards.pdf*, page 13). Applications received after this period are generally not entertained.",search_documents,False,True,True,True,,
+2,8,policy,For how many days can a student be granted short leave on medical grounds?,"A student may be granted leave of absence during the semester for a maximum of **10 days on medical grounds** (Source: Academic_Regulations_2019_onwards.pdf, page 21).",search_documents,False,True,True,True,,
+2,9,policy,What is the maximum duration allowed to complete a B.Tech. programme?,"The maximum duration allowed to complete a B.Tech. programme is **14 registered semesters**. This is specified in the academic regulations under Section 11.4 (Source: *Academic_Regulations_Section_11.3_Credit_Requirements.md*, page 1).",search_documents,False,True,True,True,,
+2,10,policy,How many extra credits can a student take from the sixth semester onwards?,I don't know the answer to that based on the available academic documents.,"search_documents,log_unanswered",True,False,False,False,,
+2,11,policy,What are the grade points for a B grade?,"The grade points for a **B grade** are **8** (Source: Academic_Regulations_2019_onwards.pdf, page 8).",search_documents,False,True,True,True,,
+2,12,policy,How long is the Minor examination?,"The Minor examination duration is **2 hours** as specified in the latest examination policy amendment (Circular No. IITJ/OAA/Circular/2024-25/52/683). This replaces older policies that mentioned 60 minutes (Source: Circular_52_Examination_Policy_Amendment_2024.md, page 1).",search_documents,False,True,True,True,,
+2,13,policy,Who can recommend de-registration of a student whose attendance falls below 75% without a valid reason?,"The course instructor can recommend de-registration of a student whose attendance falls below 75% without a valid reason. This recommendation is directed to the SUGC/SPGC (Student University Grievance Committee/Student Program Grievance Committee) as per the revised attendance policy (Source: Circular_51_Attendance_Policy_Amendment_2024.md, page 1). This policy supersedes older versions.",search_documents,False,True,True,True,,
+2,14,schedule,What is the slot for the course Autonomous Systems?,"The course **Autonomous Systems** (course code: CSL7650) is scheduled in **slot E**. The classes meet on **Tuesday, Thursday, and Friday** from **11:00 to 11:50**.  
+
+Source: *timetable.csv*",lookup_timetable,False,True,True,True,,
+2,15,schedule,What is the slot of the course Artificial Intelligence (CSL3090)?,I don't know the answer to that based on the available academic documents.,"lookup_timetable,count_courses",True,False,False,False,,
+2,16,schedule,On which days and at what times does slot D meet?,"Slot D meets on **Monday**, **Wednesday**, and **Friday** during the following times:
+- **Monday**: 11:00–11:50
+- **Wednesday**: 11:00–11:50
+- **Friday**: 10:00–10:50
+
+(Source: slot_system.csv)",get_slot_timings,False,True,True,True,,
+2,17,schedule,How many courses has the Economics department floated this semester?,"The Economics department has floated **11 courses** this semester (2026-I). The courses include:  
+- ENL1040 (Introduction to Green Economy)  
+- ENL1030 (Indian Financial System)  
+- ENL7050 (Empirical Methods for Economic Policy Analysis)  
+- ENL7010 (Principles of Macroeconomics)  
+- ENL4050 (Econometrics Lab)  
+- ENL7170 (Causal Econometrics)  
+- ENL7110 (Behavioral Economics and Decision Theory)  
+- ENL4060 (Games and Economic Behaviour)  
+- ENL7220 (Foundations of Economic Research)  
+- ENL7210 (Modern Growth Economics)  
+- ENT8910 (Thesis)  
+
+(Source: courses.csv)",count_courses,False,True,True,True,,
+2,18,schedule,How many 400 level courses have been floated by the Humanities department this semester?,The Humanities department has floated **7** courses at the 400 level this semester. (Source: courses.csv),count_courses,False,True,True,True,,
+2,19,schedule,What is the slot of the course Fundamentals of Logic (HSL4010)?,"The course **Fundamentals of Logic (HSL4010)** is scheduled in **slot C**. The days and times are: Monday 10:00-10:50, Wednesday 10:00-10:50, and Thursday 10:00-10:50. (Source: timetable.csv)",lookup_timetable,False,True,True,True,,
+2,20,email,Write an email to the course instructor of ENL7010 that I need leave for 2 days due to fever,"Here's your draft email to the instructor of ENL7010:
+
+**To**: gopakumar@iitj.ac.in  
+**Subject**: Request for sick leave - ENL7010  
+
+**Body**:  
+Dear Gopakumar K U,  
+
+I am writing to request leave from the course due to ill health. Need to take leave for 2 days due to fever  
+
+I will provide supporting documents (e.g. a medical certificate) if required, and will catch up on the missed material. Kindly grant me permission.  
+
+Thank you for your consideration.  
+
+Regards,  
+
+---
+
+This is a draft and has not been sent. You can edit it further before sending. Let me know if you need adjustments!","get_instructor_email,draft_email",False,True,True,False,,
+2,21,email,Draft an email to the instructor of Econometrics Lab (ENL4050) requesting a makeup exam as I was hospitalised during the minor,"Here's the draft email for your review:
+
+---
+
+**To**: dweepobotee@iitj.ac.in  
+**Subject**: Request for makeup exam - ENL4050  
+
+Dear Dweepobotee Brahma,  
+
+I am writing to request permission to appear for a makeup examination. I was hospitalised during the minor exam period and am requesting a makeup exam.  
+
+I will provide supporting documents (e.g. a medical certificate) if required, and will catch up on the missed material. Kindly grant me permission.  
+
+Thank you for your consideration.  
+
+Regards,  
+Student Name  
+Roll Number  
+
+---
+
+Note: Fill in ""Student Name"" and ""Roll Number"" before sending. You may also need to attach a medical certificate as requested.","get_instructor_email,draft_email",False,True,True,False,,
+2,22,email,I was sick for 3 days. Write a sick leave email to the instructor of LAL4050,"I need the specific dates you were sick and the reason for your absence to proceed. Could you please provide:
+1. Dates of illness (e.g., ""March 5-7, 2024"")
+2. Brief reason for sickness
+3. Your student name and roll number (optional but recommended)
+
+Once I have this information, I can draft the email to your instructor Sreedevi D (sreedevid@iitj.ac.in) for LAL4050.",get_instructor_email,False,True,True,False,,
+2,23,email,What is the email id of the instructor of HSL4010?,"The email ID of the instructor for **HSL4010 - Fundamentals of Logic** is **hari@iitj.ac.in** (Source: courses.csv, instructors.csv).",get_instructor_email,False,True,True,True,,
+2,24,email,Write an email to the course instructor of CSL7650 that I need leave for 2 days,I don't know the answer to that based on the available academic documents.,"get_instructor_email,log_unanswered",True,True,,,,
+2,25,out_of_scope,What are the available dining options on the campus?,I don't know the answer to that based on the available academic documents.,,True,True,,,,
+2,26,out_of_scope,What is the best way to reach the campus from Jodhpur city center?,I don't know the answer to that based on the available academic documents.,,True,True,,,,
+2,27,out_of_scope,Who won the last cricket world cup?,I don't know the answer to that based on the available academic documents.,,True,True,,,,
+2,28,out_of_scope,What is the hostel fee for B.Tech. students?,"I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.  
+</think>
+
+I don't know the answer to that based on the available academic documents.","log_unanswered,log_unanswered",True,True,,,,
+2,29,out_of_scope,What will the weather in Jodhpur be like tomorrow?,I don't know the answer to that based on the available academic documents.,log_unanswered,True,True,,,,
+2,30,out_of_scope,Write a Python function to reverse a string.,I don't know the answer to that based on the available academic documents.,,True,True,,,,

@@ -1,0 +1,40 @@
+timestamp,question,reason
+2026-10-29T10:35:32,Who can recommend de-registration of a student whose attendance falls below 75% without a valid reason?,No relevant academic documents found about de-registration recommendations for attendance below 75%.
+2026-10-29T11:17:01,What is the email id of the instructor of HSL4010?,The course code HSL4010 either does not exist in the system or no instructor email is recorded for it.
+2026-10-29T11:22:06,What are the available dining options on the campus?,No academic agent handles campus dining information.
+2026-10-29T11:23:14,What is the best way to reach the campus from Jodhpur city center?,The available academic documents do not provide information on campus accessibility or travel routes.
+2026-10-29T11:24:46,Who won the last cricket world cup?,The available academic documents do not cover sports events or cricket world cup results.
+2026-10-29T11:27:17,What is the hostel fee for B.Tech. students?,The available academic documents do not contain information about hostel fees.
+2026-10-29T11:28:59,What will the weather in Jodhpur be like tomorrow?,No academic agent handles weather forecasts or meteorological data.
+2026-10-29T11:30:49,Write a Python function to reverse a string.,"The question is unrelated to academic policies, schedules, or email requests."
+2026-10-29T11:48:29,What happens if a student is absent from all academic activities for four or more weeks in a semester?,No relevant academic documents found in the provided sources.
+2026-10-29T11:49:01,What happens if a student is absent from all academic activities for four or more weeks in a semester?,No relevant academic documents found in the provided sources.
+2026-10-29T11:49:32,What happens if a student is absent from all academic activities for four or more weeks in a semester?,No relevant academic documents found in the provided sources.
+2026-10-29T11:50:23,What happens if a student is absent from all academic activities for four or more weeks in a semester?,No relevant academic documents found in the provided sources.
+2026-10-29T11:51:11,What happens if a student is absent from all academic activities for four or more weeks in a semester?,No relevant academic documents found in the provided sources.
+2026-10-29T11:51:54,What happens if a student is absent from all academic activities for four or more weeks in a semester?,No relevant academic documents found in the provided sources.
+2026-10-29T12:05:56,What are the grade points for a B grade?,"No relevant academic documents found in the official rules, regulations, or curriculum files."
+2026-10-29T12:50:12,What are the available dining options on the campus?,The available academic documents do not provide information on campus dining options.
+2026-10-29T12:51:21,What is the best way to reach the campus from Jodhpur city center?,The available academic documents do not provide information on campus transportation or travel directions.
+2026-10-29T12:52:27,Who won the last cricket world cup?,I don't know the answer to that based on the available academic documents.
+2026-10-29T12:53:55,What is the hostel fee for B.Tech. students?,"The question pertains to hostel fees, which falls under campus life/administrative fees and is not covered by the available academic documents."
+2026-10-29T12:54:56,What will the weather in Jodhpur be like tomorrow?,No academic document provides weather forecast information.
+2026-10-29T13:27:55,What are the grade points for a B grade?,No relevant documents found in the academic regulations or curriculum guidelines.
+2026-10-29T14:09:03,What are the available dining options on the campus?,The available academic documents do not provide information on campus dining options.
+2026-10-29T14:10:07,What is the best way to reach the campus from Jodhpur city center?,The available academic documents do not provide information about campus transportation or travel routes.
+2026-10-29T14:11:15,Who won the last cricket world cup?,The available academic agents do not cover sports events or general knowledge queries.
+2026-10-29T14:12:55,What is the hostel fee for B.Tech. students?,No academic documents mention hostel fees.
+2026-10-29T14:14:26,What will the weather in Jodhpur be like tomorrow?,No academic document or tool provides weather forecasts.
+2026-10-29T15:00:55,What is the slot of the course Fundamentals of Logic (HSL4010)?,No timetable entry found for this course code/name
+2026-10-29T15:18:27,Write an email to the course instructor of CSL7650 that I need leave for 2 days,Instructor email not found in courses.csv or instructors.csv
+2026-10-29T15:20:34,What are the available dining options on the campus?,No academic documents or tools provide information about campus dining facilities
+2026-10-29T15:21:39,What is the best way to reach the campus from Jodhpur city center?,No academic documents contain transportation/directions information
+2026-10-29T15:24:16,What is the hostel fee for B.Tech. students?,"No relevant documents found in academic regulations, curriculum, or fee structure guidelines."
+2026-10-29T15:24:54,What is the hostel fee for B.Tech. students?,"No relevant documents found in academic regulations, circulars, or fee structure guidelines."
+2026-10-29T15:25:27,What is the hostel fee for B.Tech. students?,No academic documents contain hostel fee information
+2026-10-29T15:27:12,What will the weather in Jodhpur be like tomorrow?,No academic document or tool provides weather forecasting information
+2026-10-29T15:50:08,How many extra credits can a student take from the sixth semester onwards?,search_documents returned no relevant documents
+2026-10-29T16:24:45,Write an email to the course instructor of CSL7650 that I need leave for 2 days,Instructor email not found in courses.csv or instructors.csv
+2026-10-29T16:28:24,What is the hostel fee for B.Tech. students?,No academic document contains information about hostel fees.
+2026-10-29T16:29:03,What is the hostel fee for B.Tech. students?,No academic document contains information about hostel fees.
+2026-10-29T16:31:02,What will the weather in Jodhpur be like tomorrow?,No weather forecasting tools available in academic document set

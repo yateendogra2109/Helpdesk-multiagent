@@ -1,0 +1,8 @@
+google-adk
+litellm
+chromadb
+pandas
+pypdf
+requests
+mcp
+openpyxl

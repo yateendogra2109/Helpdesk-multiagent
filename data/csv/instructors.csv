@@ -1,0 +1,235 @@
+instructor_id,name,email,department,designation
+F001,Anurag Sharma,anuragsharma@iitj.ac.in,Aerospace Engineering / Materials Engineering,Assistant Professor
+F002,Arun Kumar R,arunkr@iitj.ac.in,Aerospace Engineering,Associate Professor
+F003,Babu Ranjan Thakur,brthakur@iitj.ac.in,Aerospace Engineering,Assistant Professor
+F004,Gagan Kewalramani,gagank@iitj.ac.in,Aerospace Engineering,Assistant Professor
+F005,Harshal Akolekar,harshal.akolekar@iitj.ac.in,Aerospace Engineering,Assistant Professor
+F006,Himanshu Dave,himanshudave@iitj.ac.in,Aerospace Engineering,Assistant Professor
+F007,Jayant Kumar Mohanta,jayant@iitj.ac.in,Aerospace Engineering,Assistant Professor
+F008,Nidhi Sharma,snidhi@iitj.ac.in,Aerospace Engineering,Assistant Professor
+F009,Prabhjeet Singh,prabhjeet@iitj.ac.in,Aerospace Engineering,Assistant Professor
+F010,Soumya Ranjan Nanda,srnanda@iitj.ac.in,Aerospace Engineering,Assistant Professor
+F011,Amit Kumar Mishra,amit@iitj.ac.in,Bioscience & Bioengineering,Professor
+F012,Ayan Sadhukhan,ayansadhukhan@iitj.ac.in,Bioscience & Bioengineering,Assistant Professor
+F013,Balakumaran Chandrasekar,balakumaran@iitj.ac.in,Bioscience & Bioengineering,Assistant Professor
+F014,Dinesh Ahirwar,dineshahirwar@iitj.ac.in,Bioscience & Bioengineering,Associate Professor
+F015,Dipanjan Roy,droy@iitj.ac.in,Bioscience & Bioengineering,Professor
+F016,Indranil Banerjee,indranil@iitj.ac.in,Bioscience & Bioengineering,Associate Professor
+F017,Meenakshi K,kmeenakshi@iitj.ac.in,Bioscience & Bioengineering,Assistant Professor
+F018,Meenu Chhabra,meenuchhabra@iitj.ac.in,Bioscience & Bioengineering,Professor
+F019,Mitali Mukerji,mitali@iitj.ac.in,Bioscience & Bioengineering,Professor
+F020,Neha Jain,njain@iitj.ac.in,Bioscience & Bioengineering,Associate Professor
+F021,Pankaj Yadav,pyadav@iitj.ac.in,Bioscience & Bioengineering,Associate Professor
+F022,Parul Yadav,parulyadav@iitj.ac.in,Bioscience & Bioengineering,Assistant Professor
+F023,Priyanka Singh,priyankasingh@iitj.ac.in,Bioscience & Bioengineering,Associate Professor
+F024,Raviraj Vankayala,rvankayala@iitj.ac.in,Bioscience & Bioengineering,Associate Professor
+F025,Shankar Manoharan,shankarmanoharan@iitj.ac.in,Bioscience & Bioengineering,Associate Professor
+F026,Sucharita Dey,sdey@iitj.ac.in,Bioscience & Bioengineering,Assistant Professor
+F027,Sudipta Bhattacharyya,sudipta@iitj.ac.in,Bioscience & Bioengineering,Associate Professor
+F028,Surajit Ghosh,sghosh@iitj.ac.in,Bioscience & Bioengineering,Professor
+F029,Sushmita Jha,sushmitajha@iitj.ac.in,Bioscience & Bioengineering,Professor
+F030,Vignesh Muralidharan,vigneshmdharan@iitj.ac.in,Bioscience & Bioengineering,Assistant Professor
+F031,Angan Sengupta,angan@iitj.ac.in,Chemical Engineering,Associate Professor
+F032,Halpati Jigar Shaileshkumar,jigarh@iitj.ac.in,Chemical Engineering,Assistant Professor
+F033,Krunal Gangawane,krunalg@iitj.ac.in,Chemical Engineering,Assistant Professor
+F034,Manoj Kumar Jena,manojkumarjena@iitj.ac.in,Chemical Engineering,Assistant Professor
+F035,Manokaran V,manokaran@iitj.ac.in,Chemical Engineering,Assistant Professor
+F036,Parag Arvind Deshpande,parag@iitj.ac.in,Chemical Engineering,Professor
+F037,Prashant Kumar Gupta,guptapk@iitj.ac.in,Chemical Engineering,Assistant Professor
+F038,Praveen Kumar Sappidi,praveenks@iitj.ac.in,Chemical Engineering,Assistant Professor
+F039,Rachael Jovita Barla,rachaelbarla@iitj.ac.in,Chemical Engineering,Assistant Professor
+F040,Santhosh Kumar Varanasi,skvaranasi@iitj.ac.in,Chemical Engineering,Assistant Professor
+F041,Sumit Kamal,sumitkamal@iitj.ac.in,Chemical Engineering,Assistant Professor
+F042,Sumit Parvate,sparvate@iitj.ac.in,Chemical Engineering,Assistant Professor
+F043,Tara Chand Kumawat,tckumawat@iitj.ac.in,Chemical Engineering,Assistant Professor
+F044,Vikky Anand,vikky@iitj.ac.in,Chemical Engineering,Assistant Professor
+F045,Amreen Kaur Bains,amreenbains@iitj.ac.in,Chemistry,Assistant Professor
+F046,Ananya Debnath,ananya@iitj.ac.in,Chemistry,Professor
+F047,Atul Kumar,atulk@iitj.ac.in,Chemistry,Professor
+F048,Dibyendu Kumar Sasmal,sasmal@iitj.ac.in,Chemistry,Associate Professor
+F049,Hema Kuntrapakam,hemak@iitj.ac.in,Chemistry,Assistant Professor
+F050,Koushambi Mitra,kmitra@iitj.ac.in,Chemistry,Assistant Professor
+F051,Manikandan Paranjothy,pmanikandan@iitj.ac.in,Chemistry,Professor
+F052,Mayank Gupta,gmayank@iitj.ac.in,Chemistry,Assistant Professor
+F053,Milan Kumar Hazra,milanhazra@iitj.ac.in,Chemistry,Assistant Professor
+F054,Monika Gupta,mgupta@iitj.ac.in,Chemistry,Assistant Professor
+F055,Nirmal Kumar Rana,nirmalrana@iitj.ac.in,Chemistry,Associate Professor
+F056,Pragati Pandey,ppandey@iitj.ac.in,Chemistry,Assistant Professor
+F057,Pritam Mahawar,pritam@iitj.ac.in,Chemistry,Assistant Professor
+F058,Rahul Gera,rahulgera@iitj.ac.in,Chemistry,Assistant Professor
+F059,Rakesh Kumar Sharma,rks@iitj.ac.in,Chemistry,Professor
+F060,Ramesh K Metre,rkmetre@iitj.ac.in,Chemistry,Associate Professor
+F061,Ravindra K Raut,rkraut@iitj.ac.in,Chemistry,Assistant Professor
+F062,Rohan D Erande,rd.erande@iitj.ac.in,Chemistry,Associate Professor
+F063,Samanwita Pal,samanwita@iitj.ac.in,Chemistry,Professor
+F064,Sandip Murarka,sandipmurarka@iitj.ac.in,Chemistry,Associate Professor
+F065,Shyam Kumar Banjare,shyambanjare@iitj.ac.in,Chemistry,Assistant Professor
+F066,Subrata Chakraborty,subrata@iitj.ac.in,Chemistry,Assistant Professor
+F067,Suresh Sarkar,sarkar@iitj.ac.in,Chemistry,Assistant Professor
+F068,Swati Jindal,sjindal@iitj.ac.in,Chemistry,Assistant Professor
+F069,Vivek Wakchaure,vivekwakchaure@iitj.ac.in,Chemistry,Assistant Professor
+F070,Akshay Gupta,akshaygupta@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F071,Amit Kumar Rathi,akrathi@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F072,Amit Sharma,amit.sharma@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F073,Anusha S Basavaraj,anushabasavaraj@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F074,Bhupendra Singh,bhupendra@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F075,Debanjan Guha Roy,dguharoy@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F076,Deepak Swami,dswami@iitj.ac.in,Civil and Infrastructure Engineering,Professor
+F077,Deepika Bhattu,dbhattu@iitj.ac.in,Civil and Infrastructure Engineering,Associate Professor
+F078,Falak Vats,fvats@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F079,Mayank Suman,mayanksuman@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F080,Monika Dubey,monikadubey@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F081,P Ravi Prakash,rp@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F082,Pradeep Kumar Dammala,pkdammala@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F083,Ranju Mohan,ranju@iitj.ac.in,Civil and Infrastructure Engineering,Associate Professor
+F084,Sanhita Das,sanhitadas@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F085,Saran Aadhar,saran.aadhar@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F086,Sarath Chandra Reddy Nallala,scnallala@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F087,Shuvajit Mukherjee,shuvajit@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F088,Sreejith Krishnan,skrishnan@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F089,Subham Jain,sjain@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F090,Susmita Panda,msusmitapanda@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F091,Tekcham Gishan Singh,tekcham@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F092,Trishikhi Raychoudhury,trishikhi@iitj.ac.in,Civil and Infrastructure Engineering,Associate Professor
+F093,Yogiraj Sargam,ysargam@iitj.ac.in,Civil and Infrastructure Engineering,Assistant Professor
+F094,Aditi Sethia,aditisethia@iitj.ac.in,Computer Science & Engineering / Mathematics,Assistant Professor (joint)
+F095,Anand Mishra,mishra@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F096,Angshuman Paul,apaul@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F097,Anushka Joshi,anushkajoshi@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F098,Bikash Santra,bikash@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F099,Debasis Das,debasis@iitj.ac.in,Computer Science & Engineering,Associate Professor
+F100,Deeksha Varshney,deeksha@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F101,Deepak Mishra,dmishra@iitj.ac.in,Computer Science & Engineering,Associate Professor
+F102,Dip Sankar Banerjee,dipsankarb@iitj.ac.in,Computer Science & Engineering,Associate Professor
+F103,Divya Saxena,divyasaxena@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F104,Gaurav Harit,gharit@iitj.ac.in,Computer Science & Engineering,Professor
+F105,Hardik Jain,hardik.jain@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F106,Mayank Vatsa,mvatsa@iitj.ac.in,Computer Science & Engineering,Professor
+F107,Mohit Kumar Jangid,mjangid@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F108,Navchetan Awasthi,navchetanawasthi@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F109,Nitin Awathare,nitina@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F110,Palash Das,palashdas@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F111,Pallavi Jain,pallavi@iitj.ac.in,Computer Science & Engineering,Associate Professor
+F112,Pratik Mazumder,pratikm@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F113,Richa Singh,richa@iitj.ac.in,Computer Science & Engineering,Professor
+F114,Romi Banerjee,romibanerjee@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F115,Sidharth Ranjan,sranjan@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F116,Sidharth Sharma,sidharth@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F117,Suchetana Chakraborty,suchetana@iitj.ac.in,Computer Science & Engineering,Associate Professor
+F118,Sumit Kalra,sumitk@iitj.ac.in,Computer Science & Engineering,Associate Professor
+F119,Susil Kumar Mohanty,susilmohanty@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F120,Tanmay Inamdar,taninamdar@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F121,Vimal Raj Sharma,vimalraj@iitj.ac.in,Computer Science & Engineering,Assistant Professor
+F122,Yashaswi Verma,yashaswi@iitj.ac.in,Computer Science & Engineering,Associate Professor
+F123,Akanksha Choudhary,akanksha@iitj.ac.in,Economics,Assistant Professor
+F124,Bhushan Praveen Jangam,bhushanj@iitj.ac.in,Economics,Assistant Professor
+F125,Devi Prasad Dash,dpdash@iitj.ac.in,Economics,Associate Professor
+F126,Gopakumar K U,gopakumar@iitj.ac.in,Economics,Assistant Professor
+F127,S Srivatsa Srinivas,srivatsa@iitj.ac.in,Economics,Assistant Professor
+F128,Seema Saini,seemasaini@iitj.ac.in,Economics,Assistant Professor
+F129,Souryabrata Mohapatra,smohapatra@iitj.ac.in,Economics,Assistant Professor
+F130,Abdul Gafoor Shaik,saadgafoor@iitj.ac.in,Electrical Engineering,Associate Professor
+F131,Amit Bhardwaj,amitb@iitj.ac.in,Electrical Engineering,Associate Professor
+F132,Anil Kumar Tiwari,akt@iitj.ac.in,Electrical Engineering,Professor
+F133,Anoop Jain,anoopj@iitj.ac.in,Electrical Engineering,Assistant Professor
+F134,Bandi Ravi Kumar,ravik@iitj.ac.in,Electrical Engineering,Assistant Professor
+F135,Bharat Singh Rajpurohit,bsr@iitj.ac.in,Electrical Engineering,Professor
+F136,Bhivraj Suthar,bhivraj@iitj.ac.in,Electrical Engineering,Assistant Professor
+F137,Deepak Kumar M Fulwani,df@iitj.ac.in,Electrical Engineering,Professor
+F138,Himanshu Kumar,hkumar@iitj.ac.in,Electrical Engineering,Assistant Professor
+F139,Kunwar Aditya,kunwar.aditya@iitj.ac.in,Electrical Engineering,Associate Professor
+F140,Manish Narwaria,narwaria@iitj.ac.in,Electrical Engineering,Associate Professor
+F141,Niladri Sekhar Tripathy,niladri@iitj.ac.in,Electrical Engineering,Assistant Professor
+F142,Nishant Kumar,nishantkumar@iitj.ac.in,Electrical Engineering,Associate Professor
+F143,Payal Vyankat Dahiwale,payalvd@iitj.ac.in,Electrical Engineering,Assistant Professor
+F144,Rajendra Nagar,rn@iitj.ac.in,Electrical Engineering,Assistant Professor
+F145,Ravi Yadav,raviyee@iitj.ac.in,Electrical Engineering,Assistant Professor
+F146,Sandeep Kumar Yadav,sy@iitj.ac.in,Electrical Engineering,Professor
+F147,Saurav Kumar,sauravk@iitj.ac.in,Electrical Engineering,Assistant Professor
+F148,Vineeth V,vineeth@iitj.ac.in,Electrical Engineering,Assistant Professor
+F149,Anil Kumar,anilkumar@iitj.ac.in,Energy and Automotive Engineering,Assistant Professor
+F150,Avinash Kumar Agarwal,akag@iitj.ac.in,Energy and Automotive Engineering / Mechanical Engineering,Professor
+F151,Kethavath Naveen,knaveen@iitj.ac.in,Energy and Automotive Engineering,Assistant Professor
+F152,Nikhil Sharma,nikhils@iitj.ac.in,Energy and Automotive Engineering,Associate Professor
+F153,Shobhana Singh,shobhana@iitj.ac.in,Energy and Automotive Engineering,Associate Professor
+F154,Srijit Biswas,sbiswas@iitj.ac.in,Energy and Automotive Engineering,Assistant Professor
+F155,Abhay Gupta,abhaygupta@iitj.ac.in,Materials Engineering,Assistant Professor
+F156,Abir Bhattacharyya,abir@iitj.ac.in,Materials Engineering,Associate Professor
+F157,Amitava Banerjee,amitava@iitj.ac.in,Materials Engineering,Assistant Professor
+F158,Appala Naidu Gandi,appalanaidu@iitj.ac.in,Materials Engineering,Associate Professor
+F159,Bhabani K Satapathy,satapathy@iitj.ac.in,Materials Engineering,Professor
+F160,Debasmita Dwibedi,debasmitadwibedi@iitj.ac.in,Materials Engineering,Assistant Professor
+F161,Devendra Singh Negi,devendra@iitj.ac.in,Materials Engineering,Assistant Professor
+F162,Jaiveer Singh,jaiveer@iitj.ac.in,Materials Engineering,Associate Professor
+F163,Jitendra Kumar,jitendrak@iitj.ac.in,Materials Engineering,Assistant Professor
+F164,Lalit,lalitkaushik@iitj.ac.in,Materials Engineering,Assistant Professor
+F165,Nitin Kumar Sharma,nitinksh@iitj.ac.in,Materials Engineering,Assistant Professor
+F166,Pranay Ranjan,pranay.ranjan@iitj.ac.in,Materials Engineering,Assistant Professor
+F167,Ravi K R,ravikr@iitj.ac.in,Materials Engineering,Professor
+F168,Ravi Prakash Srivastava,ravip@iitj.ac.in,Materials Engineering,Assistant Professor
+F169,Saurabh Nene,ssnene@iitj.ac.in,Materials Engineering,Associate Professor
+F170,Shipra Bajpai,shipra@iitj.ac.in,Materials Engineering,Assistant Professor
+F171,Sk Md Hasan,hasan@iitj.ac.in,Materials Engineering,Assistant Professor
+F172,Srijan Sengupta,srijansengupta@iitj.ac.in,Materials Engineering,Assistant Professor
+F173,Sumeet Rajesh Khanna,sumeetk@iitj.ac.in,Materials Engineering,Assistant Professor
+F174,Vikramsingh Rajendrasingh Thakur,vikramsinghthakur@iitj.ac.in,Materials Engineering,Assistant Professor
+F175,Ambuj Kumar Gautam,ambujk@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F176,Amrita Puri,amritapuri@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F177,Anand Krishnan Plappally,anandk@iitj.ac.in,Mechanical Engineering,Professor
+F178,Ankur Gupta,ankurgupta@iitj.ac.in,Mechanical Engineering,Associate Professor
+F179,Ashish Pathak,apathak@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F180,Atul Kumar Sharma,atulksharma@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F181,B Ravindra,ravib@iitj.ac.in,Mechanical Engineering,Professor
+F182,Barun Pratiher,barun@iitj.ac.in,Mechanical Engineering,Associate Professor
+F183,Chandan Pandey,jscpandey@iitj.ac.in,Mechanical Engineering,Associate Professor
+F184,Gopal Dnyanba Gote,gopaldgote@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F185,Gourhari Ghosh,gourharighosh@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F186,Hardik Kothadia,hardikkothadia@iitj.ac.in,Mechanical Engineering,Associate Professor
+F187,Hirshikesh,hirshikesh@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F188,Kaushal A Desai,kadesai@iitj.ac.in,Mechanical Engineering,Professor
+F189,Mrityunjay Doddamani,mrityunjay@iitj.ac.in,Mechanical Engineering,Associate Professor
+F190,Nipun Arora,nipun@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F191,Nitesh Arora,nitesharora@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F192,Pratyaksh Karan,pratyakshkaran@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F193,Prodyut Ranjan Chakraborty,pchakraborty@iitj.ac.in,Mechanical Engineering,Professor
+F194,Rahul Chhibber,rahul_chhibber@iitj.ac.in,Mechanical Engineering,Professor
+F195,Rajit Ranjan,rajitranjan@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F196,Riby Abraham Boby,riby@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F197,Roshan Kumar Hota,rkhota@iitj.ac.in,Mechanical Engineering,Assistant Professor
+F198,Shrutidhara Sarma,shrutidhara@iitj.ac.in,Mechanical Engineering,Associate Professor
+F199,Sudipto Mukhopadhyay,smukhopadhyay@iitj.ac.in,Mechanical Engineering,Associate Professor
+F200,Suril Shah,surilshah@iitj.ac.in,Mechanical Engineering,Professor
+F201,Abhinaba Lahiri,abhinaba@iitj.ac.in,School of Artificial Intelligence & Data Science,Assistant Professor
+F202,Dweepobotee Brahma,dweepobotee@iitj.ac.in,School of Artificial Intelligence & Data Science,Assistant Professor
+F203,Manish Aggarwal,ma@iitj.ac.in,School of Artificial Intelligence & Data Science,Associate Professor
+F204,Shilpa Dang,sdang@iitj.ac.in,School of Artificial Intelligence & Data Science,Assistant Professor
+F205,Gaurav Vinod Vaidya,gauravvaidya@iitj.ac.in,School of Design,Assistant Professor
+F206,Kedar Dicholkar,kedard@iitj.ac.in,School of Design,Assistant Professor
+F207,Pranjal Protim Borah,pranjalborah@iitj.ac.in,School of Design,Assistant Professor
+F208,Priyabrata Rautray,priyabratarautray@iitj.ac.in,School of Design,Assistant Professor
+F209,Sajan Pillai,sajanpillai@iitj.ac.in,School of Design,Assistant Professor
+F210,Shiv Kumar Verma,skv@iitj.ac.in,School of Design,Assistant Professor
+F211,Sumana Som,sumanasom@iitj.ac.in,School of Design,Assistant Professor
+F212,Tanaya Vyas,tanayavyas@iitj.ac.in,School of Design,Assistant Professor
+F213,Alok Ranjan,alok@iitj.ac.in,School of Liberal Arts,Associate Professor
+F214,Ankita Sharma,ankitasharma@iitj.ac.in,School of Liberal Arts,Professor
+F215,Anupama Mohan,amohan@iitj.ac.in,School of Liberal Arts,Associate Professor
+F216,Bhaskar Kumar Kakati,bhaskar@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F217,Dinesh Mohan Joshi,dineshjoshi@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F218,Farhat Naz,farhat@iitj.ac.in,School of Liberal Arts,Associate Professor
+F219,Gurujegan Murugesan,gurujeganm@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F220,K J George,kjg@iitj.ac.in,School of Liberal Arts,Associate Professor
+F221,Kanak Yadav,kanakyadav@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F222,Natasa Thoudam,nthoudam@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F223,Parichay Patra,parichay@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F224,Prasenjeet A Tribhuvan,prasenjeet@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F225,Rachel Philip,rachel@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F226,Sherin Sabu,sherinsabu@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F227,Sheriya Sareen,sheriyasareen@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F228,Soni,soni@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F229,Sreedevi D,sreedevid@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F230,Suman Dhaka,dhakas@iitj.ac.in,School of Liberal Arts,Associate Professor
+F231,Sunil Kumar Lohar,sunillohar@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F232,Tonisha Guin,tonisha@iitj.ac.in,School of Liberal Arts,Assistant Professor
+F233,V Hari Narayanan,hari@iitj.ac.in,School of Liberal Arts,Professor
+F234,Vidya Sarveswaran,vs@iitj.ac.in,School of Liberal Arts,Associate Professor

@@ -1,0 +1,137 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.9cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+
+\setlist{nosep,leftmargin=*}
+\titlespacing*{\section}{0pt}{8pt}{3pt}
+\titleformat{\section}{\large\bfseries}{\thesection}{0.6em}{}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.1}
+\newcommand{\code}[1]{\texttt{\small #1}}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Academic Helpdesk Agent: Report}\\[4pt]
+Yateen \quad Roll No.\ B23CS1082\\
+Multi-agent Academic Helpdesk (Google ADK, Ollama, ChromaDB)
+\end{center}
+
+\section{System}
+
+The helpdesk answers questions about IIT Jodhpur academic rules, curricula, the semester's courses and slots, drafts (never sends) emails to instructors, cites its source, and refuses and logs anything it cannot ground.
+
+\begin{center}\small
+\begin{tabular}{@{}l@{}}
+\code{helpdesk\_orchestrator} \quad routes only, never answers itself\\
+\quad $\vdash$ \code{policy\_agent} $\rightarrow$ \code{search\_documents} (ChromaDB RAG over 15 documents)\\
+\quad $\vdash$ \code{schedule\_agent} $\rightarrow$ \code{lookup\_timetable}, \code{get\_slot\_timings}, \code{count\_courses} (CSV tools)\\
+\quad $\llcorner$ \code{email\_agent} $\rightarrow$ \code{get\_instructor\_email}, \code{draft\_email} (draft only, \code{sent=False})\\
+all agents $\rightarrow$ \code{log\_unanswered} (\code{logs/unanswered.csv}, for a human)
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+\item \textbf{Single-agent baseline} (\code{helpdesk/single\_agent.py}): one agent holding all seven tools and the same rules.
+\item \textbf{Stack:} Google ADK 2.13, LiteLLM to Ollama (\code{qwen3:8b}), \code{nomic-embed-text} embeddings, ChromaDB (cosine). Python runs in WSL and Ollama runs on Windows (mirrored networking). The WSL VM is capped at 3~GB so the 8B model fits a 16~GB laptop.
+\item \textbf{Design choices:}
+  (1)~Counting and lookups are tools over CSVs, so the LLM never counts; ``how many courses did Economics float'' calls \code{count\_courses}.
+  (2)~\code{search\_documents} drops chunks farther than a cosine distance of 0.32. I measured in-scope queries at 0.24--0.30 and out-of-scope at 0.34 and above, so out-of-scope questions get no context and the agent refuses.
+  (3)~Markdown documents are chunked per section with the title and heading on each chunk.
+  (4)~The prompt forces one exact refusal sentence and a \code{log\_unanswered} call.
+  (5)~Qwen3's thinking mode is switched off with \code{/no\_think}; otherwise calls were slow and reasoning leaked into answers.
+\end{itemize}
+
+\section{Data}
+
+All files are listed with their source URL in \code{docs\_manifest.csv}.
+
+\begin{center}\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.6cm}X@{}}
+\toprule
+Data & Content\\
+\midrule
+15 documents in \code{data/docs} (629 chunks) & Academic Regulations (2019 onwards), PG Regulations (2022), MS-by-Research Regulations, Joint Programmes in Medical Technologies, the continuation/graduation amendment, 4 academic calendars (AY 2024-25 to 2026-27 and Summer 2026), two curricula (BS Physics, B.Tech Systems Science), Circular 51 (attendance) and Circular 52 (exams), the slot system note, and a transcription of the section 11.3 credit-requirements table\\
+\code{courses.csv}, \code{timetable.csv} & 614 courses floated in 2026-I across 19 departments, from the department workbook plus 8 courses transcribed from a screenshot. 584 have a slot, 411 an instructor link\\
+\code{instructors.csv} & 234 faculty names and emails from the public faculty pages\\
+\code{slot\_system.csv} & Slot letter to weekly meeting times, transcribed from the slot chart\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Circulars 51 and 52 were scanned images with no extractable text. I rendered them and transcribed them by hand; the originals are kept in \code{data/scanned\_originals/}. A company brochure was left out as irrelevant. Personal data is limited to public faculty emails.
+
+\section{Evaluation method}
+
+\code{questions.csv} has 30 questions: 13 policy, 6 schedule/count, 5 email, 6 out-of-scope (one email question, Q24, must be refused because the instructor is unknown). Each has an expected answer, keywords, expected source and a should-refuse flag. Ground truth was checked against the files and tools beforehand. \code{evaluate.py} runs each question in a fresh session and records the answer and the tools called. Three metrics are scored:
+
+\begin{itemize}
+\item \textbf{Accuracy:} keywords present, or a refusal for should-refuse questions.
+\item \textbf{Groundedness:} the expected source is cited.
+\item \textbf{Refusal correctness:} answered questions are not refused, and out-of-scope ones are refused.
+\end{itemize}
+
+Scores are automatic first-pass checks. I then read every answer the checks marked wrong (25 of 150) and adjusted only where the check was clearly mistaken (Section~4). Multi-agent was run 3 times and single-agent 2 times (30 questions each; single-agent was cut from 3 runs to 2 for time). Model: Qwen3-8B at default temperature.
+
+\section{Results (Qwen3-8B)}
+
+\begin{center}\small
+\begin{tabularx}{\linewidth}{@{}lXXXXr@{}}
+\toprule
+ & Auto accuracy & Accuracy after review & Groundedness (all) & Groundedness (excl.\ email) & Failed calls\\
+\midrule
+Multi-agent, 90 question-runs & 82\% (74/90) & \textbf{86\%} (77/90) & 74\% (51/69) & 86\% (49/57) & 0\\
+Single-agent, 60 question-runs & 85\% (51/60) & \textbf{87\%} (52/60) & 78\% (36/46) & 87\% (33/38) & 2\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Review adjustments: refusals that say ``I have no information'' but not in the exact sentence (Q26 in all 5 runs, Q29 in multi run 1) were scored wrong by the keyword pattern; I counted them correct. The email groundedness check looks for the text ``courses'' in a drafted email, which a draft never contains, so I also give groundedness without the email questions. The 2 single-agent failed calls were one timeout (280~s) and one dropped connection to Ollama.
+
+By category, automatic scores (multi / single): schedule 94\% / 83\%, email 87\% / 100\%, policy 77\% / 77\%, out-of-scope 78\% / 92\% (before the review adjustment above; after it, out-of-scope is 17/18 for multi-agent).
+
+\textbf{Correct refusals.} Dining, campus transport, weather, hostel fee and ``Python function'' were refused and logged in nearly every run. Q24 (email for CSL7650, instructor unknown) was refused in all runs of both modes. The one real leak: multi run 3 answered the cricket question (wrongly, ``Australia 2022'') after logging it. The agent drafted correct emails to the right addresses for ENL7010, ENL4050 and LAL4050; every draft shows \code{sent=False}.
+
+\textbf{Single vs multi.} The two are close: single-agent is 1 point higher after review (87\% vs 86\%) on 60 vs 90 question-runs, which is within the run-to-run noise measured below. Single-agent was better on email and leaked fewer out-of-scope answers. Multi-agent was better on schedule questions (94\% vs 83\%), had no failed calls, and its sub-agents have narrower prompts and tool sets. The multi-agent hop adds a failure mode of its own: in several runs the orchestrator transferred to a sub-agent, and the sub-agent then refused or called \code{log\_unanswered} without searching (Q11, Q8, Q20 in some runs). The runs also happened under different memory pressure, so I do not read the gap as an effect of the architecture. At this size Qwen3-8B handles one agent with seven tools about as well as three specialists.
+
+\section{Answers that change between runs}
+
+At default temperature the same question gives different results. 16 of 30 questions changed correctness or tool path across the 3 multi-agent runs, 10 of 30 across the 2 single-agent runs. Only 3 of 30 multi-agent and 7 of 30 single-agent questions gave word-for-word identical answers in every run.
+
+\begin{itemize}
+\item \textbf{Unstable policy questions:} Q1, Q6, Q7, Q8, Q10, Q11, Q13. Typically the first run was right and a later one refused or answered from the wrong clause (e.g.\ Q7 returned an empty answer in multi run 3).
+\item \textbf{Unstable schedule and email:} Q19 (HSL4010 slot: right in 2 of 3 multi runs and 1 of 2 single runs), Q15, Q20, Q23. A wrong run is usually a refusal even though the data exists. Q23 once claimed ``the course code is either invalid or no instructor information exists'' for HSL4010, whose instructor is in the data.
+\item \textbf{Unstable refusals:} Q26, Q27, Q29. Whether the model answers or refuses depends on the run.
+\item \textbf{Stable:} counts (Q17, Q18), slot letters (Q14, Q16), the 10 open-elective credits (Q2) and the grounded email drafts.
+\end{itemize}
+
+Tool paths vary even when answers agree (for example Q15 used different tool sequences across runs), so checking the final text alone would hide real variation.
+
+\section{Failure analysis}
+
+The failures have different causes, and I did not tune the system after the runs, so these stand as findings.
+
+\begin{enumerate}
+\item \textbf{Q1 (attendance for the Major exam): retrieval ranking plus the model. The section-chunking fix did not fully work.} Circular 51 keeps the old and the revised rule in separate chunks, but ``Existing policy'' ranks first (distance 0.269) and ``Revised policy'' third (0.284). The model then blends them and states the 75\% rule. It was wrong in 2 of 3 multi runs and 2 of 2 single runs, and refused once without searching. A fix would be to drop or down-rank superseded chunks.
+\item \textbf{Q10 (extra credits from the sixth semester): retrieval miss.} The model's query returned nothing under the 0.32 threshold, so the agent refused. Runs that phrased the query differently found page 17 and answered correctly. A fixed threshold trades wrong refusals against leaked out-of-scope answers.
+\item \textbf{Q11 (B grade points): model skipped retrieval.} The right chunk (page 8, distance 0.297) is retrieved when the model searches. In multi runs 2 and 3 it called \code{log\_unanswered} directly instead.
+\item \textbf{Q26 and Q29 (out-of-scope): mostly a scoring artefact.} The agent refused and logged, but paraphrased the refusal. The exact-sentence instruction is followed only some of the time.
+\item \textbf{Wrong refusal when data exists (Q13, Q19, Q23).} The tool returned the data, but the model or sub-agent refused. This is the main weakness of an 8B model with tool use.
+\item \textbf{Operational faults.} Multi run 2, Q6 repeated its refusal six times with stray \code{</think>} text, even with \code{/no\_think}. Early evaluation hit timeouts of up to 570~s because Windows RAM was exhausted. Capping WSL at 3~GB and closing Docker removed them.
+\end{enumerate}
+
+Other numeric answers were right and cited: 10 days to apply for a make-up exam, a 3-hour Major, 40\% minimum weight, 14 semesters maximum.
+
+\section{Reproduce}
+
+\code{README.md} has the setup. In short: \code{ollama pull qwen3:8b} and \code{ollama pull nomic-embed-text}; in WSL \code{pip install -r requirements.txt}, \code{python ingest.py --reset}, then \code{adk web}, \code{python evaluate.py --mode multi --runs 3}, \code{python evaluate.py --mode single --runs 2}, \code{python analyze.py}. Raw answers are in \code{results/*.csv}, the scores in \code{results/summary.md}, and refused questions in \code{logs/unanswered.csv}.
+
+\end{document}

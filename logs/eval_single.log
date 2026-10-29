@@ -1,0 +1,506 @@
+Node execution failed with exception
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/aiohttp_transport.py", line 90, in map_aiohttp_exceptions
+    yield
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/aiohttp_transport.py", line 422, in handle_async_request
+    response = await self._make_aiohttp_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/aiohttp_transport.py", line 385, in _make_aiohttp_request
+    response: Final = await client_session.request(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/aiohttp/client.py", line 1756, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/aiohttp/client.py", line 900, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/aiohttp/client.py", line 878, in _connect_and_send_request
+    await resp.start(conn)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/aiohttp/client_reqrep.py", line 745, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/aiohttp/streams.py", line 716, in read
+    await self._waiter
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/utils/_runner_utils.py", line 85, in __await__
+    value, error = (yield waiting_on), None
+                    ^^^^^^^^^^^^^^^^
+aiohttp.client_exceptions.SocketTimeoutError: Timeout on reading data from socket
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/http_handler.py", line 846, in post
+    response: Final = await self.client.send(req, stream=stream)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/aiohttp_transport.py", line 421, in handle_async_request
+    with map_aiohttp_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/aiohttp_transport.py", line 109, in map_aiohttp_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: Timeout on reading data from socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py", line 528, in _make_common_async_call
+    response = await async_httpx_client.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in async_wrapper
+    result: Final = await func(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/http_handler.py", line 876, in post
+    raise litellm.Timeout(
+litellm.exceptions.Timeout: litellm.Timeout: Connection timed out. Timeout passed=300.0, time taken=280.601 seconds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/main.py", line 687, in acompletion
+    response = await _resolve_dispatched_chat_response(init_response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/main.py", line 752, in _resolve_dispatched_chat_response
+    return await pending
+           ^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py", line 642, in async_completion
+    response: Final = await self._make_common_async_call(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py", line 547, in _make_common_async_call
+    raise self._handle_error(e=e, provider_config=provider_config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py", line 6350, in _handle_error
+    raise provider_error
+litellm.llms.ollama.common_utils.OllamaError: litellm.Timeout: Connection timed out. Timeout passed=300.0, time taken=280.601 seconds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 169, in run
+    await self._execute_node(ctx, node_input)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 364, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 378, in _run_node_loop
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_base_node.py", line 202, in run
+    item = await anext(agen, _sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/llm_agent.py", line 690, in _run_impl
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 527, in run_llm_agent_as_node
+    async for event in run_iter:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 381, in run_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 482, in _run_with_lifecycle
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 166, in stream_in_scope
+    item = await _drive(owned.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 154, in _drive
+    return await step
+           ^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 445, in _run
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/llm_agent.py", line 639, in _run_async_impl
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 299, in run_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 381, in _run_one_step_async
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 564, in _call_llm_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_model_call.py", line 322, in call_llm_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 166, in stream_in_scope
+    item = await _drive(owned.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 154, in _drive
+    return await step
+           ^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_model_call.py", line 283, in _call_llm_with_tracing
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 614, in _run_and_handle_error
+    async for response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 429, in run_and_handle_error
+    raise model_error
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 403, in run_and_handle_error
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/utils/_runner_utils.py", line 52, in _stream_in_caller_scope
+    item = await _InContext(ctx, agen.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/utils/_runner_utils.py", line 81, in __await__
+    waiting_on = self._ctx.run(coro.throw, error)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 391, in _record_responses
+    async for llm_response in timed:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 1012, in time_model_awaits
+    async for response in responses:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/models/lite_llm.py", line 4631, in generate_content_async
+    response = await self.llm_client.acompletion(**completion_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/models/lite_llm.py", line 1188, in acompletion
+    return await acompletion(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/chat_completions/dispatch.py", line 102, in acompletion
+    return await _ADISPATCH.arun(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/rust_bridge/dispatch.py", line 114, in arun
+    return await python(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/utils.py", line 2297, in wrapper_async
+    raise e
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/utils.py", line 2112, in wrapper_async
+    result = await original_function(*args, **call_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/main.py", line 740, in acompletion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2740, in exception_type
+    raise e
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2690, in exception_type
+    _map_exception_by_status(
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2288, in _map_exception_by_status
+    raise Timeout(
+litellm.exceptions.Timeout: litellm.Timeout: Ollama_chatException - litellm.Timeout: Connection timed out. Timeout passed=300.0, time taken=280.601 seconds
+Root node helpdesk_single failed.
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner_utils.py", line 267, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/context.py", line 520, in _run_node_internal
+    return await _dynamic_node_scheduler.run_node_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_dynamic_node_scheduler.py", line 840, in run_node_internal
+    raise DynamicNodeFailError(
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node helpdesk_single failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/runners.py", line 894, in _cleanup_root_task
+    await task
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner_utils.py", line 276, in _drive_root_node
+    raise e.error
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 169, in run
+    await self._execute_node(ctx, node_input)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 364, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 378, in _run_node_loop
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_base_node.py", line 202, in run
+    item = await anext(agen, _sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/llm_agent.py", line 690, in _run_impl
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 527, in run_llm_agent_as_node
+    async for event in run_iter:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 381, in run_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 482, in _run_with_lifecycle
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 166, in stream_in_scope
+    item = await _drive(owned.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 154, in _drive
+    return await step
+           ^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 445, in _run
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/llm_agent.py", line 639, in _run_async_impl
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 299, in run_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 381, in _run_one_step_async
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 564, in _call_llm_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_model_call.py", line 322, in call_llm_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 166, in stream_in_scope
+    item = await _drive(owned.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 154, in _drive
+    return await step
+           ^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_model_call.py", line 283, in _call_llm_with_tracing
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 614, in _run_and_handle_error
+    async for response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 429, in run_and_handle_error
+    raise model_error
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 403, in run_and_handle_error
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/utils/_runner_utils.py", line 52, in _stream_in_caller_scope
+    item = await _InContext(ctx, agen.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/utils/_runner_utils.py", line 81, in __await__
+    waiting_on = self._ctx.run(coro.throw, error)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 391, in _record_responses
+    async for llm_response in timed:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 1012, in time_model_awaits
+    async for response in responses:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/models/lite_llm.py", line 4631, in generate_content_async
+    response = await self.llm_client.acompletion(**completion_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/models/lite_llm.py", line 1188, in acompletion
+    return await acompletion(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/chat_completions/dispatch.py", line 102, in acompletion
+    return await _ADISPATCH.arun(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/rust_bridge/dispatch.py", line 114, in arun
+    return await python(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/utils.py", line 2297, in wrapper_async
+    raise e
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/utils.py", line 2112, in wrapper_async
+    result = await original_function(*args, **call_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/main.py", line 740, in acompletion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2740, in exception_type
+    raise e
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2690, in exception_type
+    _map_exception_by_status(
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2288, in _map_exception_by_status
+    raise Timeout(
+litellm.exceptions.Timeout: litellm.Timeout: Ollama_chatException - litellm.Timeout: Connection timed out. Timeout passed=300.0, time taken=280.601 seconds
+Node execution failed with exception
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py", line 528, in _make_common_async_call
+    response = await async_httpx_client.post(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in async_wrapper
+    result: Final = await func(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/http_handler.py", line 883, in post
+    await _raise_masked_async_error(e, stream)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/http_handler.py", line 564, in _raise_masked_async_error
+    raise MaskedHTTPStatusError(e, message=_text, text=_text) from None
+litellm.llms.custom_httpx.http_handler.MaskedHTTPStatusError: Server error '500 Internal Server Error' for url 'http://localhost:11434/api/chat'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/main.py", line 687, in acompletion
+    response = await _resolve_dispatched_chat_response(init_response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/main.py", line 752, in _resolve_dispatched_chat_response
+    return await pending
+           ^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py", line 642, in async_completion
+    response: Final = await self._make_common_async_call(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py", line 545, in _make_common_async_call
+    raise self._handle_error(e=e, provider_config=provider_config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py", line 6350, in _handle_error
+    raise provider_error
+litellm.llms.ollama.common_utils.OllamaError: {"error":"an error was encountered while running the model: read tcp 127.0.0.1:56789-\u003e127.0.0.1:57986: wsarecv: An existing connection was forcibly closed by the remote host."}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 169, in run
+    await self._execute_node(ctx, node_input)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 364, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 378, in _run_node_loop
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_base_node.py", line 202, in run
+    item = await anext(agen, _sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/llm_agent.py", line 690, in _run_impl
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 527, in run_llm_agent_as_node
+    async for event in run_iter:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 381, in run_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 482, in _run_with_lifecycle
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 166, in stream_in_scope
+    item = await _drive(owned.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 154, in _drive
+    return await step
+           ^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 445, in _run
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/llm_agent.py", line 639, in _run_async_impl
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 299, in run_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 381, in _run_one_step_async
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 564, in _call_llm_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_model_call.py", line 322, in call_llm_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 166, in stream_in_scope
+    item = await _drive(owned.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 154, in _drive
+    return await step
+           ^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_model_call.py", line 283, in _call_llm_with_tracing
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 614, in _run_and_handle_error
+    async for response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 429, in run_and_handle_error
+    raise model_error
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 403, in run_and_handle_error
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/utils/_runner_utils.py", line 52, in _stream_in_caller_scope
+    item = await _InContext(ctx, agen.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/utils/_runner_utils.py", line 79, in __await__
+    waiting_on = self._ctx.run(coro.send, value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 391, in _record_responses
+    async for llm_response in timed:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 1012, in time_model_awaits
+    async for response in responses:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/models/lite_llm.py", line 4631, in generate_content_async
+    response = await self.llm_client.acompletion(**completion_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/models/lite_llm.py", line 1188, in acompletion
+    return await acompletion(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/chat_completions/dispatch.py", line 102, in acompletion
+    return await _ADISPATCH.arun(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/rust_bridge/dispatch.py", line 114, in arun
+    return await python(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/utils.py", line 2297, in wrapper_async
+    raise e
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/utils.py", line 2112, in wrapper_async
+    result = await original_function(*args, **call_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/main.py", line 740, in acompletion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2740, in exception_type
+    raise e
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2690, in exception_type
+    _map_exception_by_status(
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2303, in _map_exception_by_status
+    raise InternalServerError(
+litellm.exceptions.InternalServerError: litellm.InternalServerError: Ollama_chatException - {"error":"an error was encountered while running the model: read tcp 127.0.0.1:56789-\u003e127.0.0.1:57986: wsarecv: An existing connection was forcibly closed by the remote host."}
+Root node helpdesk_single failed.
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner_utils.py", line 267, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/context.py", line 520, in _run_node_internal
+    return await _dynamic_node_scheduler.run_node_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_dynamic_node_scheduler.py", line 840, in run_node_internal
+    raise DynamicNodeFailError(
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node helpdesk_single failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/runners.py", line 894, in _cleanup_root_task
+    await task
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner_utils.py", line 276, in _drive_root_node
+    raise e.error
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 169, in run
+    await self._execute_node(ctx, node_input)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 364, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_node_runner.py", line 378, in _run_node_loop
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_base_node.py", line 202, in run
+    item = await anext(agen, _sentinel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/llm_agent.py", line 690, in _run_impl
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 527, in run_llm_agent_as_node
+    async for event in run_iter:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 381, in run_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 482, in _run_with_lifecycle
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 166, in stream_in_scope
+    item = await _drive(owned.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 154, in _drive
+    return await step
+           ^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/base_agent.py", line 445, in _run
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/agents/llm_agent.py", line 639, in _run_async_impl
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 299, in run_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 381, in _run_one_step_async
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 564, in _call_llm_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_model_call.py", line 322, in call_llm_async
+    async for event in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 166, in stream_in_scope
+    item = await _drive(owned.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 154, in _drive
+    return await step
+           ^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_model_call.py", line 283, in _call_llm_with_tracing
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 614, in _run_and_handle_error
+    async for response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 429, in run_and_handle_error
+    raise model_error
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 403, in run_and_handle_error
+    async for llm_response in agen:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/utils/_runner_utils.py", line 52, in _stream_in_caller_scope
+    item = await _InContext(ctx, agen.__anext__())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/utils/_runner_utils.py", line 79, in __await__
+    waiting_on = self._ctx.run(coro.send, value)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/flows/llm_flows/core/_finalizer.py", line 391, in _record_responses
+    async for llm_response in timed:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/telemetry/_instrumentation.py", line 1012, in time_model_awaits
+    async for response in responses:
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/models/lite_llm.py", line 4631, in generate_content_async
+    response = await self.llm_client.acompletion(**completion_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/google/adk/models/lite_llm.py", line 1188, in acompletion
+    return await acompletion(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/chat_completions/dispatch.py", line 102, in acompletion
+    return await _ADISPATCH.arun(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/rust_bridge/dispatch.py", line 114, in arun
+    return await python(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/utils.py", line 2297, in wrapper_async
+    raise e
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/utils.py", line 2112, in wrapper_async
+    result = await original_function(*args, **call_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/main.py", line 740, in acompletion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2740, in exception_type
+    raise e
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2690, in exception_type
+    _map_exception_by_status(
+  File "/home/yateen/helpdesk-venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2303, in _map_exception_by_status
+    raise InternalServerError(
+litellm.exceptions.InternalServerError: litellm.InternalServerError: Ollama_chatException - {"error":"an error was encountered while running the model: read tcp 127.0.0.1:56789-\u003e127.0.0.1:57986: wsarecv: An existing connection was forcibly closed by the remote host."}

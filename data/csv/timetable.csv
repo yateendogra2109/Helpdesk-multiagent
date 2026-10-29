@@ -1,0 +1,585 @@
+course_code,course_name,department,slot,days_time
+AIL7550,AI and Cybersecurity,School of Artificial Intelligence & Data Science,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+MSL71210,Information Technology Framework,School of Artificial Intelligence & Data Science,V,Tue 12:00-12:50; Thu 12:00-12:50
+AIL4080,Introduction to Cognitive Science,School of Artificial Intelligence & Data Science,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+AIL7150,Connectomics,School of Artificial Intelligence & Data Science,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+AIT8960,PhD Thesis,School of Artificial Intelligence & Data Science,T,
+AIT8970,PhD Thesis,School of Artificial Intelligence & Data Science,T,
+AIT8980,PhD Thesis,School of Artificial Intelligence & Data Science,T,
+AIT8990,PhD Thesis,School of Artificial Intelligence & Data Science,T,
+MSL73140,Business Economics-II,School of Management & Entrepreneurship,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+MSP7040,Business Plan Phase II,School of Management & Entrepreneurship,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+MSN7060,Corporate Communication,School of Management & Entrepreneurship,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+MSP7060,Data Management & Analysis,School of Management & Entrepreneurship,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+MSL7370,Deep Learning Applications for Business,School of Management & Entrepreneurship,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+MSL73720,Design Thinking and Innovation Strategy,School of Management & Entrepreneurship,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+MSL73710,Digital Business Models,School of Management & Entrepreneurship,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+MSL73180,Digital Enterprise Management,School of Management & Entrepreneurship,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+MSL74430,Foundations of Research in Marketing,School of Management & Entrepreneurship,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+MSL73790,Game Theory for Business Decisions,School of Management & Entrepreneurship,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MSL7110,Global Economy,School of Management & Entrepreneurship,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+MSL73890,Integrated Marketing Communications,School of Management & Entrepreneurship,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+MSL73690,International Business,School of Management & Entrepreneurship,V,Tue 12:00-12:50; Thu 12:00-12:50
+MSL4020,Introduction to Entrepreneurship,School of Management & Entrepreneurship,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+MSL73170,Introduction to Operations Management,School of Management & Entrepreneurship,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+MSL73990,Investment and Portfolio Management,School of Management & Entrepreneurship,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+MSL73190,Legal and Taxation Aspects of Business,School of Management & Entrepreneurship,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+MSL73780,Logistics Management,School of Management & Entrepreneurship,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+MSL7140,Managing Digital Enterprises,School of Management & Entrepreneurship,V,Tue 12:00-12:50; Thu 12:00-12:50
+MSL7120,Managing Human Capital,School of Management & Entrepreneurship,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+MSL73130,Marketing Frameworks and Practice,School of Management & Entrepreneurship,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+MSL73870,"Marketing of Services – People, Process and Environment",School of Management & Entrepreneurship,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+MSP7090,MBA Project Tech solution,School of Management & Entrepreneurship,M10,
+MSL74010,"Money, Banking and Financial Markets",School of Management & Entrepreneurship,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+MSL74290,Neuro Marketing,School of Management & Entrepreneurship,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+MSL73670,New Venture Financing,School of Management & Entrepreneurship,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MSL73160,New Venture Planning,School of Management & Entrepreneurship,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MSL7180,Operations Management,School of Management & Entrepreneurship,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+MSL74300,Social Media Analytics,School of Management & Entrepreneurship,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MSL73150,Strategic Management,School of Management & Entrepreneurship,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+MSL73750,Supply Chain Analytics,School of Management & Entrepreneurship,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+MSL73740,Technology Forecasting and Assessment,School of Management & Entrepreneurship,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+MSL74100,Technology Leadership,School of Management & Entrepreneurship,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+MST8060,Thesis,School of Management & Entrepreneurship,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+MST8030,Thesis,School of Management & Entrepreneurship,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+ENL1040,Introduction to Green Economy,Economics,AZ,
+ENL1030,Indian Financial System,Economics,AZ,
+ENL7050,Empirical Methods for Economic Policy Analysis,Economics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+ENL7010,Principles of Macroeconomics,Economics,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+ENL4050,Econometrics Lab,Economics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+ENL7170,Causal Econometrics,Economics,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+ENL7110,Behavioral Economics and Decision Theory,Economics,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+ENL4060,Games and Economic Behaviour,Economics,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+ENL7220,Foundations of Economic Research,Economics,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+ENL7210,Modern Growth Economics,Economics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+ENT8910,Thesis,Economics,T,
+MAL1120,Mathematics II,Mathematics,AG,
+MAL2040,Design and Analysis of Experiments,Mathematics,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+MAL1060,Mathematics-2,Mathematics,CB,
+MAL2130,Multivariable Calculus,Mathematics,CD,
+MAL2140,Differential Equations,Mathematics,CC,
+MAL2150,Groups and Rings,Mathematics,CE,
+MAL3050,Numerical Computations,Mathematics,CE,
+MAL3090,Elementary Number theory,Mathematics,CC,
+MAL3070,Operations Research,Mathematics,CD,
+MAL3080,Field Theory,Mathematics,CB,
+MAL6160,Multivariate Calculus and Differential Geometry,Mathematics,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+MAL6170,Programming Lab,Mathematics,L2 & L4,
+MAL6180,Complex Analysis,Mathematics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MAL6190,Measure and Integration,Mathematics,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MAL6210,Functional Analysis,Mathematics,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+MAL6220,Topology,Mathematics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+MAL7380,Representation of Finite Groups,Mathematics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MAL7340,Number Theory,Mathematics,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+MAL7090,Numerical Solutions of Partial Differential Equations,Mathematics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+MAL7130,Statistical Inference,Mathematics,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CSL7590,Deep Learning,Mathematics,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+MAL7430,Time Series Analysis,Mathematics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+MAL7500,Multi-Objective Optimization,Mathematics,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CSL7480,Cryptography,Mathematics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+QCL7350,Quantum Inspired Optimization,Mathematics,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+,Theory of Differential Equations,Mathematics,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+,Machine Learning and Pattern Recognition,Mathematics,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+,Numerical Analysis,Mathematics,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MAL7110,Foundations of Data Science,Mathematics,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+MAL7120,Data Analytics,Mathematics,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CSL7620,Machine Learning,Mathematics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CIN2010,Introduction to Profession,Civil and Infrastructure Engineering,NG2,
+CIL2110,Transportation Engineering-I,Civil and Infrastructure Engineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+CIL2090,Structural Analysis,Civil and Infrastructure Engineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+CIP2020,"Civil Engineering Laboratory - II (Structural Analysis Lab, Hydraulics Engineering Lab, Soil Mechanics Lab)",Civil and Infrastructure Engineering,-,
+CIL2100,Soil Mechanics,Civil and Infrastructure Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+CIL2120,Engineering Hydrology,Civil and Infrastructure Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+CIL2130,Air Pollution and Solid Waste Management,Civil and Infrastructure Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CIL3060,Advanced Structural Analysis,Civil and Infrastructure Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CIL3070,Water Resources Engineering,Civil and Infrastructure Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+CIL3080,Reinforced Concrete Design,Civil and Infrastructure Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+CIL3090,Smart Infrastructure Engineering,Civil and Infrastructure Engineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+CIP3040,Geotechnical Engineering Lab.,Civil and Infrastructure Engineering,-,
+CIL4010,Environmental Science,Civil and Infrastructure Engineering,V,Tue 12:00-12:50; Thu 12:00-12:50
+CIL7530,AI/ML in Infrastructure Engineering,Civil and Infrastructure Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CIL4340,Steel Structure Design,Civil and Infrastructure Engineering,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+CIL7390,Climate Change and Impact,Civil and Infrastructure Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CIL7390,Climate Change and Impact,Civil and Infrastructure Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CIL7390,Climate Change and Impact,Civil and Infrastructure Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CIL7320,Air Pollution and Control,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7320,Air Pollution and Control,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7320,Air Pollution and Control,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7320,Air Pollution and Control,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CIL4400,Pavement Engineering,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7440,Green Buildings and Sustainable Materials,Civil and Infrastructure Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CIL7440,Green Buildings and Sustainable Materials,Civil and Infrastructure Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CIL4370,Concrete Technology,Civil and Infrastructure Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CIL4410,Urban Transportation Planning,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7880,Design of Bridge Structures,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7880,Design of Bridge Structures,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7880,Design of Bridge Structures,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7040,Energy Geomechanics,Civil and Infrastructure Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CIL7080,Pollutant Transport Through Subsurface and In-situ Remediations,Civil and Infrastructure Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CIL7090,Wastewater Engineering,Civil and Infrastructure Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CIL7070,Environmental Chemistry,Civil and Infrastructure Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CIL7470,Foundation Engineering,Civil and Infrastructure Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CIL7400,Traffic System and Management,Civil and Infrastructure Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CIL7950,"Bridge Material, Construction and Evaluation",Civil and Infrastructure Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CIL7670,Prestressed Concrete Structures,Civil and Infrastructure Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CIL7460,Structural Dynamics,Civil and Infrastructure Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CIL7460,Structural Dynamics,Civil and Infrastructure Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CIL7840,Mathematics for Civil Engineering,Civil and Infrastructure Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CIL7840,Mathematics for Civil Engineering,Civil and Infrastructure Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CIL7840,Mathematics for Civil Engineering,Civil and Infrastructure Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CIL7830,Advanced Solid and Fluid Mechanics,Civil and Infrastructure Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CIL7830,Advanced Solid and Fluid Mechanics,Civil and Infrastructure Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CIL7830,Advanced Solid and Fluid Mechanics,Civil and Infrastructure Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CIL7870,Analysis of Bridge Structures,Civil and Infrastructure Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CIL7850,Water Quality and Advanced Treatment Processes,Civil and Infrastructure Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CIL7860,Wind Turbine and Field Design,Civil and Infrastructure Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CIN1010,Design/Practical Experience,Civil and Infrastructure Engineering,NG1,
+CIN2030,Design/Practical Experience,Civil and Infrastructure Engineering,NG1,
+CIN3010,Design/Practical Experience,Civil and Infrastructure Engineering,NG1,
+CIT7020,MTech Thesis Part-2,Civil and Infrastructure Engineering,T,
+CIT8960,Thesis,Civil and Infrastructure Engineering,T,
+CIT8980,Thesis,Civil and Infrastructure Engineering,T,
+CIT8990,Thesis,Civil and Infrastructure Engineering,T,
+EAL7020,Machine Learning in Energy Systems,Energy and Automotive Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+EAL7030,Energy Storage Technologies,Energy and Automotive Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+EAL7320,Solar Energy and Applications,Energy and Automotive Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+EAL7330,Life Cycle Analysis and Sustainable Engineering Concepts,Energy and Automotive Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+EAL7340,Selected Topics in Energy Engineering (Dynamic Modelling of Energy Systems),Energy and Automotive Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+EAP7020,Energy Engineering Laboratory-II,Energy and Automotive Engineering,L2,
+BBL1XXX,Introduction to Bioengineering,Bioscience & Bioengineering,AN,
+OAE1020,Engineering Design II,Bioscience & Bioengineering,TBD,
+BBN1XXX,Introduction to Profession,Bioscience & Bioengineering,NG-1,
+BBL2XXX,Biophysics and Structural Biology,Bioscience & Bioengineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+BBL2XXX,Biology of Cells,Bioscience & Bioengineering,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+EEL2010,Signals and Systems,Bioscience & Bioengineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+BBL2XXX,Analytical Techniques for Bioengineering,Bioscience & Bioengineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+BBL2XXX,Quantitative Physiology,Bioscience & Bioengineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+BBP2XXX,Analytical Techniques Lab,Bioscience & Bioengineering,M,
+,HSS I,Bioscience & Bioengineering,SoLA,
+BBL3010,Introductory Omics,Bioscience & Bioengineering,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+BBL3020,Biomaterials Engineering,Bioscience & Bioengineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+BBL3030,Biophysics & Structural Biology,Bioscience & Bioengineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+CSL4020,Deep Learning,Bioscience & Bioengineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+EEL3100,Bioimaging,Bioscience & Bioengineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+LAN3020,Professional Ethics II,Bioscience & Bioengineering,NG (Tuesday),
+,Humanities IV,Bioscience & Bioengineering,SoLA,
+BBL7XXX,Microbiomics,Bioscience & Bioengineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+BBL4050,Modern Approaches of Drug Designing,Bioscience & Bioengineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+BBL7XXX,Computational Structural Bioinformatics,Bioscience & Bioengineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+BBL7XXX,Precision P4 Medicine,Bioscience & Bioengineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+BBL7330,Quantitative Physiology,Bioscience & Bioengineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+BBL4030,Tissue Engineering,Bioscience & Bioengineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+BBL4340/EEL4340,Digital Image Processing,Bioscience & Bioengineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+BBL4XXX,Microbial Remediation and Environmental Bioengineering,Bioscience & Bioengineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+BBL1020,Introduction to Bioengineering,Bioscience & Bioengineering,AN,
+LAL2030,Regional literature in translation,Bioscience & Bioengineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+EEL1010,Introduction to Electrical Engineering,Bioscience & Bioengineering,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+OSN1040,Social Connect and Responsibilities II,Bioscience & Bioengineering,TBD,
+BBN1010,Design Practical Experience,Bioscience & Bioengineering,NG3,
+OSN1050,Performing Arts II,Bioscience & Bioengineering,NG (Tuesday),
+BBL7XX0,Engineering of Biological Systems,Bioscience & Bioengineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+BBL7660,Imaging Cell Biology,Bioscience & Bioengineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+BBL7650,Omics Technologies,Bioscience & Bioengineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+BBP7660,Bioimaging Laboratory,Bioscience & Bioengineering,L,
+BBP7650,Next Generation Sequencing Lab,Bioscience & Bioengineering,L,
+BBL7630,Advanced Bioengineering,Bioscience & Bioengineering,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+MSL71380,Innovation and IP Management,Bioscience & Bioengineering,TBD,
+BBT8050,M.Tech Thesis II,Bioscience & Bioengineering,T1,
+BBT8990,Thesis,Bioscience & Bioengineering,T,
+CYL4XX0,Organic Synthesis,Chemistry,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CYL4XX0,Heterocyclic Compounds and Applications,Chemistry,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+CYL4XX0,Solid State and Material Chemistry,Chemistry,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+CYL4XX0,Inductrial Catalysis,Chemistry,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+CYL4XX0,Statistical Thermodynamics,Chemistry,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+CYL4XX0,Principles of Spectroscopy,Chemistry,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CYP4XX0,Physical and Computational Chemistry Lab,Chemistry,M3,
+CYL7XX0,Frontiers in Organometalliic Catalysis,Chemistry,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CYL7XX0,Frontiers in Organic Chemistry,Chemistry,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CYL7XX0,Advance Fluorescence Microscopy Technique and Application,Chemistry,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CYL6XX0,Supramolecular Chemistry and Applications,Chemistry,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+CYL7XX0,Asymmetric Catalysis and Application,Chemistry,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+CYL7XX0,Molecular Dynamics Simulations,Chemistry,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+CYL7XX0,Crystallography and X-ray Techniques for Chemists,Chemistry,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CYL4XX0,Polymer Material Science,Chemistry,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CYL7XX0,Introduction to Quantum Information/Seminal features of Quantum Information,Chemistry,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+CYL1010,Chemistry Theory,Chemistry,AF,
+CYP1010,Chemistry Laboratory,Chemistry,M2,
+CYL2XX0,Chemistry of Engineering Materials,Chemistry,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+CYL2XX0,Quantum Computing in Chemistry,Chemistry,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CYL2XX0,Principles of Spectroscopy,Chemistry,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+CYL2XX0,Entrepreneurship for Chemists,Chemistry,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+CYP2XX0,Inorganic Chemistry Lab,Chemistry,M4,
+CYP2XX0,Physical and Computational Chemistry Lab,Chemistry,M5,
+CYL3040,Fundamentals of Molecular Spectroscopy,Chemistry,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+CYL3050,Organometallics,Chemistry,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+CYL3060,Purification and Characterization of Organic Molecules,Chemistry,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+CYL3070,"Chemical Kinetics, Photochemistry, and Theory of Solutions",Chemistry,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CYL3070,Entrepreneurship for Chemists,Chemistry,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+CYP3050,Inorganic Chemistry Lab 2,Chemistry,M8,
+CYP3070,Physical Chemistry Lab 2,Chemistry,M9,
+CYL1040,General Chemistry 2,Chemistry,CU,
+CYL2080,Chemistry of Inorganic Compounds,Chemistry,CD,
+CYL2090,Equilibrium Thermodynamics,Chemistry,CA,
+CYL2110,Separation and Structural Elucidation of Organic Compounds,Chemistry,CE,
+,Specialized Laboratory -2,Chemistry,TBA,
+CYL3XX0,Organic Synthesis,Chemistry,CE,
+CYL3XX0,Industrial Catalysis,Chemistry,CC,
+CYL3XX0,Heterocyclic Compounds and Application,Chemistry,CE,
+CYL3XX0,Principles of Spectroscopy,Chemistry,CD,
+CYL3XX0,Statistical Thermodynamics,Chemistry,CD,
+CYL3XX0,Solid State and Material Chemistry,Chemistry,CK,
+CYL7010,Chemistry 1,Chemistry,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CYL7020,Chemistry 2,Chemistry,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CYL7340,Frontiers in Organic Chemistry,Chemistry,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CYL7360,Spectroscopic Determination of Organic Compounds,Chemistry,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CYL7XX0,Crystallography and X-ray Techniques for Chemists,Chemistry,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CYL7420,Characterization Techniques in Inorganic Chemistry,Chemistry,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+CYL7XX0,Quantum and Statistical Mechanics and Applications,Chemistry,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+OAE1020,Engineering Design-II,Chemistry,M8,
+CYO8960,Research proposal,Chemistry,T,
+CYO8970,Research Proposal,Chemistry,T,
+EDL1030,Design and Computational Thinking,Centre for Education Technology,CA,
+EDL1020,Teacher and Society,Centre for Education Technology,CD,
+EDL2030,Content-cum-pedagogy of Mathematics at the Secondary Stage-1,Centre for Education Technology,CV,
+EDL2020,Content-cum-pedagogy of the Physical Sciences at the Secondary Stage-1,Centre for Education Technology,CC,
+EDL3050,Content-cum-Pedagogy of Mathematics at the Secondary Stage-3,Centre for Education Technology,"CA, M8 Lab",
+EDL3060,Content-cum-Pedagogy of the Physical Sciences at the Secondary Stage-3,Centre for Education Technology,"CN, M3 Lab",
+EDL3070,School Observation,Centre for Education Technology,"CB, M9 Lab",
+EDL3080,Assessment and Evaluation,Centre for Education Technology,CU,
+,Engineering Workshop,Mechanical Engineering,M3,
+,Heat and Mass Transfer,Mechanical Engineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+,Engineering Materials and Processing Techniques,Mechanical Engineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+,Mechanics of Solids,Mechanical Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+,Mechanical Measurements and Metrology,Mechanical Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+,Mechanical Measurements and Characterization Lab,Mechanical Engineering,M1,
+MEN1010,Design/Practical Experience-I,Mechanical Engineering,NG2,
+MEL3060,Design of Machine Elements,Mechanical Engineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+MEL3090,Smart Manufacturing,Mechanical Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+MEL3070,Thermofluids Engineering,Mechanical Engineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+MEL3080,Control of Mechanical Systems,Mechanical Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+MEP3030,Machining and Automated Manufacturing Lab,Mechanical Engineering,M2,
+MEN2020,Design/Practical Experience-II,Mechanical Engineering,NG2,
+MEN3010,Design/Practical Experience-III,Mechanical Engineering,NG2,
+MEL4XX0,Basics of finite element methods,Mechanical Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+ME7XX0,Engineering Fracture Mechanics,Mechanical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MEL4XX0,Refrigeration and Air-conditioning,Mechanical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+MEL7XX0,Power Plant Engineering,Mechanical Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+MEL6XX0,Porous Media Flows and Applications,Mechanical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+MEL6XX0,Introduction to Robotics,Mechanical Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+MEL7XX0,Conduction and Radiation,Mechanical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MEL7XX0,Combustion Technology,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MEL7XX0,Computer-Aided Manufacturing,Mechanical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MEL7XX0,Convective Heat and Mass Transfer,Mechanical Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+MEL7XX0,"AI, ML and Big Data for Solid Mechanics or Artificial Intelligence for Manufacturing Applications or Machine Learning for Thermofluids",Mechanical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+,Artificial Intelligence for Manufacturing Applications,Mechanical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+,Conventional and Advanced Manufacturing Processes,Mechanical Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+,Thesis,Mechanical Engineering,T,
+,Theory of Arc Welding,Mechanical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+,Artificial Intelligence for Manufacturing Applications,Mechanical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+,Conventional and Advanced Manufacturing Processes,Mechanical Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+,Materials Design and Evaluation Techniques,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MEL7XX0,Engineering Mathematics,Mechanical Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+,Advanced Mechanical Design,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+,Thesis,Mechanical Engineering,T,
+,Dynamics and Vibrations of Mechanical systems,Mechanical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+,Sports Biomechanics,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+,Engineering Fracture Mechanics,Mechanical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+,Advanced Mechanical Design,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+,Theory of elasticity,Mechanical Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+,"AI, ML and Big Data for Solid Mechanics",Mechanical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+MEL7XX0,Engineering Mathematics,Mechanical Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+MEL7XX0,Experimental and Computational Techniques,Mechanical Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+MEP7XX0,Thermo-Fluids Engineering Lab,Mechanical Engineering,L1,
+,Thesis,Mechanical Engineering,T,
+MEL7XX0,Engineering Thermodynamics,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MEL7XX0,Conduction and Radiation,Mechanical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MEL7XX0,Nanosensors,Mechanical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+MEL7XX0,Convective Heat and Mass Transfer,Mechanical Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+MEL7XX0,Combustion Technology,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MEL7XX0,Turbulent Flows,Mechanical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+MEL7XX0,Machine Learning in ThermoFluids,Mechanical Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+MEL7XX0,Probabilistic methods in Engineering Design,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MEL7XX0,Special Topics,Mechanical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MEL7XX0,Experimental and Computational Techniques,Mechanical Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+MEL7XX0,Incompressible Fluid Flow,Mechanical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+MEL7XX0,Engineering Mathematics,Mechanical Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+MEL7XX0,Applied Heat and Mass Transfer,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+,Mobile Robots,Mechanical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+,Thesis,Mechanical Engineering,T,
+,Computer-Aided Manufacturing,Mechanical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+,Advanced Robotic Manipulation,Mechanical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+MEL7080,Robotics,Mechanical Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+,Mathematics for Robotics,Mechanical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+,PhD Thesis,Mechanical Engineering,T,
+,Kinetics of Materials,Materials Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+,Materials for Functional Applications,Materials Engineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+MTL2020,Materials for Energy Conversion and Storage,Materials Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+,Transport Phenomena in Materials,Materials Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+,Mechanical Behaviour of Materials,Materials Engineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+,Materials for Functional Applications Lab,Materials Engineering,"M7,M8",
+MTL3050,Computational Modelling of Materials,Materials Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+MTL3060,Materials Processing and Manufacturing,Materials Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+MTL3070,Extraction of Non-Ferrous Metals,Materials Engineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+MTL3080,Iron and Steel Making,Materials Engineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+MTL3090,Smart Materials,Materials Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+MTP3040,Computational Modelling of Materials Lab,Materials Engineering,M5,
+,Degradation and Failure of Materials,Materials Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+MTL4340,Synthesis and Processing of Semiconductors and 2D materials,Materials Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+MTL7440,High Temperature Materials,Materials Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MTL7490,Processing and Engineering Application of Magnetic Materials,Materials Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MTL7680,Advanced Transmission Electron Microscopy,Materials Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+MTL7160,Fracture and Fatigue,Materials Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MTL7340,Thermo Mechanical Processing,Materials Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MTL7200,Modelling in Materials Engineering,Materials Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+MTL7760,Solar Cell Materials and Devices,Materials Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MTL7110,Solidification of Metals and Alloys,Materials Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MTL7280,Fundamentals and applications of battery materials,Materials Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+MTL7060,Advanced Phase transformations,Materials Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+MTL7150,Functional Materials,Materials Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+,Computational Electrochemistry and AI-driven Battery Design & Diagnostics,Materials Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+,Composite Mechanics and Performance Evaluation,Materials Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+,Advanced Battery Chemistry for Large-Scale Energy Storage,Materials Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+,Battery Management Systems,Materials Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+,Solid-State Batteries,Materials Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+,Ceramic Matrix Composites,Materials Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+,Functional Nanocomposites and Hybrid Composites,Materials Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+,Machining and Tribology of Composites,Materials Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+,Advanced Composite Design & Analysis,Materials Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+MTT8020,M.Tech. Thesis Part 2,Materials Engineering,T,
+,M.Tech. Thesis - Part Time,Materials Engineering,T,
+MTT8980,Thesis,Materials Engineering,T,
+MTT8990,Thesis,Materials Engineering,T,
+MTT8970,Thesis,Materials Engineering,T,
+MTN1010,Design Practical Experience,Materials Engineering,NG,
+MTN2020,Design Practical Experience,Materials Engineering,NG,
+MTN3010,Design Practical Experience,Materials Engineering,NG,
+LAL1170,Literature and Technology,School of Liberal Arts (Humanities),AZ,
+LAL1180,Leadership and Workplace Behavior,School of Liberal Arts (Humanities),AZ,
+LAL1200,Health and Technology,School of Liberal Arts (Humanities),AZ,
+LAL1150,"Science, Technology, and Society",School of Liberal Arts (Humanities),AZ,
+LAL1160,Indian Society,School of Liberal Arts (Humanities),AZ,
+LAL1190,Human Development and Technology,School of Liberal Arts (Humanities),AZ,
+,Basics of Leadership,School of Liberal Arts (Humanities),D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+LAL4650,Engineering Psychology,School of Liberal Arts (Humanities),D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+LAL4050,Critical Thinking,School of Liberal Arts (Humanities),C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+LAL4030,Disaster Risk Reduction and Management,School of Liberal Arts (Humanities),D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+LAL4360,Political and Culutral Ecology,School of Liberal Arts (Humanities),C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+HSL4010,Fundamentals of Logic,School of Liberal Arts (Humanities),C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+HSL4350,Gandhian Thought,School of Liberal Arts (Humanities),C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+LAL6410,Archiving and Databases,School of Liberal Arts (Humanities),E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+LAP6040,Archiving and Digital Publishing Lab,School of Liberal Arts (Humanities),M8,
+LAL6380,Digital Publishing,School of Liberal Arts (Humanities),D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+LAL6390,New Media Studies,School of Liberal Arts (Humanities),I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+LAL6370,Methods and Methodologies in Digital Humanities,School of Liberal Arts (Humanities),J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+LAL6280,AI and ML for Social Sciences & Humanities,School of Liberal Arts (Humanities),F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+DHD7020,Project 2,School of Liberal Arts (Humanities),T,
+LAL6270,Applied Economic Foundations for Social Sciences,School of Liberal Arts (Humanities),E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+LAL6130,Introduction to Policy Studies,School of Liberal Arts (Humanities),I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+LAL6070,Social Realities,School of Liberal Arts (Humanities),H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+LAL6260,Health and Society,School of Liberal Arts (Humanities),U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+LAL6250,Computational Methods in Indian Knowledge Systems,School of Liberal Arts (Humanities),C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+LAL6280,AI and Machine Learning for Social Sciences & Humanities,School of Liberal Arts (Humanities),F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+LAL6200,Video games and Society,School of Liberal Arts (Humanities),G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+LAD7050,Project,School of Liberal Arts (Humanities),T,
+LAL1060,Language-2-English,School of Liberal Arts (Humanities),CC,
+LAL2210,Philosophical and Sociological Perspectives in Education-1,School of Liberal Arts (Humanities),CU,
+LAN7020,Ethics and Professional Life,School of Liberal Arts (Humanities),NG (Wednesday),
+LAN3020,Professional Ethics - II,School of Liberal Arts (Humanities),NG (Tuesday),
+LAL7870,"Histories, Philosophies, and Critical Approaches to the Liberal Arts",School of Liberal Arts (Humanities),H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+LAL7560,World Literature & Global Cinema,School of Liberal Arts (Humanities),I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+LAL7040,Digital Storytelling,School of Liberal Arts (Humanities),J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+LAL2030,Regional Literature in translation,School of Liberal Arts (Humanities),J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+OSN1050,Performing arts 2,School of Liberal Arts (Humanities),NG (Tuesday),
+ECL2XXX,Circuit Theory,Electronics Engineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+ECL2XXX,Engineering Electromagnetics,Electronics Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+ECL2XXX,Digital Design,Electronics Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+ECL2XXX,Semiconductor Devices and Technology,Electronics Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+ECP2XXX,ECE Lab I,Electronics Engineering,"M6,M8, M10",
+ECL71590,Advanced Electromagnetics,Electronics Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+ECL71610,Microwave Circuits,Electronics Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+ECL71550,Fiber Optic Devices and Components,Electronics Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+ECP71610,Microwave Circuits Lab,Electronics Engineering,M4,
+ECL7XXXX,Microwave and Optical Measurements,Electronics Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+ECP7XXXX,Microwave and Optical Measurements Lab,Electronics Engineering,M6,
+ECL7XX0,Optical Communication Systems,Electronics Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+ECL7XX0,Photonic Devices and Circuits,Electronics Engineering,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+ECL7XX0,RFIC and MMIC,Electronics Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+ECL7XX0,Antennas and Wave Propagation,Electronics Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+ECL7XX0,IR Detectors and Imaging,Electronics Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+ECL7XX0,RF System Design for Communications,Electronics Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+ECL7010,Applied Linear Algebra,Electronics Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+ECL7008,Digital Communications,Electronics Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+ECL7020,Statistical Signal Analysis,Electronics Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+ECL7XXX,Wireless Communication,Electronics Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+ECL7XXX,Machine Learning for Communications,Electronics Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+ECL7XXX,RF system design for Communications,Electronics Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+ECL7XXX,Coding Theory,Electronics Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+ECL7XXX,Data Communication and Networking,Electronics Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+ECL7XX0,IC Technology,Electronics Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+ECP7XX0,IC Fabrication Lab,Electronics Engineering,M4,
+ECL71580,Solid State Devices,Electronics Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+ECL7980,Analog IC Design,Electronics Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+ECL7320,Digital VLSI Design,Electronics Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+ECL7XX0,Hardware Design for Artificial Intelligence,Electronics Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+ECL7XX0,In-Memory Computing,Electronics Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+ECL7XX0,Mixed Signal Circuit Design,Electronics Engineering,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+ECL7XX0,SoC Testing & Verification,Electronics Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+CHL3070,Mass transfer II,Chemical Engineering,A & M2+M7 (1-4 pm),
+CHL4030,Process Plant Design & Economics,Chemical Engineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+CHL4010,Transport Phenomena,Chemical Engineering,C & Tutorial (Wed 5-5:50 pm),
+CHL4020,Process Control and AI Applications,Chemical Engineering,D & M3,
+CHP3060,Fluid Mechanics-Lab,Chemical Engineering,M4,
+CHL2070,Chemical Engineering Thermodynamics,Chemical Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+CHL2080,Process Heat Transfer,Chemical Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+CHL2090,Chemical Reaction Engineering,Chemical Engineering,B & Tutorial (Tue 5-5:50 pm),
+CHL2100,Mass Transfer – I,Chemical Engineering,A & Tutorial (Fri 6-6:50 pm),
+CHL2110,Fuel and Energy Technology,Chemical Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CHL2120,Chemical Engineering Lab I,Chemical Engineering,M1+M6 (1-4) & M5+M10 (1-4),
+CHL7090,Advanced Thermodynamics,Chemical Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CHL7020,Advanced Mathematical Methods in Chemical Engineering,Chemical Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CHL7070,Advanced Reaction Engineering,Chemical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+,Advanced Transport Phenomena,Chemical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CHL4360,Biochemical Engineering (UG),Chemical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+CHL7380,"Modelling of Atoms, Molecules & Surfaces (UG/PG)",Chemical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CHL7360,Data Analytics in Process Modelling and Simulation (UG),Chemical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+CHL7450,Principle of Electrochemical Engineering (PG),Chemical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CHL4420,Membrane Technology (UG),Chemical Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+CHL7800,Novel Separation Processes (PG),Chemical Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+CHL7480,Artificial Intelligence in Chemical Reactor Control (UG),Chemical Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+CHL7530,Heterogeneous Catalysis and Catalytic Reactors (PG),Chemical Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+CHL4210,Solid waste management (UG),Chemical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+CHL7230,Ocean Thermal Energy Conversion (OTEC) Process (UG),Chemical Engineering,N (Friday 5-5:50),
+CHL4350,Petrochemical Engineering (UG),Chemical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+CHL7730,Advanced Wastewater Treatment (PG),Chemical Engineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+CHL4450,Interfacial Engineering in Soft Matter (UG),Chemical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+CHL7490,Structure-property of polymers (UG/PG),Chemical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CHN1010,Design Credit,Chemical Engineering,NG1,
+CHN2010,Design Credit,Chemical Engineering,NG2,
+CHN3010,Design Credit,Chemical Engineering,NG3,
+CHT8980,Thesis,Chemical Engineering,T,
+CHT8990,Thesis,Chemical Engineering,T,
+CHT8970,Thesis,Chemical Engineering,T,
+CHT7020,Thesis (M.Tech),Chemical Engineering,T,
+EEL2040,Engineering Electromagnetics,Electrical Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+EEL2XXX,Digital Design,Electrical Engineering,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+EEL2XXX,Engineering Optimization,Electrical Engineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+EEL3020,Electrical Machines,Electrical Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+EEL2XXX,Statistical Inference and Modeling,Electrical Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+EEP2XXX,Electrical Engineering Lab I,Electrical Engineering,"M3, M4, M5",
+EEL3060,Power Engineering,Electrical Engineering,"E, M7, M10",
+EEL3070,Digital Signal Processing,Electrical Engineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+EEP3030,Electrical Machines Lab,Electrical Engineering,"M1, M7, M9",
+EEL3090,Embedded Systems,Electrical Engineering,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+EEL3080,Data Communication Networks,Electrical Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+EEP3020,Digital Systems Lab,Electrical Engineering,"M1, M2",
+EEP3010,Communication Systems Lab,Electrical Engineering,"M1, M2",
+EEL7140,Advanced Control System,Electrical Engineering,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+EEL7300,Computational Methods in Power System Analysis,Electrical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+EEL7700,Electric Drive Systems,Electrical Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+EEL71720,Power Electronic Converters,Electrical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+EEP7140,Integrated Power and Drives Laboratory,Electrical Engineering,L9,
+EEL7080,Introduction to CyberPhysical Systems,Electrical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+EEL7150,Embedded System Design,Electrical Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+EEL7200,Data Communication and Networking,Electrical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+EEL7XXX,Optimization Methods for Power System,Electrical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+EEL7XXX,Control Techniques in Power Engineering,Electrical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+EEL7XXX,Modern Power System Operation and Control,Electrical Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+EEL7340,Power System Protection,Electrical Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+EEL7220,Renewable Energy Systems,Electrical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+EEL7030,Advanced Digital Signal Processing,Electrical Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+RML7220,Mobile Robots,Electrical Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+MEL7080,Robotics,Electrical Engineering,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+RML7310,Networked Dynamical Systems and Control,Electrical Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+EEL7XXX,Optimization Techniques for Signal Representation and Processing,Electrical Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+EEL1010,Introduction to Electrical Engineering,Electrical Engineering,"U, M6 (Tentative)",
+EEL7009,Applied Linear Algebra,Electrical Engineering,N,Tue 08:00-08:50; Thu 08:00-08:50; Fri 17:00-17:50
+DSL7130,Character Design,School of Design,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+DSL7140,Animation Principles and Techniques,School of Design,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+DSL7200,Usability Engineering,School of Design,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+DSL7220,Principles of Game Design,School of Design,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+DSL7550,Designing Data Visualizations,School of Design,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+DSL7540,Product Visualisation and Ideation,School of Design,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+DSL7630,AI and ML for Smart Product Design,School of Design,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+DSL7550,Designing Data Visualisations,School of Design,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+DSL7560,Computer-Aided Design,School of Design,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+DSL7570,Product Semantics,School of Design,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+DSL7580,Nature-inspired Design,School of Design,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+DSL7590,Product Ergonomics,School of Design,"H, L7",
+DSL7610,Special Topics in Smart Product Design,School of Design,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+SEL7010,Sustainability Assessment Techniques,Environment & Sustainability Engineering,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+SEL7020,Resource Resilience,Environment & Sustainability Engineering,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+SEL7030,Systems Approach to Sustainable Development,Environment & Sustainability Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+SEL7040,Environmental Technologies,Environment & Sustainability Engineering,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+SEL7050,Water Sustainability,Environment & Sustainability Engineering,K,Mon 08:00-08:50; Wed 08:00-08:50; Fri 08:00-08:50
+SEL7110,Biodiversity and Natural Resources,Environment & Sustainability Engineering,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+SEL7120,"Climate change Risk, Adaptation and Mitigation",Environment & Sustainability Engineering,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50
+PHL1040,General Physics-II,Physics,CK,
+PHL2200,Electromagnetic Theory,Physics,CD,
+PHL2XXX,Foundations of Quantum and Modern Physics,Physics,CE,
+,Foundations of Quantum and Modern Physics,Physics,CE,
+,Foundations of Nuclear and Particle Physics,Physics,CK,
+,Introduction to Materials Characterization,Physics,CC,
+,Electronics II,Physics,CD,
+PHL1010,Electromagnetism & Optics (Theory),Physics,K & G (UG1 TT),
+PHP1010,Electromagnetism & Optics (Lab),Physics,M1 (UG1 TT),
+OSN1040,Social Connect and Responsibilities (2 Faculty),Physics,manage centrally,
+OAE1020,Engineering Design II (2 Faculty),Physics,manage centrally,
+,Modern Physics,Physics,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+,Semiconducting and Optoelectronic Devices,Physics,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+,Crystallography,Physics,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+,Scientific Computing and Machine Learning,Physics,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+,Quantum Information,Physics,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+,General Engineering Physics Lab,Physics,M1,
+PHL3040,Medical Physics,Physics,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+PHL3050,Nuclear Radiation and Energy,Physics,C,Mon 10:00-10:50; Wed 10:00-10:50; Thu 10:00-10:50
+PHL3060,Interaction of Radiation with matter,Physics,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+PHL3070,Semiconducting and Optoelectronic Devices,Physics,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+PHL3080,Entrepreneurship for Physicists,Physics,V,Tue 12:00-12:50; Thu 12:00-12:50
+PHP3040,Applied Optics Lab,Physics,M2,
+PHP3050,Modern physics Lab,Physics,M3,
+PHP3060,Radiation and Particle Detection Lab,Physics,M4,
+PHN2020,Design/Practical Experience,Physics,NG,
+QCL4020,Quantum Computing,Physics,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+,SC (SME) - Course 1,Physics,due if floatted,
+,EM and Neutrino Astronomy,Physics,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+PHD6300,Specilization Core Project (SC),Physics,T1,
+PHN3020,Design/Practical Experience,Physics,NG,
+PHD7700,Specilization Elective Project (SE),Physics,T2,
+PHL6060,Electrodynamics,Physics,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+PHL6070,Condensed Matter Physics,Physics,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+PHL6080,Atomic and Molecular Spectroscopy,Physics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+PHL6090,Nuclear and Particle Physics,Physics,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+PHP6040,Advanced Quantum Mechanics,Physics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+PHP6050,Scientific Computing and Machine Learning,Physics,D,Mon 11:00-11:50; Wed 11:00-11:50; Fri 10:00-10:50
+PHP6060,Physics Lab 2,Physics,L1,
+PHD6050,MSc. Project II,Physics,T,
+PHL7550,Advanced Statistical Physics,Physics,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+,Advanced Condensed Matter Physics,Physics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+,Cold Plasma Technologies,Physics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+,Energy Harvesting,Physics,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+,Open Quantum Systems,Physics,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+,GTR,Physics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+,Laser Technology and Ultrafast optics,Physics,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+QCL7330,Device Indepedent Quantum Technologies,Physics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+QCL7380,Continous variable quantum information,Physics,F,Mon 14:00-14:50; Tue 14:00-14:50; Thu 14:00-14:50
+,Open Quantum Systems,Physics,I,Mon 16:00-16:50; Wed 16:00-16:50; Fri 15:00-15:50
+QCL7010,Seminal Features of Quantum information processing,Physics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+QCL7330,Device Indepedent Quantum Technologies,Physics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+QCL7070,Quantum Computation (Newtech),Physics,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+QCL7080,Introduction to Quantum Information (Newtech),Physics,G,Tue 15:00-15:50; Wed 14:00-14:50; Fri 14:00-14:50
+QCL7350,Quantum-Inspired Optimization (Newtech),Physics,H,Mon 15:00-15:50; Wed 15:00-15:50; Thu 15:00-15:50
+QCL7320,Quantum cryptography and coding (Newtech),Physics,J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+PHT8970,Thesis,Physics,T,
+QCT8970,Thesis,Physics,T,
+CSL3090,Artificial Intelligence,Computer Science & Engineering,B,Tue 10:00-10:50; Wed 09:00-09:50; Fri 09:00-09:50
+CSD4030,B Tech Project,Computer Science & Engineering,T1,
+LAL3020,Popular classics,School of Liberal Arts (Humanities),J,Tue 16:00-16:50; Thu 16:00-16:50; Fri 16:00-16:50
+CSN3020,Design Practical Experience,Computer Science & Engineering,NG3,
+CSL7650,Autonomous Systems,Computer Science & Engineering,E,Tue 11:00-11:50; Thu 11:00-11:50; Fri 11:00-11:50
+AIL6110,Decision Sciences Applications,School of Artificial Intelligence & Data Science,A,Mon 09:00-09:50; Tue 09:00-09:50; Thu 09:00-09:50
+MSL4010,Introduction to Business and Management,School of Management & Entrepreneurship,U,Mon 12:00-12:50; Wed 12:00-12:50; Fri 12:00-12:50

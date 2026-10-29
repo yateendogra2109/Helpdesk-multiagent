@@ -1,0 +1,615 @@
+course_code,course_name,department,level,credits,type,category,offered_for,semester,instructor_name,instructor_id,slot
+AIL7550,AI and Cybersecurity,School of Artificial Intelligence & Data Science,700,3,,,,2026-I,Manish Aggarwal,F203,U
+MSL71210,Information Technology Framework,School of Artificial Intelligence & Data Science,700,2,,,,2026-I,Manish Aggarwal,F203,V
+AIL4080,Introduction to Cognitive Science,School of Artificial Intelligence & Data Science,400,3,,,,2026-I,Shilpa Dang,F204,I
+AIL7150,Connectomics,School of Artificial Intelligence & Data Science,700,3,,,,2026-I,Shilpa Dang,F204,J
+AIT8960,PhD Thesis,School of Artificial Intelligence & Data Science,800,8,,,,2026-I,Anil Kumar Tiwari/Head,F132,T
+AIT8970,PhD Thesis,School of Artificial Intelligence & Data Science,800,16,,,,2026-I,Anil Kumar Tiwari/Head,F132,T
+AIT8980,PhD Thesis,School of Artificial Intelligence & Data Science,800,6,,,,2026-I,Anil Kumar Tiwari/Head,F132,T
+AIT8990,PhD Thesis,School of Artificial Intelligence & Data Science,800,12,,,,2026-I,Anil Kumar Tiwari/Head,F132,T
+MSL73140,Business Economics-II,School of Management & Entrepreneurship,700,3,Core,,MBA 1st Year Core,2026-I,"Seema, Bhushan & Devi",F128;F124;F125,A
+MSP7040,Business Plan Phase II,School of Management & Entrepreneurship,700,4,Elective,,Compulsory elective for BS Entrepreneurship Specialization,2026-I,"Vidit, Jitesh & Ansita",,N
+MSN7060,Corporate Communication,School of Management & Entrepreneurship,700,1,Core,,MBA/PhD Core (Non-Graded),2026-I,,,E
+MSP7060,Data Management & Analysis,School of Management & Entrepreneurship,700,2,Elective,,Elective for minor/ Core for BS Entrepreneurship Specialization,2026-I,Bhargab,,U
+MSL7370,Deep Learning Applications for Business,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Aman Pathak,,D
+MSL73720,Design Thinking and Innovation Strategy,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Design Faculty,,K
+MSL73710,Digital Business Models,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Vidit Mohan (2) & Jitesh Mohnot (1),,G
+MSL73180,Digital Enterprise Management,School of Management & Entrepreneurship,700,3,Core,,MBA 1st Year Core,2026-I,Aman Pathak,,B
+MSL74430,Foundations of Research in Marketing,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Neha,F020,K
+MSL73790,Game Theory for Business Decisions,School of Management & Entrepreneurship,700,3,Elective,,Elective for minor/BS Entrepreneurship Specialization,2026-I,Srivatsa Srinivas S,F127,I
+MSL7110,Global Economy,School of Management & Entrepreneurship,700,1,Elective,,Elective for minor/BS Entrepreneurship Specialization,2026-I,Devi Prasad Dash,F125,C
+MSL73890,Integrated Marketing Communications,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Neha,F020,F
+MSL73690,International Business,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Bhushan Praveen Jangam,F124,V
+MSL4020,Introduction to Entrepreneurship,School of Management & Entrepreneurship,400,3,Core,,Core for BS Entrepreneurship Specialization,2026-I,Ansita Agarwal,,A
+MSL73170,Introduction to Operations Management,School of Management & Entrepreneurship,700,3,Core,,MBA 1st Year Core,2026-I,Monika Tanwar,,C
+MSL73990,Investment and Portfolio Management,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Manisha Yadav,,E
+MSL73190,Legal and Taxation Aspects of Business,School of Management & Entrepreneurship,700,3,Core,,MBA 1st Year Core,2026-I,Manu Kanchan & Jitesh Mohnot,,D
+MSL73780,Logistics Management,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Monika Tanwar,,A
+MSL7140,Managing Digital Enterprises,School of Management & Entrepreneurship,700,2,Core,,Core for Minor,2026-I,Deepak Saxena,,V
+MSL7120,Managing Human Capital,School of Management & Entrepreneurship,700,2,Elective,,Elective for minor/BS Entrepreneurship Specialization,2026-I,Venkat Ram Reddy,,B
+MSL73130,Marketing Frameworks and Practice,School of Management & Entrepreneurship,700,3,Core,,MBA 1st Year Core,2026-I,Neha & Anuj Kapoor,F020,F
+MSL73870,"Marketing of Services – People, Process and Environment",School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Manu Kanchan,,H
+MSP7090,MBA Project Tech solution,School of Management & Entrepreneurship,700,3,,,MBA 2nd Year (Project),2026-I,Manu Kanchan,,M10
+MSL74010,"Money, Banking and Financial Markets",School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Seema Saini,F128,N
+MSL74290,Neuro Marketing,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Anuj Pal Kapoor,,B
+MSL73670,New Venture Financing,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Ansita Agarwal,,J
+MSL73160,New Venture Planning,School of Management & Entrepreneurship,700,3,Core,,MBA 1st Year Core,2026-I,Vidit Mohan,,I
+MSL7180,Operations Management,School of Management & Entrepreneurship,700,2,Elective,,Elective for minor/BS Entrepreneurship Specialization,2026-I,Vinod Vijay Kumar,,D
+MSL74300,Social Media Analytics,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Deepak Srivastav,,J
+MSL73150,Strategic Management,School of Management & Entrepreneurship,700,3,Core,,MBA 1st Year Core,2026-I,Jitesh Mohnot,,H
+MSL73750,Supply Chain Analytics,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Magesh Nagarajan,,C
+MSL73740,Technology Forecasting and Assessment,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Vinod Vijay Kumar,,U
+MSL74100,Technology Leadership,School of Management & Entrepreneurship,700,3,Elective,,MBA 2nd Year Elective,2026-I,Venkat Ram Reddy,,A
+MST8060,Thesis,School of Management & Entrepreneurship,800,12,,,PhD,2026-I,Venkat Ram Reddy,,B
+MST8030,Thesis,School of Management & Entrepreneurship,800,16,,,PhD,2026-I,Venkat Ram Reddy,,C
+ENL1040,Introduction to Green Economy,Economics,100,3,,,,2026-I,Souryabrata Mohapatra,F129,AZ
+ENL1030,Indian Financial System,Economics,100,3,,,,2026-I,Seema Saini,F128,AZ
+ENL7050,Empirical Methods for Economic Policy Analysis,Economics,700,3,,,,2026-I,Seema,F128,H
+ENL7010,Principles of Macroeconomics,Economics,700,3,,,,2026-I,Gopakumar,F126,G
+ENL4050,Econometrics Lab,Economics,400,2,,,,2026-I,Dweepobotee Brahma,F202,J
+ENL7170,Causal Econometrics,Economics,700,3,,,,2026-I,Dweepobotee Brahma,F202,E
+ENL7110,Behavioral Economics and Decision Theory,Economics,700,3,,,,2026-I,Abhinaba Lahiri,F201,F
+ENL4060,Games and Economic Behaviour,Economics,400,3,,,,2026-I,Abhinaba Lahiri,F201,I
+ENL7220,Foundations of Economic Research,Economics,700,3,,,,2026-I,Souryabrata Mohapatra,F129,I
+ENL7210,Modern Growth Economics,Economics,700,3,,,,2026-I,Devi Prasad Dash,F125,J
+ENT8910,Thesis,Economics,800,16,,,,2026-I,Jangam Bhushan Praveen,F124,T
+MAL1120,Mathematics II,Mathematics,100,3,,,B.Tech. First Year,2026-I,Sukhendu Ghsosh+ Bimal Mandol,,AG
+MAL2040,Design and Analysis of Experiments,Mathematics,200,3,,,B.Tech in ES,2026-I,Brahadeesh Sankarnarayanan,,U
+MAL3010,Maths for Big Data,Mathematics,300,3,,,"B.Tech. in AI & DS, 3rd year",2026-I,Subhas Bhagat,,
+MAL1060,Mathematics-2,Mathematics,100,4,,,B.Sc.-B.Ed First Year,2026-I,Gaurav Bhatnagar,,CB
+MAL2130,Multivariable Calculus,Mathematics,200,4,,,B.Sc.-B.Ed 2nd Year,2026-I,Tuhina Mukherjee,,CD
+MAL2140,Differential Equations,Mathematics,200,4,,,B.Sc.-B.Ed 2nd Year,2026-I,Pradip Sasmal,,CC
+MAL2150,Groups and Rings,Mathematics,200,4,,,B.Sc.-B.Ed 2nd Year,2026-I,Dilpreet Kaur,,CE
+MAL3050,Numerical Computations,Mathematics,300,4,,,B.Sc.-B.Ed 3rd Year,2026-I,Moumita Mondal,,CE
+MAL3090,Elementary Number theory,Mathematics,300,4,,,B.Sc.-B.Ed 3rd Year,2026-I,Sahil Gehlawat,,CC
+MAL3070,Operations Research,Mathematics,300,4,,,B.Sc.-B.Ed 3rd Year,2026-I,Puneet Sharma,,CD
+MAL3080,Field Theory,Mathematics,300,4,,,B.Sc.-B.Ed 3rd Year,2026-I,Kriti Goel,,CB
+MAL6160,Multivariate Calculus and Differential Geometry,Mathematics,600,4,,,M.Sc. First Year,2026-I,Kiran Meena,,G
+MAL6170,Programming Lab,Mathematics,600,2,,,M.Sc First Year,2026-I,Shaily Verma,,L2 & L4
+MAL6180,Complex Analysis,Mathematics,600,4,,,M.Sc First Year,2026-I,Rajat Gupta,,J
+MAL6190,Measure and Integration,Mathematics,600,4,,,M.Sc First Year,2026-I,Tuhina Mukherjee,,I
+MAL6210,Functional Analysis,Mathematics,600,4,,,M.Sc First Year,2026-I,Abhishek Sarkar,,F
+MAL6220,Topology,Mathematics,600,4,,,M.Sc First Year,2026-I,VVMS Chandramouli,,H
+MAL7380,Representation of Finite Groups,Mathematics,700,3,,,M.Sc 2nd Year,2026-I,Dilpreet Kaur,,J
+MAL7340,Number Theory,Mathematics,700,3,,,M.Sc 2nd Year,2026-I,Rajat Gupta,,G
+MAL7090,Numerical Solutions of Partial Differential Equations,Mathematics,700,3,,,M.Sc 2nd Year,2026-I,Abhishek Sarkar,,H
+MAL7130,Statistical Inference,Mathematics,700,3,,,M.Sc. 2nd Year +PhD,2026-I,Nil Kamal Hazra,,F
+MAD7050,M.Sc Project-2,Mathematics,700,10,,,M.Sc 2nd Year,2026-I,,,
+CSL7590,Deep Learning,Mathematics,700,3,,,M.Tech. 1st year,2026-I,,,B
+MAL7430,Time Series Analysis,Mathematics,700,3,,,M.Tech. 1st year+ M.Sc. 2nd Year,2026-I,Nil Kamal Hazra,,H
+MAL7500,Multi-Objective Optimization,Mathematics,700,3,,,M.Tech. 1st year,2026-I,M Abu,,I
+CSL7480,Cryptography,Mathematics,700,3,,,M.Tech. 1st year,2026-I,Bimal Mandal,,J
+QCL7350,Quantum Inspired Optimization,Mathematics,700,3,,,M.Tech. 1st year,2026-I,Kiran Hiremath,,G
+MAT7220,M.Tech. Thesis-II,Mathematics,700,16,,,M.Tech. 2nd year,2026-I,,,
+,Theory of Differential Equations,Mathematics,,3,,,PhD,2026-I,Anuj Kumar,,G
+,Machine Learning and Pattern Recognition,Mathematics,,3,,,PhD,2026-I,Subhas Bhagat,,K
+,Numerical Analysis,Mathematics,,3,,,PhD,2026-I,Moumita Mondal,,I
+MAL7110,Foundations of Data Science,Mathematics,700,3,,,M.Tech. First Year (NIT Students),2026-I,VVMS Chandramouli,,F
+MAL7120,Data Analytics,Mathematics,700,3,,,M.Tech. First Year (NIT Students),2026-I,Divya Kappara,,G
+CSL7620,Machine Learning,Mathematics,700,3,,,M.Tech. First Year (NIT Students),2026-I,Bhargab Chattopadhyay,,H
+CIN2010,Introduction to Profession,Civil and Infrastructure Engineering,200,1,Core,NE,BTech (New),2026-I,Falak Vats,F078,NG2
+CIL2110,Transportation Engineering-I,Civil and Infrastructure Engineering,200,3,Core,PC,BTech (New),2026-I,Subham Jain,F089,A
+CIL2090,Structural Analysis,Civil and Infrastructure Engineering,200,3,Core,PC,BTech (New),2026-I,P Ravi Prakash,F081,B
+CIP2020,"Civil Engineering Laboratory - II (Structural Analysis Lab, Hydraulics Engineering Lab, Soil Mechanics Lab)",Civil and Infrastructure Engineering,200,3,Core,PC,BTech (New),2026-I,P Ravi Prakash,F081,-
+CIL2100,Soil Mechanics,Civil and Infrastructure Engineering,200,4,Core,PC,BTech (New),2026-I,Pradeep Kumar Dammala,F082,C
+CIL2120,Engineering Hydrology,Civil and Infrastructure Engineering,200,3,Core,PC,BTech (New),2026-I,Mayank Suman,F079,D
+CIL2130,Air Pollution and Solid Waste Management,Civil and Infrastructure Engineering,200,3,Core,PC,BTech (New),2026-I,Amit Sharma,F072,E
+CIL3060,Advanced Structural Analysis,Civil and Infrastructure Engineering,300,4,Core,PC,BTech (Old),2026-I,Falak Vats,F078,E
+CIL3070,Water Resources Engineering,Civil and Infrastructure Engineering,300,4,Core,PC,BTech (Old),2026-I,Saran Aadhar,F085,C
+CIL3080,Reinforced Concrete Design,Civil and Infrastructure Engineering,300,4,Core,PC,BTech (Old),2026-I,Tekcham Gishan Singh,F091,D
+CIL3090,Smart Infrastructure Engineering,Civil and Infrastructure Engineering,300,3,Core,PC,BTech (Old),2026-I,P Ravi Prakash,F081,A
+CIP3040,Geotechnical Engineering Lab.,Civil and Infrastructure Engineering,300,1,Core,PC,BTech (Old),2026-I,Sarath Chandra Reddy Nallala,F086,-
+CIL4010,Environmental Science,Civil and Infrastructure Engineering,400,2,Core,IS,BTech (Old),2026-I,Trishikhi Raychoudhury,F092,V
+CIL7530,AI/ML in Infrastructure Engineering,Civil and Infrastructure Engineering,700,3,Elective,PE,BTech (Old),2026-I,Mayank Suman,F079,I
+CIL4340,Steel Structure Design,Civil and Infrastructure Engineering,400,4,Elective,PE,BTech (Old),2026-I,Amit Kumar Rathi,F071,U
+CIL7390,Climate Change and Impact,Civil and Infrastructure Engineering,700,3,Elective,PE,BTech (Old),2026-I,Amit Sharma,F072,H
+CIL7390,Climate Change and Impact,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Env2025),2026-I,Amit Sharma,F072,H
+CIL7390,Climate Change and Impact,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Energy2025),2026-I,Amit Sharma,F072,H
+CIL7320,Air Pollution and Control,Civil and Infrastructure Engineering,700,3,Elective,PE,BTech (Old),2026-I,Deepika Bhattu,F077,J
+CIL7320,Air Pollution and Control,Civil and Infrastructure Engineering,700,3,,DC,PhD (2025),2026-I,Deepika Bhattu,F077,J
+CIL7320,Air Pollution and Control,Civil and Infrastructure Engineering,700,3,Core,MC,MTech (Env2025),2026-I,Deepika Bhattu,F077,J
+CIL7320,Air Pollution and Control,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Env2025),2026-I,Deepika Bhattu,F077,J
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,700,3,Elective,PE,BTech (Old),2026-I,Shuvajit Mukherjee,F087,I
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,700,3,Core,MC,MTech (Energy2025),2026-I,Shuvajit Mukherjee,F087,I
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Bridge2025),2026-I,Shuvajit Mukherjee,F087,I
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech-NIT (Bridge2025),2026-I,Shuvajit Mukherjee,F087,I
+CIL7630,Finite Element Method,Civil and Infrastructure Engineering,700,3,,DC,PhD (2025),2026-I,Shuvajit Mukherjee,F087,I
+CIL4400,Pavement Engineering,Civil and Infrastructure Engineering,400,3,Elective,PE,BTech (Old),2026-I,Bhupendra Singh,F074,J
+CIL7440,Green Buildings and Sustainable Materials,Civil and Infrastructure Engineering,700,3,Elective,PE,BTech (Old),2026-I,Anusha S. Basavaraj,F073,F
+CIL7440,Green Buildings and Sustainable Materials,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Energy2025),2026-I,Anusha S. Basavaraj,F073,F
+CIL4370,Concrete Technology,Civil and Infrastructure Engineering,400,4.5,Elective,PE,BTech (Old),2026-I,Yogiraj Sargam,F093,G
+CIL4410,Urban Transportation Planning,Civil and Infrastructure Engineering,400,3,Elective,PE,BTech (Old),2026-I,Akshay Gupta,F070,J
+CIL7880,Design of Bridge Structures,Civil and Infrastructure Engineering,700,3,Core,MC,MTech (Bridge2025),2026-I,Tekcham Gishan Singh,F091,J
+CIL7880,Design of Bridge Structures,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Bridge2025),2026-I,Tekcham Gishan Singh,F091,J
+CIL7880,Design of Bridge Structures,Civil and Infrastructure Engineering,700,3,,DC,PhD (2025),2026-I,Tekcham Gishan Singh,F091,J
+CIL7040,Energy Geomechanics,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Energy2025),2026-I,Debanjan Guha Roy,F075,J
+CIL7080,Pollutant Transport Through Subsurface and In-situ Remediations,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Env2025),2026-I,Trishikhi Raychoudhury,F092,I
+CIL7090,Wastewater Engineering,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Env2025),2026-I,Monika Dubey,F080,F
+CIL7070,Environmental Chemistry,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Env2025),2026-I,Monika Dubey,F080,G
+CIL7470,Foundation Engineering,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Energy2025),2026-I,Pradeep Kumar Dammala,F082,H
+CIL7400,Traffic System and Management,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Env2025),2026-I,Ranju Mohan,F083,I
+CIL7950,"Bridge Material, Construction and Evaluation",Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Bridge2025),2026-I,Yogiraj Sargam,F093,H
+CIL7670,Prestressed Concrete Structures,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Bridge2025),2026-I,Anusha S. Basavaraj,F073,G
+CIL7460,Structural Dynamics,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Energy2025),2026-I,Shuvajit Mukherjee,F087,G
+CIL7460,Structural Dynamics,Civil and Infrastructure Engineering,700,3,Elective,ME,MTech (Bridge2025),2026-I,Shuvajit Mukherjee,F087,G
+CIL7840,Mathematics for Civil Engineering,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Env2025),2026-I,Sanhita Das,F084,F
+CIL7840,Mathematics for Civil Engineering,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Energy2025),2026-I,Sanhita Das,F084,F
+CIL7840,Mathematics for Civil Engineering,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Bridge2025),2026-I,Sanhita Das,F084,F
+CIL7830,Advanced Solid and Fluid Mechanics,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Env2025),2026-I,Shuvajit Mukherjee,F087,H
+CIL7830,Advanced Solid and Fluid Mechanics,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Energy2025),2026-I,Shuvajit Mukherjee,F087,H
+CIL7830,Advanced Solid and Fluid Mechanics,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Bridge2025),2026-I,Shuvajit Mukherjee,F087,H
+CIL7870,Analysis of Bridge Structures,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Bridge2025),2026-I,P Ravi Prakash,F081,I
+CIL7850,Water Quality and Advanced Treatment Processes,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Env2025),2026-I,Trishikhi Raychoudhury,F092,G
+CIL7860,Wind Turbine and Field Design,Civil and Infrastructure Engineering,700,3,Core,MC,MTech-NIT (Energy2025),2026-I,Amit Kumar Rathi,F071,G
+CIN1010,Design/Practical Experience,Civil and Infrastructure Engineering,100,2,Core,ND,BTech (Old),2026-I,Falak Vats,F078,NG1
+CIN2030,Design/Practical Experience,Civil and Infrastructure Engineering,200,2,Core,ND,BTech (Old),2026-I,Trishikhi Raychoudhury,F092,NG1
+CIN3010,Design/Practical Experience,Civil and Infrastructure Engineering,300,2,Core,ND,BTech (Old),2026-I,Tekcham Gishan Singh,F091,NG1
+CIT7020,MTech Thesis Part-2,Civil and Infrastructure Engineering,700,16,,MT,"MTech (Env., Energy and Bridge)",2026-I,Akshay Gupta,F070,T
+CIT8960,Thesis,Civil and Infrastructure Engineering,800,16,,DT,PhD,2026-I,Bhupendra Singh,F074,T
+CIT8980,Thesis,Civil and Infrastructure Engineering,800,6,,DT,PhD,2026-I,Bhupendra Singh,F074,T
+CIT8990,Thesis,Civil and Infrastructure Engineering,800,12,,DT,PhD,2026-I,Bhupendra Singh,F074,T
+EAL7020,Machine Learning in Energy Systems,Energy and Automotive Engineering,700,3,Core,PC,,2026-I,Dr. Naveen Kethavath,F151,G
+EAL7030,Energy Storage Technologies,Energy and Automotive Engineering,700,3,Core,PC,,2026-I,Dr. Shobhana Singh,F153,H
+EAL7320,Solar Energy and Applications,Energy and Automotive Engineering,700,3,Elective,Elective Open to all,,2026-I,Dr. Nikhil Sharma,F152,J
+EAL7330,Life Cycle Analysis and Sustainable Engineering Concepts,Energy and Automotive Engineering,700,3,Elective,Elective Open to all,,2026-I,Dr. Srijit Biswas,F154,I
+EAL7340,Selected Topics in Energy Engineering (Dynamic Modelling of Energy Systems),Energy and Automotive Engineering,700,3,Elective,Elective not open to all,,2026-I,Dr. Anil Kumar,F149,K
+EAP7020,Energy Engineering Laboratory-II,Energy and Automotive Engineering,700,1,Core,PC,,2026-I,Dr. Nikhil Sharma,F152,L2
+,Innovation and IP Management,Energy and Automotive Engineering,,,,Non-Graded (S/U),,2026-I,,,
+EAT8010,Thesis for Ph.D students of Energy and Auto,Energy and Automotive Engineering,800,16,,,,2026-I,,,
+EAL7010,Energy Conversion Technologies,Energy and Automotive Engineering,700,3,Core,PC,For NEWTEC Students and PhD students if any in this semester,2026-I,Dr. Srijit Biswas,F154,
+MEL7970,Engineering Mathematics,Energy and Automotive Engineering,700,3,Core,PC,For NEWTEC Students and PhD students if any in this semester,2026-I,Dr. Himanshu Dave,F006,
+BBL1XXX,Introduction to Bioengineering,Bioscience & Bioengineering,100,3,,,,2026-I,Pankaj Yadav,F021,AN
+OAE1020,Engineering Design II,Bioscience & Bioengineering,100,1,,,,2026-I,"Indranil Banerjee, Balakumaran Chandrasekhar",F016,TBD
+BBN1XXX,Introduction to Profession,Bioscience & Bioengineering,100,1,,,,2026-I,Sucharita Dey,F026,NG-1
+BBL2XXX,Biophysics and Structural Biology,Bioscience & Bioengineering,200,3,,,,2026-I,Sudipta Bhattacharyya,F027,C
+BBL2XXX,Biology of Cells,Bioscience & Bioengineering,200,3,,,,2026-I,"Amit Kumar Mishra, Neha Jain",F011;F020,U
+EEL2010,Signals and Systems,Bioscience & Bioengineering,200,3.5,,,,2026-I,Electircal Eng. department,,A
+BBL2XXX,Analytical Techniques for Bioengineering,Bioscience & Bioengineering,200,4,,,,2026-I,Meenakshi Kamaraj,F017,B
+BBL2XXX,Quantitative Physiology,Bioscience & Bioengineering,200,3,,,,2026-I,Vignesh Muralidharan,F030,E
+BBP2XXX,Analytical Techniques Lab,Bioscience & Bioengineering,200,3,,,,2026-I,"Dipanjan Roy, Indranil Banerjee, Raviraj Vankayala",F015;F016;F024,M
+,HSS I,Bioscience & Bioengineering,,3,,,,2026-I,SoLA,,SoLA
+BBL3010,Introductory Omics,Bioscience & Bioengineering,300,3,,,,2026-I,Shankar Manoharan,F025,U
+BBL3020,Biomaterials Engineering,Bioscience & Bioengineering,300,3,,,,2026-I,Raviraj Vankayala,F024,K
+BBL3030,Biophysics & Structural Biology,Bioscience & Bioengineering,300,3.5,,,,2026-I,Sudipta Bhattacharyya,F027,C
+CSL4020,Deep Learning,Bioscience & Bioengineering,400,4.5,,,,2026-I,CSE department,,B
+EEL3100,Bioimaging,Bioscience & Bioengineering,300,3,,,,2026-I,Parag Khobragade,,A
+LAN3020,Professional Ethics II,Bioscience & Bioengineering,300,1,,,,2026-I,SoLA,,NG (Tuesday)
+,Humanities IV,Bioscience & Bioengineering,,,,,,2026-I,SoLA,,SoLA
+BBL7XXX,Microbiomics,Bioscience & Bioengineering,700,3,,,,2026-I,Ayan Sadhukhan,F012,F
+BBL4050,Modern Approaches of Drug Designing,Bioscience & Bioengineering,400,3,,,,2026-I,Surajit Ghosh,F028,J
+BBL7XXX,Computational Structural Bioinformatics,Bioscience & Bioengineering,700,3,,,,2026-I,Sucharita Dey,F026,J
+BBL7XXX,Precision P4 Medicine,Bioscience & Bioengineering,700,3,,,,2026-I,"Mitali Mukerji, Ayan Sadhukhan",F019;F012,J
+BBL7330,Quantitative Physiology,Bioscience & Bioengineering,700,3,,,,2026-I,Sushmita Jha,F029,A
+BBL4030,Tissue Engineering,Bioscience & Bioengineering,400,3,,,,2026-I,Parul Yadav,F022,F
+BBL4340/EEL4340,Digital Image Processing,Bioscience & Bioengineering,400,3,,,,2026-I,Dipanjan Roy,F015,H
+BBL4XXX,Microbial Remediation and Environmental Bioengineering,Bioscience & Bioengineering,400,3,,,,2026-I,Meenu Chhabra,F018,H
+BBL1020,Introduction to Bioengineering,Bioscience & Bioengineering,100,3,,,,2026-I,Pankaj Yadav,F021,AN
+BBP1010,Introduction to Bioengineering Lab,Bioscience & Bioengineering,100,1,,,,2026-I,Pankaj Yadav,F021,
+LAL2030,Regional literature in translation,Bioscience & Bioengineering,200,3,,,,2026-I,SoLA,,J
+EEL1010,Introduction to Electrical Engineering,Bioscience & Bioengineering,100,4,,,,2026-I,Electircal Eng. department,,U
+OSN1040,Social Connect and Responsibilities II,Bioscience & Bioengineering,100,0.5,,,,2026-I,Office of student,,TBD
+BBN1010,Design Practical Experience,Bioscience & Bioengineering,100,2,,,,2026-I,Ayan Sadhukhan,F012,NG3
+OSN1050,Performing Arts II,Bioscience & Bioengineering,100,0.5,,,,2026-I,Sunil (SoLA),,NG (Tuesday)
+BBL7XX0,Engineering of Biological Systems,Bioscience & Bioengineering,700,3,,,,2026-I,Dinesh Kumar Ahirwar,F014,H
+BBL7660,Imaging Cell Biology,Bioscience & Bioengineering,700,3,,,,2026-I,Priyanka Singh,F023,J
+BBL7650,Omics Technologies,Bioscience & Bioengineering,700,3,,,,2026-I,Balakumaran Chandrasekar,F013,F
+BBP7660,Bioimaging Laboratory,Bioscience & Bioengineering,700,1,,,,2026-I,Priyanka Singh,F023,L
+BBP7650,Next Generation Sequencing Lab,Bioscience & Bioengineering,700,1,,,,2026-I,Shankar Manoharan,F025,L
+BBL7630,Advanced Bioengineering,Bioscience & Bioengineering,700,3,,,,2026-I,Indranil Banerjee,F016,U
+MSL71380,Innovation and IP Management,Bioscience & Bioengineering,700,1,,,,2026-I,SME,,TBD
+BBT8050,M.Tech Thesis II,Bioscience & Bioengineering,800,16,,,,2026-I,Sudipta Bhattacharya,,T1
+BBT8990,Thesis,Bioscience & Bioengineering,800,16,,,,2026-I,Indranil Banerjee,F016,T
+CYL4XX0,Organic Synthesis,Chemistry,400,3,,,"MSc, Semester II",2026-I,Swati Jindal,F068,E
+CYL4XX0,Heterocyclic Compounds and Applications,Chemistry,400,3,,,"MSc, Semester II",2026-I,Monika Gupta,F054,B
+CYL4XX0,Solid State and Material Chemistry,Chemistry,400,3,,,"MSc, Semester II",2026-I,Suresh Sarkar,F067,U
+CYL4XX0,Inductrial Catalysis,Chemistry,400,3,,,"MSc, Semester II",2026-I,Pragati Pandey,F056,C
+CYL4XX0,Statistical Thermodynamics,Chemistry,400,3,,,"MSc, Semester II",2026-I,Ananya Debnath,F046,D
+CYL4XX0,Principles of Spectroscopy,Chemistry,400,3,,,"MSc, Semester II",2026-I,Samanwita Pal,F063,E
+CYP4XX0,Physical and Computational Chemistry Lab,Chemistry,400,3,,,"MSc, Semester II",2026-I,"Dibyendu K. Sasmal, Ananya Debnath",F048;F046,M3
+CYL7XX0,Frontiers in Organometalliic Catalysis,Chemistry,700,3,,,"MSc, Semester IV",2026-I,Subrata Chakraborty,F066,J
+CYL7XX0,Frontiers in Organic Chemistry,Chemistry,700,3,,,"MSc, Semester IV",2026-I,Sandip Murarka,F064,H
+CYL7XX0,Advance Fluorescence Microscopy Technique and Application,Chemistry,700,3,,,"MSc, Semester IV",2026-I,Dibyendu K Sasmal,F048,I
+CYL6XX0,Supramolecular Chemistry and Applications,Chemistry,600,3,,,"MSc, Semester IV",2026-I,Mayank Gupta,F052,A
+CYL7XX0,Asymmetric Catalysis and Application,Chemistry,700,3,,,"MSc, Semester IV",2026-I,Nirmal Kumar Rana,F055,B
+CYL7XX0,Molecular Dynamics Simulations,Chemistry,700,3,,,"MSc, Semester IV",2026-I,Milan Hazra,F053,K
+CYL7XX0,Crystallography and X-ray Techniques for Chemists,Chemistry,700,3,,,"MSc, Semester IV",2026-I,Ramesh K Metre Mayank Gupta,,J
+CYL4XX0,Polymer Material Science,Chemistry,400,3,,,"MSc, Semester IV",2026-I,Vivek Wakchaure,F069,E
+CYL7XX0,Introduction to Quantum Information/Seminal features of Quantum Information,Chemistry,700,3,,,"MSc, Semester IV",2026-I,Atul Kumar,F047,A
+CYD6050,Major Project II,Chemistry,600,5,,,"MSc, Semester IV",2026-I,Vivek Wakchaure,F069,
+CYL1010,Chemistry Theory,Chemistry,100,3,,,BTech 1st year Semester II,2026-I,"Rahul Gehra (C), Ramesh K. Metre, Sandip Murarka",F060;F064,AF
+CYP1010,Chemistry Laboratory,Chemistry,100,1,,,BTech 1st year Semester II,2026-I,"Samanwita Pal (C), Pritam Mahawar, Shyam Banjare",F063;F057;F065,M2
+CYL2XX0,Chemistry of Engineering Materials,Chemistry,200,3,,,BS Semester IV,2026-I,"Vivek Wakchaure, Suresh Sarkar",F069;F067,A
+CYL2XX0,Quantum Computing in Chemistry,Chemistry,200,3,,,BS Semester IV,2026-I,"Atul Kumar, Manikandan Paranjothy",F047;F051,E
+CYL2XX0,Principles of Spectroscopy,Chemistry,200,3,,,BS Semester IV,2026-I,Samanwita Pal,F063,D
+CYL2XX0,Entrepreneurship for Chemists,Chemistry,200,3,,,BS Semester IV,2026-I,Koushambi Mitra,F050,U
+CYP2XX0,Inorganic Chemistry Lab,Chemistry,200,3,,,BS Semester IV,2026-I,"Vivek Wakchaure, Amreen Kaur Bains",F069;F045,M4
+CYP2XX0,Physical and Computational Chemistry Lab,Chemistry,200,3,,,BS Semester IV,2026-I,"Rahul Gehra, Milan Hzara",,M5
+CYL3040,Fundamentals of Molecular Spectroscopy,Chemistry,300,3,,,BS Semester VI,2026-I,Rahul Gera,F058,B
+CYL3050,Organometallics,Chemistry,300,3,,,BS Semester VI,2026-I,"Ravindra Raut,",F061,C
+CYL3060,Purification and Characterization of Organic Molecules,Chemistry,300,3,,,BS Semester VI,2026-I,Hema K,F049,A
+CYL3070,"Chemical Kinetics, Photochemistry, and Theory of Solutions",Chemistry,300,3,,,BS Semester VI,2026-I,Dibyendu K Sasmal,F048,E
+CYL3070,Entrepreneurship for Chemists,Chemistry,300,2,,,BS Semester VI,2026-I,Koushambi Mitra,F050,U
+CYP3050,Inorganic Chemistry Lab 2,Chemistry,300,1.5,,,BS Semester VI,2026-I,"Ravindra Raut,",F061,M8
+CYP3070,Physical Chemistry Lab 2,Chemistry,300,1.5,,,BS Semester VI,2026-I,Atul Kumar,F047,M9
+CYD3010,BS Project,Chemistry,300,3,,,BS Semester VI,2026-I,Suresh Sarkar,F067,
+,Specialization Elective-I,Chemistry,,3,,,BS Semester VIII,2026-I,,,
+,Specialization Elective-II,Chemistry,,3,,,BS Semester VIII,2026-I,,,
+,Specialization Project,Chemistry,,12,,,BS Semester VIII,2026-I,Rohan Diliprao Erande,F062,
+CYL1040,General Chemistry 2,Chemistry,100,4,,,BSC Bed Sem II,2026-I,"Nirmal K Rana (C), Atul Kumar, Amreen Bains",F055;F047;F045,CU
+CYL2080,Chemistry of Inorganic Compounds,Chemistry,200,4,,,"BSc-BEd, Semester IV",2026-I,Pritam Mahawar,F057,CD
+CYL2090,Equilibrium Thermodynamics,Chemistry,200,4,,,"BSc-BEd, Semester IV",2026-I,Milan Hzara,,CA
+CYL2110,Separation and Structural Elucidation of Organic Compounds,Chemistry,200,4,,,"BSc-BEd, Semester IV",2026-I,Rohan Diliprao Erande,F062,CE
+CYD2010,B.Sc BEd Project,Chemistry,200,3,,,"BSc-BEd, Semester IV",2026-I,,,
+,Specialized Laboratory -2,Chemistry,,3,,,"BSc-BEd, Semester VI",2026-I,Swati Jindal,F068,TBA
+CYL3XX0,Organic Synthesis,Chemistry,300,3,,,"BSc-BEd, Semester VI",2026-I,Swati Jindal,F068,CE
+CYL3XX0,Industrial Catalysis,Chemistry,300,3,,,"BSc-BEd, Semester VI",2026-I,Pragati Pandey,F056,CC
+CYL3XX0,Heterocyclic Compounds and Application,Chemistry,300,3,,,"BSc-BEd, Semester VI",2026-I,Monika Gupta,F054,CE
+CYL3XX0,Principles of Spectroscopy,Chemistry,300,3,,,"BSc-BEd, Semester VI",2026-I,Samanwita Pal,F063,CD
+CYL3XX0,Statistical Thermodynamics,Chemistry,300,3,,,"BSc-BEd, Semester VI",2026-I,Ananya Debenath,,CD
+CYL3XX0,Solid State and Material Chemistry,Chemistry,300,3,,,"BSc-BEd, Semester VI",2026-I,Suresh Sarkar,F067,CK
+CYL7010,Chemistry 1,Chemistry,700,3,,,"PhD, Semester I",2026-I,"Manikandan Paranjothy (C), Shyam Banjar, Amreen Bains",F051;F045,F
+CYL7020,Chemistry 2,Chemistry,700,3,,,"PhD, Semester I",2026-I,"Nirmal K Rana C), Ravindra Raut, Ananya Debenath",F055;F061,G
+CYL7340,Frontiers in Organic Chemistry,Chemistry,700,3,,,"PhD, Semester I",2026-I,Sandip Murarka,F064,H
+CYL7360,Spectroscopic Determination of Organic Compounds,Chemistry,700,3,,,"PhD, Semester I",2026-I,Shyam Kumar Banjare,F065,E
+CYL7XX0,Crystallography and X-ray Techniques for Chemists,Chemistry,700,3,,,"PhD, Semester I",2026-I,"Rakesh Metre, Mayank Gupta",F052,J
+CYL7420,Characterization Techniques in Inorganic Chemistry,Chemistry,700,3,,,"PhD, Semester I",2026-I,Amreen Kaur Bains,F045,U
+CYL7XX0,Quantum and Statistical Mechanics and Applications,Chemistry,700,3,,,"PhD, Semester I",2026-I,"Manikandan Paranjothy (C), Ananya Debenath, Atul Kumar",F051;F047,I
+OAE1020,Engineering Design-II,Chemistry,100,1,,,BTech 1st year Semester II,2026-I,"Swati Jindal, Pritam Mahawar",F068;F057,M8
+CYO8960,Research proposal,Chemistry,800,10,,,,2026-I,,,T
+CYO8970,Research Proposal,Chemistry,800,12,,,,2026-I,,,T
+EDL1030,Design and Computational Thinking,Centre for Education Technology,100,3,,,,2026-I,"Sajan Pillai, Romi Banerjee",F209;F114,CA
+EDL1020,Teacher and Society,Centre for Education Technology,100,2,,,,2026-I,Devi Prasad Dash,F125,CD
+EDL2030,Content-cum-pedagogy of Mathematics at the Secondary Stage-1,Centre for Education Technology,200,2,,,,2026-I,Sumit Kalra,F118,CV
+EDL2020,Content-cum-pedagogy of the Physical Sciences at the Secondary Stage-1,Centre for Education Technology,200,2,,,,2026-I,Pankaj Chavan,,CC
+EDL3050,Content-cum-Pedagogy of Mathematics at the Secondary Stage-3,Centre for Education Technology,300,2,,,,2026-I,Sheriya Sareen,F227,"CA, M8 Lab"
+EDL3060,Content-cum-Pedagogy of the Physical Sciences at the Secondary Stage-3,Centre for Education Technology,300,2,,,,2026-I,Sheriya Sareen,F227,"CN, M3 Lab"
+EDL3070,School Observation,Centre for Education Technology,300,2,,,,2026-I,Soni,F228,"CB, M9 Lab"
+EDL3080,Assessment and Evaluation,Centre for Education Technology,300,2,,,,2026-I,Deepak Kumar Saxena,,CU
+EDL3090,Inclusive Education,Centre for Education Technology,300,2,,,,2026-I,Suman Dhaka,F230,
+,Engineering Workshop,Mechanical Engineering,,1,Core,IE,,2026-I,Dr. Ankur Gupta,F178,M3
+,Heat and Mass Transfer,Mechanical Engineering,,3,Core,PC,,2026-I,Prof Anand Plappally,F177,A
+,Engineering Materials and Processing Techniques,Mechanical Engineering,,3,Core,PC,,2026-I,Dr. Gopal Gote,F184,B
+,Mechanics of Solids,Mechanical Engineering,,4,Core,PC,,2026-I,Dr. Nitesh Arora,F191,C
+,Mechanical Measurements and Metrology,Mechanical Engineering,,3,Core,PC,,2026-I,Dr. Ambuj Kumar Gautam,F175,D
+,Mechanical Measurements and Characterization Lab,Mechanical Engineering,,4,Core,PC,,2026-I,"Dr. Gopal Gote, Dr Nipun Arora, Dr. Nitesh Arora",F184;F190;F191,M1
+MEN1010,Design/Practical Experience-I,Mechanical Engineering,100,2,Core,ND,,2026-I,Dr. Rajit Ranjan (FA-2nd Year),F195,NG2
+MEL3060,Design of Machine Elements,Mechanical Engineering,300,4,Core,PC,,2026-I,Dr. Babu Ranjan Thakur,F003,A
+MEL3090,Smart Manufacturing,Mechanical Engineering,300,3,Core,PC,,2026-I,Prof Kaushal Desai,F188,C
+MEL3070,Thermofluids Engineering,Mechanical Engineering,300,4,Core,PC,,2026-I,Dr Sudipto Mukhopadhyay,F199,B
+MEL3080,Control of Mechanical Systems,Mechanical Engineering,300,5,Core,PC,,2026-I,Prof Suril V Shah,F200,D
+MEP3030,Machining and Automated Manufacturing Lab,Mechanical Engineering,300,1,Core,PC,,2026-I,Dr. Gourhari Ghosh,F185,M2
+MEN2020,Design/Practical Experience-II,Mechanical Engineering,200,2,Core,ND,,2026-I,Dr. Amrita Puri (FA-3rd Year),F176,NG2
+MEN3010,Design/Practical Experience-III,Mechanical Engineering,300,2,Core,ND,,2026-I,Dr. Hardik Kothadia (FA-4th Year),F186,NG2
+MEL4XX0,Basics of finite element methods,Mechanical Engineering,400,3,Elective,PE,,2026-I,Dr. Atul Kumar Sharma,F180,E
+ME7XX0,Engineering Fracture Mechanics,Mechanical Engineering,700,3,Elective,PE,,2026-I,Dr. Hirshikesh,F187,J
+MEL4XX0,Refrigeration and Air-conditioning,Mechanical Engineering,400,3,Elective,PE,,2026-I,Dr Anil Kumar,F149,K
+MEL7XX0,Power Plant Engineering,Mechanical Engineering,700,3,Elective,PE,,2026-I,Dr Hardik Kothadia,F186,E
+MEL6XX0,Porous Media Flows and Applications,Mechanical Engineering,600,3,Elective,PE,,2026-I,Dr Pratyaksh Karan,F192,K
+MEL6XX0,Introduction to Robotics,Mechanical Engineering,600,,Elective,PE,,2026-I,Dr Roshan K Hota,F197,N
+MEL7XX0,Conduction and Radiation,Mechanical Engineering,700,,Elective,PE,,2026-I,Dr Nipun Arora,F190,J
+MEL7XX0,Combustion Technology,Mechanical Engineering,700,,Elective,PE,,2026-I,Dr Sudipto Mukhopadhyay,F199,I
+MEL7XX0,Computer-Aided Manufacturing,Mechanical Engineering,700,,Elective,PE,,2026-I,Prof. Kaushal Desai,F188,J
+MEL7XX0,Convective Heat and Mass Transfer,Mechanical Engineering,700,,Elective,PE,,2026-I,Dr Ashish Pathak,F179,N
+MEL7XX0,"AI, ML and Big Data for Solid Mechanics or Artificial Intelligence for Manufacturing Applications or Machine Learning for Thermofluids",Mechanical Engineering,700,,Elective,PE,,2026-I,Dr. Amrita Puri,F176,H
+,Artificial Intelligence for Manufacturing Applications,Mechanical Engineering,,3,,C,,2026-I,Dr. Rajit Ranjan,F195,H
+,Conventional and Advanced Manufacturing Processes,Mechanical Engineering,,3,,C,,2026-I,Dr. Gourhari Ghosh,F185,F
+,Thesis,Mechanical Engineering,,16,,T,,2026-I,Dr Roshan K Hota,F197,T
+,Theory of Arc Welding,Mechanical Engineering,,,,E,,2026-I,Dr. Chandan Pandey,F183,J
+,Artificial Intelligence for Manufacturing Applications,Mechanical Engineering,,3,,C,,2026-I,Dr. Rajit Ranjan,F195,H
+,Conventional and Advanced Manufacturing Processes,Mechanical Engineering,,3,,C,,2026-I,Dr. Gourhari Ghosh,F185,F
+,Materials Design and Evaluation Techniques,Mechanical Engineering,,3,,C,,2026-I,Dr. Rahul,,I
+MEL7XX0,Engineering Mathematics,Mechanical Engineering,700,3,,C,,2026-I,Dr Ashish Pathak,F179,G
+,Advanced Mechanical Design,Mechanical Engineering,,3,,C,,2026-I,Dr. Hirshikesh,F187,I
+,Thesis,Mechanical Engineering,,16,,T,,2026-I,Dr Roshan K Hota,F197,T
+,Dynamics and Vibrations of Mechanical systems,Mechanical Engineering,,,,E,,2026-I,Dr. Ravindra B.,F181,K
+,Sports Biomechanics,Mechanical Engineering,,,,E,,2026-I,Dr. Barun Pratiher,F182,I
+,Engineering Fracture Mechanics,Mechanical Engineering,,,,E,,2026-I,Dr. Hirshikesh,F187,J
+,Advanced Mechanical Design,Mechanical Engineering,,3,,C,,2026-I,Dr. Hirshikesh,F187,I
+,Theory of elasticity,Mechanical Engineering,,3,,C,,2026-I,Dr. Atul Kumar Sharma,F180,F
+,"AI, ML and Big Data for Solid Mechanics",Mechanical Engineering,,3,,C,,2026-I,Dr. Amrita Puri,F176,H
+MEL7XX0,Engineering Mathematics,Mechanical Engineering,700,3,,C,,2026-I,Dr Ashish Pathak,F179,G
+MEL7XX0,Experimental and Computational Techniques,Mechanical Engineering,700,3,,C,,2026-I,Dr Pratyaksh Karan,F192,F
+MEP7XX0,Thermo-Fluids Engineering Lab,Mechanical Engineering,700,1,,C,,2026-I,Dr Shrutidhara Sarma,F198,L1
+,Thesis,Mechanical Engineering,,16,,T,,2026-I,Dr Roshan K Hota,F197,T
+MEL7XX0,Engineering Thermodynamics,Mechanical Engineering,700,,,E,,2026-I,Prof Prodyut Chakraborty,F193,I
+MEL7XX0,Conduction and Radiation,Mechanical Engineering,700,,,E,,2026-I,Dr Nipun Arora,F190,J
+MEL7XX0,Nanosensors,Mechanical Engineering,700,,,E,,2026-I,Dr Shrutidhara Sarma,F198,K
+MEL7XX0,Convective Heat and Mass Transfer,Mechanical Engineering,700,,,E,,2026-I,Dr Ashish Pathak,F179,N
+MEL7XX0,Combustion Technology,Mechanical Engineering,700,,,E,,2026-I,Dr Sudipto Mukhopadhyay,F199,I
+MEL7XX0,Turbulent Flows,Mechanical Engineering,700,,,E,,2026-I,Dr Gagan Kewalramani,F004,K
+MEL7XX0,Machine Learning in ThermoFluids,Mechanical Engineering,700,,,E,,2026-I,Dr Harshal Akolekar,F005,N
+MEL7XX0,Probabilistic methods in Engineering Design,Mechanical Engineering,700,,,E,,2026-I,Prof Anand Plappally,F177,I
+MEL7XX0,Special Topics,Mechanical Engineering,700,,,E,,2026-I,Dr Pratyaksh Karan,F192,J
+MEL7XX0,Experimental and Computational Techniques,Mechanical Engineering,700,3,,C,,2026-I,Dr Pratyaksh Karan,F192,F
+MEL7XX0,Incompressible Fluid Flow,Mechanical Engineering,700,3,,C,,2026-I,Dr Nipun Arora,F190,H
+MEL7XX0,Engineering Mathematics,Mechanical Engineering,700,3,,C,,2026-I,Dr Ashish Pathak,F179,G
+MEL7XX0,Applied Heat and Mass Transfer,Mechanical Engineering,700,3,,C,,2026-I,Prof Prodyut Chakraborty,F193,I
+,Mobile Robots,Mechanical Engineering,,3,,C,,2026-I,Dr Riby Abraham Boby,F196,H
+,Thesis,Mechanical Engineering,,16,,T,,2026-I,Dr Roshan K Hota,F197,T
+,Computer-Aided Manufacturing,Mechanical Engineering,,,,E,,2026-I,Prof Kaushal Desai,F188,J
+,Advanced Robotic Manipulation,Mechanical Engineering,,,,E,,2026-I,Dr Roshan K. Hota,F197,K
+MEL7080,Robotics,Mechanical Engineering,700,4,,C,,2026-I,Dr Roshan K Hota,F197,G
+,Mathematics for Robotics,Mechanical Engineering,,3,,C,,2026-I,Prof Suril V. Shah,F200,I
+,PhD Thesis,Mechanical Engineering,,16,,,,2026-I,Dr. Gopal D Gote,F184,T
+,Kinetics of Materials,Materials Engineering,,3,,,,2026-I,Lalit,F164,C
+,Materials for Functional Applications,Materials Engineering,,3,,,,2026-I,Pranay Ranjan,F166,A
+MTL2020,Materials for Energy Conversion and Storage,Materials Engineering,200,3,,,,2026-I,Srijan Sengupta,F172,E
+,Transport Phenomena in Materials,Materials Engineering,,3,,,,2026-I,Sumeet Rajesh Khanna,F173,D
+,Mechanical Behaviour of Materials,Materials Engineering,,3,,,,2026-I,Nitin Kumar Sharma,F165,B
+,Materials for Functional Applications Lab,Materials Engineering,,2,,,,2026-I,Srijan Sengupta & Jitendra Kumar,F172;F163,"M7,M8"
+MTL3050,Computational Modelling of Materials,Materials Engineering,300,3,,,,2026-I,Amitava Banerjee,F157,C
+MTL3060,Materials Processing and Manufacturing,Materials Engineering,300,3,,,,2026-I,Jaiveer Singh,F162,D
+MTL3070,Extraction of Non-Ferrous Metals,Materials Engineering,300,3,,,,2026-I,Abhay Gupta,F155,B
+MTL3080,Iron and Steel Making,Materials Engineering,300,3,,,,2026-I,Saurabh Nene,F169,A
+MTL3090,Smart Materials,Materials Engineering,300,3,,,,2026-I,Shipra Bajpai,F170,E
+MTP3040,Computational Modelling of Materials Lab,Materials Engineering,300,1,,,,2026-I,Amitava Banerjee,F157,M5
+MTP3060,Materials Processing and Manufacturing Lab,Materials Engineering,300,1.5,,,,2026-I,Jaiveer Singh,F162,
+,Degradation and Failure of Materials,Materials Engineering,,3,,,,2026-I,Abir Bhattacharyya,F156,N
+MTL4340,Synthesis and Processing of Semiconductors and 2D materials,Materials Engineering,400,3,,,,2026-I,Pranay Ranjan,F166,K
+MTL7440,High Temperature Materials,Materials Engineering,700,3,,,,2026-I,Nitin Kumar Sharma,F165,I
+MTL7490,Processing and Engineering Application of Magnetic Materials,Materials Engineering,700,3,,,,2026-I,Devendra Singh Negi,F161,I
+MTL7680,Advanced Transmission Electron Microscopy,Materials Engineering,700,3,,,,2026-I,Devendra Singh Negi,F161,K
+MTL7160,Fracture and Fatigue,Materials Engineering,700,3,,,,2026-I,Abir Bhattacharyya,F156,J
+MTL7340,Thermo Mechanical Processing,Materials Engineering,700,3,,,,2026-I,Lalit,F164,J
+MTL7200,Modelling in Materials Engineering,Materials Engineering,700,3,,,,2026-I,Appala Naidu,F158,N
+MTL7760,Solar Cell Materials and Devices,Materials Engineering,700,3,,,,2026-I,Ravi Prakash Srivastava,F168,J
+MTL7110,Solidification of Metals and Alloys,Materials Engineering,700,3,,,,2026-I,Saurabh Nene,F169,J
+MTL7280,Fundamentals and applications of battery materials,Materials Engineering,700,3,,,,2026-I,Debasmita Dwibedi,F160,I
+MTL7060,Advanced Phase transformations,Materials Engineering,700,3,,,,2026-I,Sk Md Hasan,F171,F
+MTL7150,Functional Materials,Materials Engineering,700,3,,,,2026-I,Pranay Ranjan,F166,I
+,Computational Electrochemistry and AI-driven Battery Design & Diagnostics,Materials Engineering,,3,,,,2026-I,Amitava Banerjee,F157,H
+,Battery Regulatory & Safety Practices,Materials Engineering,,3,,,,2026-I,Srijan Sengupta,F172,
+,Composite Mechanics and Performance Evaluation,Materials Engineering,,3,,,,2026-I,Anurag Sharma,F001,H
+,Advanced Battery Chemistry for Large-Scale Energy Storage,Materials Engineering,,3,,,,2026-I,Srijan Sengupta,F172,J
+,Battery Management Systems,Materials Engineering,,3,,,,2026-I,Debasmita Dwibedi,F160,K
+,Solid-State Batteries,Materials Engineering,,3,,,,2026-I,Ravi Prakash Srivastava,F168,I
+,Ceramic Matrix Composites,Materials Engineering,,3,,,,2026-I,Shipra Bajpai,F170,N
+,Functional Nanocomposites and Hybrid Composites,Materials Engineering,,3,,,,2026-I,Vikramsingh Thakur,F174,I
+,Machining and Tribology of Composites,Materials Engineering,,3,,,,2026-I,Shipra Bajpai,F170,K
+,Advanced Composite Design & Analysis,Materials Engineering,,3,,,,2026-I,Anurag Sharma,F001,J
+MTT8020,M.Tech. Thesis Part 2,Materials Engineering,800,16,,,,2026-I,Nitin Kumar Sharma,F165,T
+,M.Tech. Thesis - Part Time,Materials Engineering,,12,,,,2026-I,Nitin Kumar Sharma,F165,T
+MTT8980,Thesis,Materials Engineering,800,6,,,,2026-I,Saurabh Nene,F169,T
+MTT8990,Thesis,Materials Engineering,800,12,,,,2026-I,Saurabh Nene,F169,T
+MTT8970,Thesis,Materials Engineering,800,16,,,,2026-I,Saurabh Nene,F169,T
+MTN1010,Design Practical Experience,Materials Engineering,100,2,,,,2026-I,Lalit,F164,NG
+MTN2020,Design Practical Experience,Materials Engineering,200,2,,,,2026-I,Sk Md Hasan,F171,NG
+MTN3010,Design Practical Experience,Materials Engineering,300,2,,,,2026-I,Amitava Banerjee,F157,NG
+LAL1170,Literature and Technology,School of Liberal Arts (Humanities),100,3,,HSS-2,,2026-I,Anupama Mohan,F215,AZ
+LAL1180,Leadership and Workplace Behavior,School of Liberal Arts (Humanities),100,3,,HSS-2,,2026-I,Ankita Sharma,F214,AZ
+LAL1200,Health and Technology,School of Liberal Arts (Humanities),100,3,,HSS-2,,2026-I,Alok,F213,AZ
+LAL1150,"Science, Technology, and Society",School of Liberal Arts (Humanities),100,3,,HSS-2,,2026-I,Rachel,F225,AZ
+LAL1160,Indian Society,School of Liberal Arts (Humanities),100,3,,HSS-2,,2026-I,Sunil,F231,AZ
+LAL1190,Human Development and Technology,School of Liberal Arts (Humanities),100,3,,HSS-2,,2026-I,Bhaskar,F216,AZ
+,Basics of Leadership,School of Liberal Arts (Humanities),,3,,IH-4,,2026-I,Gurujegan Murugesan,F219,D
+LAL4650,Engineering Psychology,School of Liberal Arts (Humanities),400,3,,IH-4,,2026-I,Suman Dhaka,F230,D
+LAL4050,Critical Thinking,School of Liberal Arts (Humanities),400,3,,IH-4,,2026-I,Sreedevi D,F229,C
+LAL4030,Disaster Risk Reduction and Management,School of Liberal Arts (Humanities),400,3,,IH-4,,2026-I,Farhat Naz,F218,D
+LAL4360,Political and Culutral Ecology,School of Liberal Arts (Humanities),400,3,,IH-4,,2026-I,Vidya Sarveswaran,F234,C
+HSL4010,Fundamentals of Logic,School of Liberal Arts (Humanities),400,3,,IH-4,,2026-I,Hari Narayanan,F233,C
+HSL4350,Gandhian Thought,School of Liberal Arts (Humanities),400,3,,IH-4,,2026-I,George K.J,F220,C
+LAL6410,Archiving and Databases,School of Liberal Arts (Humanities),600,3,,MSC DH,,2026-I,Soni,F228,E
+LAP6040,Archiving and Digital Publishing Lab,School of Liberal Arts (Humanities),600,2,,MSC DH,,2026-I,Natasa and Soni,F222;F228,M8
+LAL6380,Digital Publishing,School of Liberal Arts (Humanities),600,3,,MSC DH,,2026-I,Natasa,F222,D
+LAL6390,New Media Studies,School of Liberal Arts (Humanities),600,3,,MSC DH,,2026-I,Tonisha,F232,I
+LAL6370,Methods and Methodologies in Digital Humanities,School of Liberal Arts (Humanities),600,3,,MSC DH,,2026-I,Natasa,F222,J
+LAL6280,AI and ML for Social Sciences & Humanities,School of Liberal Arts (Humanities),600,3,,MSC DH,,2026-I,"Prasenjeet, Sheriya",F224;F227,F
+LAP6030,AI & ML Lab,School of Liberal Arts (Humanities),600,1,,MSC DH,,2026-I,Prasenjeet,F224,
+DHD7020,Project 2,School of Liberal Arts (Humanities),700,10,,MSC DH,,2026-I,Tonisha Guin,F232,T
+LAL6270,Applied Economic Foundations for Social Sciences,School of Liberal Arts (Humanities),600,3,,MSC CSS,,2026-I,Gopa,,E
+LAL6130,Introduction to Policy Studies,School of Liberal Arts (Humanities),600,3,,MSC CSS,,2026-I,Farhat Naz,F218,I
+LAL6070,Social Realities,School of Liberal Arts (Humanities),600,3,,MSC CSS,,2026-I,Sherin Sabu,F226,H
+LAL6260,Health and Society,School of Liberal Arts (Humanities),600,3,,MSC CSS,,2026-I,Alok,F213,U
+LAL6250,Computational Methods in Indian Knowledge Systems,School of Liberal Arts (Humanities),600,3,,MSC CSS,,2026-I,Dinesh Mohan Joshi,F217,C
+LAL6280,AI and Machine Learning for Social Sciences & Humanities,School of Liberal Arts (Humanities),600,3,,MSC CSS,,2026-I,"Prasenjeet, Sheriya",F224;F227,F
+LAP6030,AI & ML Lab,School of Liberal Arts (Humanities),600,1,,MSC CSS,,2026-I,Prasenjeet,F224,
+LAL6200,Video games and Society,School of Liberal Arts (Humanities),600,3,,MSC CSS,,2026-I,Rachel,F225,G
+LAD7050,Project,School of Liberal Arts (Humanities),700,15,,MSC CSS,,2026-I,Bhaskar,F216,T
+LAP4120,Vocal Music,School of Liberal Arts (Humanities),400,3,,MSC CSS,,2026-I,Bhaswati Sarma,,
+LAL1060,Language-2-English,School of Liberal Arts (Humanities),100,3,,ITEP,,2026-I,Kanak Yadav,F221,CC
+LAL2210,Philosophical and Sociological Perspectives in Education-1,School of Liberal Arts (Humanities),200,4,,ITEP,,2026-I,Hari Narayanan V,F233,CU
+LAN7020,Ethics and Professional Life,School of Liberal Arts (Humanities),700,1,,Instititue Wide,,2026-I,George,F220,NG (Wednesday)
+LAN3020,Professional Ethics - II,School of Liberal Arts (Humanities),300,1,,Instititue Wide,,2026-I,Prasenjeet,F224,NG (Tuesday)
+LAL7870,"Histories, Philosophies, and Critical Approaches to the Liberal Arts",School of Liberal Arts (Humanities),700,3,,PhD,,2026-I,"Parichay, Anupama",F223;F215,H
+LAL7560,World Literature & Global Cinema,School of Liberal Arts (Humanities),700,3,,PhD,,2026-I,Parichay,F223,I
+LAL7040,Digital Storytelling,School of Liberal Arts (Humanities),700,3,,PhD,,2026-I,Sunil Lohar,F231,J
+LAL2030,Regional Literature in translation,School of Liberal Arts (Humanities),200,3,,For BSBE Backlog students,,2026-I,Sreeedevi D,,J
+OSN1050,Performing arts 2,School of Liberal Arts (Humanities),100,0.5,,For BSBE Backlog students,,2026-I,Sunil,F231,NG (Tuesday)
+ECL2XXX,Circuit Theory,Electronics Engineering,200,3,Core,,"B.Tech 2nd year, PC",2026-I,Dr. Nitin Bhatia,,A
+ECL2XXX,Engineering Electromagnetics,Electronics Engineering,200,4,Core,,"B.Tech 2nd year, PC",2026-I,Dr. Mahesh Kumar,,C
+ECL2XXX,Digital Design,Electronics Engineering,200,3,Core,,"B.Tech 2nd year, PC",2026-I,Dr. Jai Narayan Tripathi,,D
+ECL2XXX,Semiconductor Devices and Technology,Electronics Engineering,200,3,Core,,"B.Tech 2nd year, PC",2026-I,Dr. Shree Prakash Tiwari,,E
+ECP2XXX,ECE Lab I,Electronics Engineering,200,3,Core,,"B.Tech 2nd year, PC",2026-I,,,"M6,M8, M10"
+ECL71590,Advanced Electromagnetics,Electronics Engineering,700,3,Core,,"M.Tech (NEWTEC program: Microwave & Photonics), PC",2026-I,Dr. Abhishek Sharma,,H
+ECL71610,Microwave Circuits,Electronics Engineering,700,3,Core,,"M.Tech (NEWTEC program: Microwave & Photonics), PC",2026-I,Dr. Arani Ali Khan,,F
+ECL71550,Fiber Optic Devices and Components,Electronics Engineering,700,3,Core,,"M.Tech (NEWTEC program: Microwave & Photonics), PC",2026-I,Dr. Nitin Bhatia,,G
+ECP71610,Microwave Circuits Lab,Electronics Engineering,700,1,Core,,"M.Tech (NEWTEC program: Microwave & Photonics), PC",2026-I,Dr. Abhishek Sharma,,M4
+ECL7XXXX,Microwave and Optical Measurements,Electronics Engineering,700,3,Core,,"M.Tech (Microwave & Photonics), PC",2026-I,Dr. Manoj Gupta Dr. Nitin Bhatia,,F
+ECP7XXXX,Microwave and Optical Measurements Lab,Electronics Engineering,700,1,Core,,"M.Tech (Microwave & Photonics), PC",2026-I,Dr. Abhishek Sharma,,M6
+ECL7XX0,Optical Communication Systems,Electronics Engineering,700,3,Elective,,"M.Tech (Microwave & Photonics), Elective",2026-I,Dr. Arpit,,N
+ECL7XX0,Photonic Devices and Circuits,Electronics Engineering,700,3,Elective,,"M.Tech (Microwave & Photonics), Elective",2026-I,Dr. Arpit,,U
+ECL7XX0,RFIC and MMIC,Electronics Engineering,700,3,Elective,,"M.Tech (Microwave & Photonics), Elective",2026-I,Dr. Arani Ali Khan,,I
+ECL7XX0,Antennas and Wave Propagation,Electronics Engineering,700,3,Elective,,"M.Tech (Microwave & Photonics), Elective",2026-I,Dr. Abhishek Sharma,,J
+ECL7XX0,IR Detectors and Imaging,Electronics Engineering,700,3,Elective,,"M.Tech (Microwave & Photonics), Elective",2026-I,Dr. Nitin Bhatia,,K
+ECL7XX0,RF System Design for Communications,Electronics Engineering,700,3,Elective,,"M.Tech (Microwave & Photonics), Elective",2026-I,Dr. Manoj Gupta,,J
+ECL7010,Applied Linear Algebra,Electronics Engineering,700,3,Core,,"M.Tech (NEWTEC program: Communication Systems), PC",2026-I,EE Deptt.,,N
+ECL7008,Digital Communications,Electronics Engineering,700,3,Core,,"M.Tech (NEWTEC program: Communication Systems), PC",2026-I,Dr. Aashish Mathur,,F
+ECL7020,Statistical Signal Analysis,Electronics Engineering,700,3,Core,,"M.Tech (NEWTEC program: Communication Systems), PC",2026-I,Dr. Suraj Srivastava,,H
+ECL7XXX,Wireless Communication,Electronics Engineering,700,3,Core,,"M.Tech (Communication Systems), PC",2026-I,Dr. Arun Kumar Singh,F002,G
+ECL7XXX,Machine Learning for Communications,Electronics Engineering,700,3,Elective,,"M.Tech (Communication Systems), Elective",2026-I,Dr. Suraj Srivastava,,K
+ECL7XXX,RF system design for Communications,Electronics Engineering,700,3,Elective,,"M.Tech (Communication Systems), Elective",2026-I,Dr. Manoj Gupta,,J
+ECL7XXX,Coding Theory,Electronics Engineering,700,3,Elective,,"M.Tech (Communication Systems), Elective",2026-I,Dr. Aashish Mathur,,N
+EEL7030,Advanced Digital Signal Processing,Electronics Engineering,700,3,Elective,,"M.Tech (Communication Systems), Elective",2026-I,From EE Dept.,,
+ECL7XXX,Data Communication and Networking,Electronics Engineering,700,3,Elective,,"M.Tech (Communication Systems), Elective",2026-I,Dr. Pradyumna Kumar Bishoyi,,I
+CSL7590,Deep Learning,Electronics Engineering,700,3,Elective,,"M.Tech (Communication Systems), Elective",2026-I,From CSE Dept.,,
+ECL7XX0,IC Technology,Electronics Engineering,700,3,Core,,"M.Tech (Microelectronics and VLSI), PC",2026-I,Dr. Akshay,F070,F
+ECP7XX0,IC Fabrication Lab,Electronics Engineering,700,1,Core,,"M.Tech (Microelectronics and VLSI), PC",2026-I,Dr. Akshay,F070,M4
+ECL71580,Solid State Devices,Electronics Engineering,700,3,Core,,"M.Tech (NEWTEC program: Microelectronics and VLSI), PC",2026-I,Dr. Harshit Agarwal,,G
+ECL7980,Analog IC Design,Electronics Engineering,700,4,Core,,"M.Tech (NEWTEC program: Microelectronics and VLSI), PC",2026-I,Dr. Amandeep,,H
+ECL7320,Digital VLSI Design,Electronics Engineering,700,3,Core,,"M.Tech (NEWTEC program: Microelectronics and VLSI), PC",2026-I,Dr. Bhupendra,F074,I
+ECL7XX0,Hardware Design for Artificial Intelligence,Electronics Engineering,700,3,Elective,,"M.Tech (Microelectronics and VLSI), Elective",2026-I,Dr. Binod,,J
+ECL7XX0,In-Memory Computing,Electronics Engineering,700,3,Elective,,"M.Tech (Microelectronics and VLSI), Elective",2026-I,Dr. Bhupendra,F074,N
+ECL7XX0,Mixed Signal Circuit Design,Electronics Engineering,700,3,Elective,,"M.Tech (Microelectronics and VLSI), Elective",2026-I,Dr. Amandeep,,U
+ECL7XX0,SoC Testing & Verification,Electronics Engineering,700,3,Elective,,"M.Tech (Microelectronics and VLSI), Elective",2026-I,Dr. Binod,,K
+CHL3070,Mass transfer II,Chemical Engineering,300,,,Core Courses,,2026-I,Dr. Praveen/ Dr. Rachael,F039,A & M2+M7 (1-4 pm)
+CHL4030,Process Plant Design & Economics,Chemical Engineering,400,,,Core Courses,,2026-I,Dr. Sumit Kamal,F041,B
+CHL4010,Transport Phenomena,Chemical Engineering,400,,,Core Courses,,2026-I,Dr. Rakshit,,C & Tutorial (Wed 5-5:50 pm)
+CHL4020,Process Control and AI Applications,Chemical Engineering,400,,,Core Courses,,2026-I,Dr. Santhosh,F040,D & M3
+CHP3060,Fluid Mechanics-Lab,Chemical Engineering,300,,,Core Courses,,2026-I,Dr. Rakshit,,M4
+CHL2070,Chemical Engineering Thermodynamics,Chemical Engineering,200,,,Core Courses,,2026-I,Dr. Prashant,F037,C
+CHL2080,Process Heat Transfer,Chemical Engineering,200,,,Core Courses,,2026-I,Dr. Tara,F043,D
+CHL2090,Chemical Reaction Engineering,Chemical Engineering,200,,,Core Courses,,2026-I,Dr. Manoj,F034,B & Tutorial (Tue 5-5:50 pm)
+CHL2100,Mass Transfer – I,Chemical Engineering,200,,,Core Courses,,2026-I,Dr. Angan,F031,A & Tutorial (Fri 6-6:50 pm)
+CHL2110,Fuel and Energy Technology,Chemical Engineering,200,,,Core Courses,,2026-I,Dr. Jigar,F032,E
+CHL2120,Chemical Engineering Lab I,Chemical Engineering,200,,,Core Courses,,2026-I,Dr. Rachael/Dr. Manokaran,F039;F035,M1+M6 (1-4) & M5+M10 (1-4)
+CHL7090,Advanced Thermodynamics,Chemical Engineering,700,,,Core Courses,,2026-I,Dr. Krunal,F033,F
+CHL7020,Advanced Mathematical Methods in Chemical Engineering,Chemical Engineering,700,,,Core Courses,,2026-I,Dr. Tara,F043,G
+CHL7070,Advanced Reaction Engineering,Chemical Engineering,700,,,Core Courses,,2026-I,Dr. Manokaran,F035,H
+,Advanced Transport Phenomena,Chemical Engineering,,,,Core Courses,,2026-I,Dr. Vikky,F044,I
+CHL4360,Biochemical Engineering (UG),Chemical Engineering,400,,,Elective Courses,,2026-I,Dr. Parag/Dr. Rachael,F036;F039,K
+CHL7380,"Modelling of Atoms, Molecules & Surfaces (UG/PG)",Chemical Engineering,700,,,Elective Courses,,2026-I,Dr. Angan,F031,J
+CHL7360,Data Analytics in Process Modelling and Simulation (UG),Chemical Engineering,700,,,Elective Courses,,2026-I,Dr. Praveen,,K
+CHL7450,Principle of Electrochemical Engineering (PG),Chemical Engineering,700,,,Elective Courses,,2026-I,Dr. Prashant,F037,J
+CHL4420,Membrane Technology (UG),Chemical Engineering,400,,,Elective Courses,,2026-I,Dr. Vikky,F044,G
+CHL7800,Novel Separation Processes (PG),Chemical Engineering,700,,,Elective Courses,,2026-I,Dr. Krunal,F033,C
+CHL7480,Artificial Intelligence in Chemical Reactor Control (UG),Chemical Engineering,700,,,Elective Courses,,2026-I,Dr. Santhosh,F040,F
+CHL7530,Heterogeneous Catalysis and Catalytic Reactors (PG),Chemical Engineering,700,,,Elective Courses,,2026-I,Dr. Sumit Kamal,F041,E
+CHL4210,Solid waste management (UG),Chemical Engineering,400,,,Elective Courses,,2026-I,Dr. Manoj,F034,H
+CHL7230,Ocean Thermal Energy Conversion (OTEC) Process (UG),Chemical Engineering,700,,,Elective Courses,,2026-I,Dr. Sumit Parvate,F042,N (Friday 5-5:50)
+CHL4350,Petrochemical Engineering (UG),Chemical Engineering,400,,,Elective Courses,,2026-I,Dr. Rachael,F039,K
+CHL7730,Advanced Wastewater Treatment (PG),Chemical Engineering,700,,,Elective Courses,,2026-I,Dr. Jigar,F032,A
+CHL4450,Interfacial Engineering in Soft Matter (UG),Chemical Engineering,400,,,Elective Courses,,2026-I,Dr. Prateek,,I
+CHL7490,Structure-property of polymers (UG/PG),Chemical Engineering,700,,,Elective Courses,,2026-I,Dr. Sumit Parvate,F042,J
+CHN1010,Design Credit,Chemical Engineering,100,,,Thesis and Others,,2026-I,Dr. Angan,F031,NG1
+CHN2010,Design Credit,Chemical Engineering,200,,,Thesis and Others,,2026-I,Dr. Vikky,F044,NG2
+CHN3010,Design Credit,Chemical Engineering,300,,,Thesis and Others,,2026-I,Dr. Santhosh,F040,NG3
+CHT8980,Thesis,Chemical Engineering,800,,,Thesis and Others,,2026-I,Dr. Sumit,,T
+CHT8990,Thesis,Chemical Engineering,800,,,Thesis and Others,,2026-I,Dr. Sumit,,T
+CHT8970,Thesis,Chemical Engineering,800,,,Thesis and Others,,2026-I,Dr. Sumit,,T
+CHT7020,Thesis (M.Tech),Chemical Engineering,700,,,Thesis and Others,,2026-I,Dr. Tara,F043,T
+EEL2040,Engineering Electromagnetics,Electrical Engineering,200,3,,,,2026-I,Bharat Singh Rajpurohit,F135,E
+EEL2XXX,Digital Design,Electrical Engineering,200,3,,,,2026-I,Payal Vyankat Dahiwale,F143,A
+EEL2XXX,Engineering Optimization,Electrical Engineering,200,3,,,,2026-I,Rajendra Nagar,F144,B
+EEL3020,Electrical Machines,Electrical Engineering,300,3,,,,2026-I,Abdul Gafoor Shaik,F130,D
+EEL2XXX,Statistical Inference and Modeling,Electrical Engineering,200,3,,,,2026-I,Manish Narwaria,F140,C
+EEP2XXX,Electrical Engineering Lab I,Electrical Engineering,200,3,,,,2026-I,"Rajendra Nagar, Kunwar, Bharat Singh Rajpurohit, Payal Vyankat Dahiwale",F144;F139;F135;F143,"M3, M4, M5"
+EEL3060,Power Engineering,Electrical Engineering,300,4.5,,,,2026-I,Bandi Ravi Kumar,F134,"E, M7, M10"
+EEL3070,Digital Signal Processing,Electrical Engineering,300,3,,,,2026-I,Amit Bhardwaj,F131,B
+EEP3030,Electrical Machines Lab,Electrical Engineering,300,1.5,,,,2026-I,Abdul Gafoor Shaik & Bharat Singh Rajpurohit,F130;F135,"M1, M7, M9"
+EEL3090,Embedded Systems,Electrical Engineering,300,3,,,,2026-I,Bhivraj Suthar & Niladri Sekhar Tripathy,F136;F141,C
+EEL3080,Data Communication Networks,Electrical Engineering,300,3,,,,2026-I,ELECTRONICS Dept.,,D
+EEP3020,Digital Systems Lab,Electrical Engineering,300,1,,,,2026-I,ELECTRONICS Dept.,,"M1, M2"
+EEP3010,Communication Systems Lab,Electrical Engineering,300,1,,,,2026-I,ELECTRONICS Dept.,,"M1, M2"
+EEL7140,Advanced Control System,Electrical Engineering,700,3,,,,2026-I,Saurav Kumar,F147,F
+EEL7300,Computational Methods in Power System Analysis,Electrical Engineering,700,3,,,,2026-I,Vineeth V,F148,I
+EEL7700,Electric Drive Systems,Electrical Engineering,700,3,,,,2026-I,Nishant Kumar,F142,G
+EEL71720,Power Electronic Converters,Electrical Engineering,700,3,,,,2026-I,Kunwar Aditya,F139,H
+EEP7140,Integrated Power and Drives Laboratory,Electrical Engineering,700,1,,,,2026-I,Ravi Yadav,F145,L9
+EEL7080,Introduction to CyberPhysical Systems,Electrical Engineering,700,3,,,,2026-I,Niladri Sekhar Tripathy,F141,H
+EEL7150,Embedded System Design,Electrical Engineering,700,3,,,,2026-I,Deepak Fulwani,F137,G
+EEL7200,Data Communication and Networking,Electrical Engineering,700,3,,,,2026-I,ELECTRONICS Dept.,,I
+EEL7XXX,Optimization Methods for Power System,Electrical Engineering,700,3,,,,2026-I,Vineeth V,F148,K
+EEL7XXX,Control Techniques in Power Engineering,Electrical Engineering,700,3,,,,2026-I,Kunwar Aditya,F139,I
+EEL7XXX,Modern Power System Operation and Control,Electrical Engineering,700,3,,,,2026-I,Ravi Yadav,F145,I
+EEL7340,Power System Protection,Electrical Engineering,700,3,,,,2026-I,Bandi Ravi Kumar,F134,N
+EEL7220,Renewable Energy Systems,Electrical Engineering,700,3,,,,2026-I,Abdul Gafoor Shaik,F130,J
+EEL7030,Advanced Digital Signal Processing,Electrical Engineering,700,3,,,,2026-I,Sandeep Yadav,F146,J
+RML7220,Mobile Robots,Electrical Engineering,700,3,,,,2026-I,Riby Abraham Boby,F196,H
+MEL7080,Robotics,Electrical Engineering,700,3,,,,2026-I,Roshan Kumar Hota,F197,G
+RML7310,Networked Dynamical Systems and Control,Electrical Engineering,700,3,,,,2026-I,Anoop Jain,F133,K
+EEL7XXX,Optimization Techniques for Signal Representation and Processing,Electrical Engineering,700,3,,,,2026-I,Himanshu Kumar,F138,N
+EEL1010,Introduction to Electrical Engineering,Electrical Engineering,100,4,,,,2026-I,Deepak Fulwani,F137,"U, M6 (Tentative)"
+EEL7009,Applied Linear Algebra,Electrical Engineering,700,3,,,,2026-I,Vineeth V,F148,N
+DSL7130,Character Design,School of Design,700,3,,,,2026-I,Sumana Som,F211,J
+DSL7140,Animation Principles and Techniques,School of Design,700,3,,,,2026-I,Tanaya,F212,E
+DSL7200,Usability Engineering,School of Design,700,3,,,,2026-I,Pranjal,F207,C
+DSL7220,Principles of Game Design,School of Design,700,3,,,,2026-I,Kedar D,F206,D
+DSL7230,Special Topics in XR (Instructional Design),School of Design,700,3,,,,2026-I,Pankaj,F021,
+DSL7550,Designing Data Visualizations,School of Design,700,3,,,,2026-I,Sajan Pillai,F209,I
+DSL7540,Product Visualisation and Ideation,School of Design,700,3,,,,2026-I,Gaurav,,D
+DSL7630,AI and ML for Smart Product Design,School of Design,700,3,,,,2026-I,Pranjal,F207,B
+DSL7550,Designing Data Visualisations,School of Design,700,3,,,,2026-I,Sajan Pillai,F209,I
+DSL7560,Computer-Aided Design,School of Design,700,3,,,,2026-I,Gaurav,,E
+DSL7570,Product Semantics,School of Design,700,3,,,,2026-I,Shiv,F210,F
+DSL7580,Nature-inspired Design,School of Design,700,3,,,,2026-I,Shiv,F210,J
+DSL7590,Product Ergonomics,School of Design,700,3,,,,2026-I,Priyabrata Rautray,F208,"H, L7"
+DSL7610,Special Topics in Smart Product Design,School of Design,700,3,,,,2026-I,Abhishek,,C
+SEL7010,Sustainability Assessment Techniques,Environment & Sustainability Engineering,700,3,,,,2026-I,Dr. Chandana N.,,D
+SEL7020,Resource Resilience,Environment & Sustainability Engineering,700,3,,,,2026-I,Dr. Kirti Sankhala,,J
+SEL7030,Systems Approach to Sustainable Development,Environment & Sustainability Engineering,700,3,,,,2026-I,Dr. Abhinav Gupta,,E
+SEL7040,Environmental Technologies,Environment & Sustainability Engineering,700,3,,,,2026-I,Dr. Chandana N.,,H
+SEL7050,Water Sustainability,Environment & Sustainability Engineering,700,3,,,,2026-I,Dr. Akshat Verma,,K
+SEL7110,Biodiversity and Natural Resources,Environment & Sustainability Engineering,700,3,,,,2026-I,Dr. Navinya Chimurkar,,I
+SEL7120,"Climate change Risk, Adaptation and Mitigation",Environment & Sustainability Engineering,700,3,,,,2026-I,Dr. Rajyalakshmi Garaga,,U
+PHL1040,General Physics-II,Physics,100,4,Core,SC,B.Sc. + B.Ed. (2nd Sem),2026-I,Debasmita Dwibedi,F160,CK
+PHL2200,Electromagnetic Theory,Physics,200,4,Core,SC,B.Sc. + B.Ed. (4th Sem),2026-I,Sagar Kumar Verma,,CD
+PHL2XXX,Foundations of Quantum and Modern Physics,Physics,200,4,Core,SC,,2026-I,Jitendra HEP/Prabhat Jaiswal,,CE
+MAL2140,Differential Equations,Physics,200,,Core,SC,,2026-I,From Mathematics Department,,
+PHD2010,Project,Physics,200,3,Core,SC,,2026-I,Naveen Kumar Tailor,,
+,Foundations of Quantum and Modern Physics,Physics,,4,Elective,SE,B.Sc. + B.Ed. (6th Sem),2026-I,Jitendra HEP/Prabhat Jaiswal,,CE
+,Foundations of Nuclear and Particle Physics,Physics,,3,Elective,SE,,2026-I,Lata,,CK
+,Introduction to Materials Characterization,Physics,,3,Elective,SE,,2026-I,Shahab Ahmad,,CC
+,Numerical Computations,Physics,,3,Elective,SE,,2026-I,From Mathematics Department,,
+,Electronics II,Physics,,3,Elective,SE,,2026-I,Satyajit Sahu,,CD
+,Physics Project,Physics,,3,Elective,SE,,2026-I,Sagar K Verma,,
+PHL1010,Electromagnetism & Optics (Theory),Physics,100,3,Core,IS,B.S/B. Tech (1st Year: 2nd Sem),2026-I,Sunita* + Durgamadhab,,K & G (UG1 TT)
+PHP1010,Electromagnetism & Optics (Lab),Physics,100,1,Core,IS,,2026-I,Sunita + Durgamadhab*,,M1 (UG1 TT)
+OSN1040,Social Connect and Responsibilities (2 Faculty),Physics,100,0.5,Core,NH,,2026-I,Debasmita* + Srivatsa,F160;F127,manage centrally
+OAE1020,Engineering Design II (2 Faculty),Physics,100,1,Core,NE,,2026-I,Dushyant* + Jitendra CMP,,manage centrally
+,Modern Physics,Physics,,3,Core,PC,B. S. (4th sem),2026-I,Srivatsa,F127,B
+,Semiconducting and Optoelectronic Devices,Physics,,3,Core,PC,,2026-I,Satyajit Sahu,,E
+,Crystallography,Physics,,3,Core,PC,,2026-I,Krishna,,C
+,Scientific Computing and Machine Learning,Physics,,3,Core,PC,,2026-I,Santosh,,D
+,Quantum Information,Physics,,3,Core,PC,,2026-I,Amit,,A
+,General Engineering Physics Lab,Physics,,3,Core,PC,,2026-I,Ambesh* +Ram Prakash + Prabhat,,M1
+PHL3040,Medical Physics,Physics,300,2,Core,PC,B. S. (6th sem),2026-I,Ramprakash,,B
+PHL3050,Nuclear Radiation and Energy,Physics,300,2,Core,PC,,2026-I,Durgamadhab,,C
+PHL3060,Interaction of Radiation with matter,Physics,300,3,Core,PC,,2026-I,Lata,,D
+PHL3070,Semiconducting and Optoelectronic Devices,Physics,300,4,Core,PC,,2026-I,Satyajit Sahu,,E
+PHL3080,Entrepreneurship for Physicists,Physics,300,2,Core,PC,,2026-I,Ramprakash,,V
+PHP3040,Applied Optics Lab,Physics,300,1.5,Core,PC,,2026-I,Shahab,,M2
+PHP3050,Modern physics Lab,Physics,300,1,Core,PC,,2026-I,Narayanan,F233,M3
+PHP3060,Radiation and Particle Detection Lab,Physics,300,1,Core,PC,,2026-I,Lata + Jitendra HEP,,M4
+PHN2020,Design/Practical Experience,Physics,200,2,,-,,2026-I,Amit,,NG
+QCL4020,Quantum Computing,Physics,400,4,Core,SC,,2026-I,Srivatsa,F127,E
+,SC (SME) - Course 1,Physics,,3,Core,SC,,2026-I,Instructor from SME Department,,due if floatted
+,EM and Neutrino Astronomy,Physics,,3,Core,PC,B. S. (8th sem),2026-I,Reetanjali,,E
+PHD6300,Specilization Core Project (SC),Physics,600,3,Core,SC,,2026-I,Ramprakash,,T1
+PHN3020,Design/Practical Experience,Physics,300,,,-,,2026-I,Ramprakash,,NG
+PHD7700,Specilization Elective Project (SE),Physics,700,7,Elective,SE,,2026-I,Ramprakash,,T2
+PHL6060,Electrodynamics,Physics,600,3,Core,PC,M. Sc. 1st Compulsory (2nd Sem),2026-I,Sunita* + Krishna,,F
+PHL6070,Condensed Matter Physics,Physics,600,3,Core,PC,,2026-I,Dushyant,,G
+PHL6080,Atomic and Molecular Spectroscopy,Physics,600,3,Core,PC,,2026-I,Naveen Tailor,,H
+PHL6090,Nuclear and Particle Physics,Physics,600,3,Core,PC,,2026-I,Jitendra HEP,,I
+PHP6040,Advanced Quantum Mechanics,Physics,600,3,Core,PC,,2026-I,Monika Sinha,,J
+PHP6050,Scientific Computing and Machine Learning,Physics,600,3,Core,PC,,2026-I,Santosh*,,D
+PHP6060,Physics Lab 2,Physics,600,3,Core,PC,,2026-I,Dushyant + Ambesh + Santosh,,L1
+PHD6050,MSc. Project II,Physics,600,10,Core,PC,M. Sc. 2nd /PhD: Program Elective,2026-I,Shahab,,T
+PHL7550,Advanced Statistical Physics,Physics,700,3,Elective,PE,,2026-I,Prabhat,,F
+,Advanced Condensed Matter Physics,Physics,,3,Elective,PE,,2026-I,Ambesh,,J
+,Cold Plasma Technologies,Physics,,3,Elective,PE,,2026-I,Ramprakash,,H
+,Energy Harvesting,Physics,,3,Elective,PE,,2026-I,Naveen + Shahab*,F151,E
+,Open Quantum Systems,Physics,,3,Elective,PE,,2026-I,Subhashish,,I
+,GTR,Physics,,3,Elective,PE,,2026-I,Monika Sinha,,J
+,Laser Technology and Ultrafast optics,Physics,,3,Elective,PE,,2026-I,Sagar,,G
+QCL7330,Device Indepedent Quantum Technologies,Physics,700,3,Elective,PE,,2026-I,Amit,,H
+QCL7380,Continous variable quantum information,Physics,700,3,Elective,SE,M. Tech Quantum Technology 2nd Sem,2026-I,Subhashish,,F
+,Open Quantum Systems,Physics,,3,Elective,SE,,2026-I,Subhashish,,I
+QCL7010,Seminal Features of Quantum information processing,Physics,700,3,Elective,SE,,2026-I,Atul Kumar,F047,J
+QCL7330,Device Indepedent Quantum Technologies,Physics,700,3,Elective,SE,,2026-I,Amit,,H
+QCL7070,Quantum Computation (Newtech),Physics,700,3,Core,SC,,2026-I,Srivatsa,F127,E
+QCL7080,Introduction to Quantum Information (Newtech),Physics,700,3,Core,SC,,2026-I,V Narayanan,F233,G
+QCL7350,Quantum-Inspired Optimization (Newtech),Physics,700,3,Elective,SE,,2026-I,Kirankumar,,H
+QCL7320,Quantum cryptography and coding (Newtech),Physics,700,3,Elective,SE,,2026-I,V Narayanan,F233,J
+PHT8980,Thesis,Physics,800,,,0-0-6,Ph.D.,2026-I,,,
+PHT8990,Thesis,Physics,800,,,0-0-12,Ph.D.,2026-I,,,
+PH799,PhD Thesis,Physics,700,,,0-0-0,Ph.D.,2026-I,,,
+PHT8970,Thesis,Physics,800,,,0-0-16,Ph.D.,2026-I,Monika Sinha,,T
+QCT8970,Thesis,Physics,800,,,0-0-16,Ph.D.,2026-I,V Narayanan,F233,T
+CSL3090,Artificial Intelligence,Computer Science & Engineering,300,3,Elective,PE,current_courses.png,2026-I,,,B
+CSD4030,B Tech Project,Computer Science & Engineering,400,3,Core,PP,current_courses.png,2026-I,,,T1
+LAL3020,Popular classics,School of Liberal Arts (Humanities),300,3,Elective,OE,current_courses.png,2026-I,,,J
+CSN3020,Design Practical Experience,Computer Science & Engineering,300,2,Core,ND,current_courses.png,2026-I,,,NG3
+CSL7650,Autonomous Systems,Computer Science & Engineering,700,3,Elective,PE,current_courses.png,2026-I,,,E
+AIL6110,Decision Sciences Applications,School of Artificial Intelligence & Data Science,600,3,Core,IH,current_courses.png,2026-I,,,A
+MSL4010,Introduction to Business and Management,School of Management & Entrepreneurship,400,3,Elective,OE,current_courses.png,2026-I,,,U
