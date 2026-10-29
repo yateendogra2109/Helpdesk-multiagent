@@ -43,7 +43,7 @@ data/csv/            courses, timetable, instructors, slot_system
 data/pdfs, data/ss   raw inputs (workbook, curriculum PDFs, screenshots)
 results/             evaluation outputs and summary.md
 logs/unanswered.csv  questions the agent refused
-REPORT.md            findings
+REPORT.tex            findings (submission version); REPORT.md is an earlier draft
 ```
 
 ## Data
@@ -88,8 +88,8 @@ Ollama runs on Windows; Python runs in WSL and reaches Ollama through mirrored n
 ```
 adk web                     # then pick "helpdesk"      (or: adk run helpdesk)
 python evaluate.py --mode multi  --runs 3
-python evaluate.py --mode single --runs 3
-HELPDESK_MODEL=ollama_chat/qwen3:4b python evaluate.py --mode multi --runs 3   # other model
+python evaluate.py --mode single --runs 2
+HELPDESK_MODEL=ollama_chat/<other-model> python evaluate.py --mode multi --runs 3   # swap the LLM (not run for the reported results)
 python analyze.py           # writes results/summary.md
 ```
 
@@ -103,3 +103,18 @@ whether the agent should refuse. `evaluate.py` scores automatically: accuracy (k
 should-refuse questions), groundedness (expected source cited) and refusal correctness. The automatic checks are a
 first pass; the report states which answers were additionally reviewed by hand. Run-to-run changes are found by
 comparing the same question across repeated runs (`analyze.py`).
+
+## Results (Qwen3-8B)
+
+Scores are automatic first-pass checks; the 25 answers marked wrong were then read by hand (details in the report).
+
+| | Accuracy (after review) | Groundedness (excl. email) | Failed calls |
+|---|---|---|---|
+| Multi-agent, 3 runs | 86% (77/90) | 86% (49/57) | 0 |
+| Single-agent, 2 runs | 87% (52/60) | 87% (33/38) | 2 |
+
+- Out-of-scope questions (dining, transport, weather, hostel fee, code) were refused and logged in nearly every run; the one real leak was the cricket question in one multi-agent run.
+- 16 of 30 questions changed correctness or tool path across the 3 multi-agent runs (10 of 30 across the 2 single-agent runs).
+- Known weak spots: Q1 (the old attendance rule is retrieved before the revised one), Q10 (retrieval misses under the distance threshold) and Q11 (the model sometimes skips the search tool).
+
+Raw answers are in `results/*.csv`, scores in `results/summary.md`, refused questions in `logs/unanswered.csv`.
